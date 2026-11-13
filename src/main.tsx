@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
-import './dark-theme.css'
-import './kinetic-theme.css'
-import './layout-theme.css'
 import './design-system.css'
+import './hunter-mode.css'
+import './mobile-legibility.css'
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -18,4 +16,3 @@ if ('serviceWorker' in navigator) {
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode><App /></React.StrictMode>,
 )
-import './hunter-mode.css'

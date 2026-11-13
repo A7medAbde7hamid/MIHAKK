@@ -1,0 +1,50 @@
+/* Mobile-first reading and touch targets for study sessions. */
+:root{font-family:Inter,Manrope,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+body,button,input,textarea,select{font-family:Inter,Manrope,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+@media(max-width:767px){
+  .topbar,.topbar-scrolled{height:64px;gap:8px;padding-right:14px;padding-left:14px}
+  .topbar-brand{gap:8px}.topbar-brand span>b{font-size:12px;letter-spacing:.13em}.topbar-brand span>small{font-size:7px}
+  .top-nav{gap:2px;padding:3px}.top-nav button{min-height:40px;padding:0 10px;font-size:11px}
+  .top-actions{gap:6px}.rank-chip{min-height:36px;justify-content:center}
+  .welcome-kicker,.section-overline{font-size:10px;letter-spacing:.1em}
+  .welcome-row p,.courses-heading p,.workspace-head p,.history-heading p,.result-lead{font-size:14px;line-height:1.6}
+  .hero-tag{font-size:10px;letter-spacing:.06em}.hero-text h2{font-size:clamp(30px,8vw,38px);line-height:1.05}
+  .hero-text p{font-size:14px;line-height:1.55}.hero-sign{font-size:9px}
+  .hero-button,.start-session,.confirm-answer,.secondary-action,.install-app{min-height:44px;font-size:13px}
+  .stat-card small{font-size:11px}.stat-card b{font-size:21px}.stat-card b span{font-size:11px}
+  .launch-copy p{font-size:13px;line-height:1.55}.launch-copy h2{font-size:23px}
+  .toolbar{gap:12px}.search-box{min-height:46px}.search-box input{font-size:16px}
+  .filter-tabs button,.preset-row button{min-height:40px;padding:0 12px;font-size:12px}
+  .subject-card{min-height:152px;padding:14px}.card-content h3{font-size:15px;line-height:1.25}.card-content p{font-size:12px;line-height:1.45}
+  .course-code{font-size:10px}.card-bottom{font-size:11px;line-height:1.4}.subject-foot{font-size:11px;line-height:1.5}
+  .back-link{min-height:40px;font-size:13px}.workspace-head h1,.history-heading h1{font-size:clamp(29px,8vw,38px)}
+  .workspace-head p{font-size:13px}.block-title b{font-size:15px}.block-title small{font-size:12px;line-height:1.5}
+  .type-card{min-height:116px;padding:12px}.type-card b{font-size:13px}.type-card small{font-size:11px}.type-total{font-size:10px}
+  .setup-filters label{gap:7px;font-size:12px}.setup-filters select,.count-control button{min-height:44px;font-size:14px}
+  .filter-match-count{font-size:12px}.count-of{font-size:11px}.session-summary{font-size:14px}
+  .exam-toolbar{min-height:70px}.exit-exam{min-height:44px;font-size:12px}.exam-title{font-size:12px}.exam-title small{font-size:10px}
+  .timer{min-height:40px;font-size:12px}.exam-meta{font-size:11px}.difficulty-pill{font-size:10px}
+  .question-heading{font-size:clamp(21px,6vw,27px);line-height:1.4}.question-dot{width:38px;height:38px;font-size:12px}
+  .question-jump-legend{font-size:11px}.answer-choice{min-height:56px;padding:12px;font-size:15px;line-height:1.5}
+  .essay-input{min-height:180px;font-size:16px;line-height:1.6}.answer-feedback{font-size:13px;line-height:1.6}
+  .confirm-answer{min-height:46px;padding:0 14px;font-size:13px}.exam-shortcuts{font-size:11px;line-height:1.5}
+  .result-lead{font-size:14px}.result-score-line span,.result-summary p{font-size:12px;line-height:1.55}
+  .review-toggle{min-height:56px;font-size:13px}.attempt-course small,.attempt-score small{font-size:11px;line-height:1.5}
+  .footer{font-size:10px;line-height:1.5}
+  .hero-card::after{filter:none}.hero-mascot img{filter:hue-rotate(-42deg) saturate(1.1) drop-shadow(0 0 9px #38baff55)}
+  .visual-circle{box-shadow:none;animation-duration:95s}.hero-visual{will-change:auto}
+  .modal-backdrop{backdrop-filter:none;background:#030912dc}
+}
+@media(min-width:430px) and (max-width:767px){
+  .courses-catalog .subject-grid{gap:12px}.subject-card{grid-column:span 6;min-height:170px}
+}
+@media(max-width:380px){
+  .topbar,.topbar-scrolled{padding-right:9px;padding-left:9px}.topbar-brand span>b{font-size:11px}.top-nav button{padding:0 7px;font-size:10px}
+  .dashboard,.workspace,.exam-workspace{padding-right:13px;padding-left:13px}
+  .hero-text{max-width:84%;padding-right:10px}.hero-visual{opacity:.8}
+  .exam-toolbar{grid-template-columns:.85fr 1.5fr .85fr}.exam-title{gap:4px;font-size:10px}.timer{gap:4px;padding:6px;font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){
+  .visual-circle{transform:translate(-50%,-50%) rotate(-22deg)!important}
+  .hero-mascot{transform:none!important}
+}

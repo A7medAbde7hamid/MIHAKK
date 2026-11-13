@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mihakk-shell-v1'
+const CACHE_NAME = 'mihakk-shell-v2'
 const scopeUrl = self.registration.scope
 const url = path => new URL(path, scopeUrl).href
 
