@@ -1,6 +1,10 @@
 /* Mobile-first reading and touch targets for study sessions. */
 :root{font-family:Inter,Manrope,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
 body,button,input,textarea,select{font-family:Inter,Manrope,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+.skip-link{position:fixed;z-index:100;top:10px;left:10px;padding:12px 16px;border:2px solid #64dfff;border-radius:8px;background:#071422;color:#edf8ff;font-size:14px;font-weight:700;transform:translateY(-160%);transition:transform 180ms ease}
+.skip-link:focus{transform:translateY(0)}
+.question-heading:focus-visible{outline:2px solid #64dfff;outline-offset:5px;border-radius:4px}
+@media(hover:none){.subject-card:hover,.stat-card:hover,.answer-choice:hover:not(:disabled){transform:none;box-shadow:0 5px 15px #0003}}
 @media(max-width:767px){
   .topbar,.topbar-scrolled{height:64px;gap:8px;padding-right:14px;padding-left:14px}
   .topbar-brand{gap:8px}.topbar-brand span>b{font-size:12px;letter-spacing:.13em}.topbar-brand span>small{font-size:7px}
