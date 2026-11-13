@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { ArrowDownLeft, ArrowLeft, ArrowRight, ArrowUpLeft, BarChart3, BookOpen, Brain, Check, ChevronDown, Clock3, Code2, Command, Compass, Database, Download, Flame, GraduationCap, HeartPulse, History, Layers3, ListFilter, Menu, Minus, Plus, Search, Settings2, Sparkles, Target, X, Zap } from 'lucide-react'
+import { ArrowLeft, ArrowRight, ArrowUpLeft, BarChart3, BookOpen, Brain, Check, ChevronDown, Clock3, Code2, Command, Compass, Database, Download, HeartPulse, History, Layers3, Minus, Plus, Search, Settings2, Sparkles, Target, X, Zap } from 'lucide-react'
 import type { Question, QuestionType, Subject } from './types'
 
 const imported = import.meta.glob('../Sub/*.json', { eager: true, import: 'default' }) as Record<string, { subject?: { name?: string }; lectures?: { lecture_title: string; topics?: { topic_name?: string; questions?: Question[] }[] }[] }>
@@ -33,10 +33,33 @@ type InstallPromptEvent = Event & { prompt: () => Promise<void>; userChoice: Pro
 type Attempt = { id: string; subjectFile: string; subjectName: string; subjectCode: string; type: QuestionType; score: number; gradedTotal: number; questionCount: number; accuracy: number; durationSeconds: number; completedAt: string }
 
 function readAttempts(): Attempt[] {
-  try { return JSON.parse(localStorage.getItem('mihakk-attempts') || '[]') as Attempt[] } catch { return [] }
+  try {
+    const stored: unknown = JSON.parse(localStorage.getItem('mihakk-attempts') || '[]')
+    if (!Array.isArray(stored)) return []
+    return stored.filter(isAttempt).slice(0, 200)
+  } catch { return [] }
+}
+function isAttempt(value: unknown): value is Attempt {
+  if (!value || typeof value !== 'object') return false
+  const attempt = value as Partial<Attempt>
+  return typeof attempt.id === 'string'
+    && typeof attempt.subjectFile === 'string'
+    && typeof attempt.subjectName === 'string'
+    && typeof attempt.subjectCode === 'string'
+    && (attempt.type === 'mcq' || attempt.type === 'true_false' || attempt.type === 'essay')
+    && Number.isInteger(attempt.score) && Number.isFinite(attempt.score) && attempt.score! >= 0
+    && Number.isInteger(attempt.gradedTotal) && Number.isFinite(attempt.gradedTotal) && attempt.gradedTotal! >= 0
+    && Number.isInteger(attempt.questionCount) && Number.isFinite(attempt.questionCount) && attempt.questionCount! >= attempt.gradedTotal!
+    && Number.isFinite(attempt.accuracy) && attempt.accuracy! >= 0 && attempt.accuracy! <= 100
+    && Number.isFinite(attempt.durationSeconds) && attempt.durationSeconds! >= 0
+    && typeof attempt.completedAt === 'string' && Number.isFinite(Date.parse(attempt.completedAt))
 }
 function readLegacyCounts() {
-  try { return JSON.parse(localStorage.getItem('mihakk-history') || '{}') as Record<string, number> } catch { return {} }
+  try {
+    const stored: unknown = JSON.parse(localStorage.getItem('mihakk-history') || '{}')
+    if (!stored || typeof stored !== 'object' || Array.isArray(stored)) return {}
+    return Object.fromEntries(Object.entries(stored).filter((entry): entry is [string, number] => Number.isFinite(entry[1]) && Number(entry[1]) >= 0))
+  } catch { return {} }
 }
 function App() {
   const [screen, setScreen] = useState<Screen>('home')
@@ -108,7 +131,9 @@ function App() {
   function finishExam() {
     const attempt: Attempt = { id: `${Date.now()}`, subjectFile: active.file, subjectName: active.name, subjectCode: active.code, type, score, gradedTotal, questionCount: questions.length, accuracy, durationSeconds: Math.max(0, Math.max(5 * 60, questions.length * 90) - seconds), completedAt: new Date().toISOString() }
     const updated = [attempt, ...readAttempts()].slice(0, 200)
-    setHistory(updated); localStorage.setItem('mihakk-attempts', JSON.stringify(updated)); setScreen('result'); window.scrollTo({ top: 0, behavior: 'smooth' })
+    setHistory(updated)
+    try { localStorage.setItem('mihakk-attempts', JSON.stringify(updated)) } catch { /* Keep the result available for this session when browser storage is unavailable. */ }
+    setScreen('result'); window.scrollTo({ top: 0, behavior: 'smooth' })
   }
   finishExamRef.current = finishExam
   async function installApp() {
