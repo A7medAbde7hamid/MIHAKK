@@ -4,6 +4,7 @@ import App from './App'
 import './index.css'
 import './dark-theme.css'
 import './kinetic-theme.css'
+import './layout-theme.css'
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
