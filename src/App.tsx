@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { ArrowDownLeft, ArrowLeft, ArrowRight, ArrowUpLeft, BookOpen, Brain, Check, ChevronDown, Clock3, Code2, Command, Compass, Database, Flame, GraduationCap, HeartPulse, History, Layers3, ListFilter, Menu, Minus, Plus, Search, Settings2, Sparkles, Target, X, Zap } from 'lucide-react'
+import { ArrowDownLeft, ArrowLeft, ArrowRight, ArrowUpLeft, BookOpen, Brain, Check, ChevronDown, Clock3, Code2, Command, Compass, Database, Download, Flame, GraduationCap, HeartPulse, History, Layers3, ListFilter, Menu, Minus, Plus, Search, Settings2, Sparkles, Target, X, Zap } from 'lucide-react'
 import type { Question, QuestionType, Subject } from './types'
 
 const imported = import.meta.glob('../Sub/*.json', { eager: true, import: 'default' }) as Record<string, { subject?: { name?: string }; lectures?: { lecture_title: string; topics?: { questions?: Question[] }[] }[] }>
@@ -26,6 +26,7 @@ const allSubjects: Subject[] = catalog.map(item => {
 })
 type Screen = 'home' | 'setup' | 'exam' | 'result'
 type Reply = { value: string; checked: boolean }
+type InstallPromptEvent = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: 'accepted' | 'dismissed'; platform: string }> }
 
 function readHistory() {
   try { return JSON.parse(localStorage.getItem('mihakk-history') || '{}') as Record<string, number> } catch { return {} }
@@ -45,6 +46,25 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [showAnswers, setShowAnswers] = useState(false)
   const [expanded, setExpanded] = useState(false)
+  const [installPrompt, setInstallPrompt] = useState<InstallPromptEvent | null>(null)
+  const [isOnline, setIsOnline] = useState(() => navigator.onLine)
+
+  useEffect(() => {
+    const onInstall = (event: Event) => { event.preventDefault(); setInstallPrompt(event as InstallPromptEvent) }
+    const onInstalled = () => setInstallPrompt(null)
+    const onOnline = () => setIsOnline(true)
+    const onOffline = () => setIsOnline(false)
+    window.addEventListener('beforeinstallprompt', onInstall)
+    window.addEventListener('appinstalled', onInstalled)
+    window.addEventListener('online', onOnline)
+    window.addEventListener('offline', onOffline)
+    return () => {
+      window.removeEventListener('beforeinstallprompt', onInstall)
+      window.removeEventListener('appinstalled', onInstalled)
+      window.removeEventListener('online', onOnline)
+      window.removeEventListener('offline', onOffline)
+    }
+  }, [])
 
   useEffect(() => {
     if (screen !== 'exam') return
@@ -78,6 +98,12 @@ function App() {
     const updated = { ...history, [active.file]: (history[active.file] || 0) + 1 }
     setHistory(updated); localStorage.setItem('mihakk-history', JSON.stringify(updated)); setScreen('result'); window.scrollTo({ top: 0, behavior: 'smooth' })
   }
+  async function installApp() {
+    if (!installPrompt) return
+    await installPrompt.prompt()
+    await installPrompt.userChoice
+    setInstallPrompt(null)
+  }
   function check() {
     const value = reply[index]?.value
     if (!value?.trim()) return
@@ -107,7 +133,7 @@ function App() {
       <div className="sidebar-bottom"><div className="campus-badge"><img src={`${import.meta.env.BASE_URL}logo.jpg`} /><span><b>Helwan Tech</b><small>Student edition · 2026</small></span><span className="online-dot"/></div><div className="sidebar-foot">Student edition <span>v1.0</span></div></div>
     </aside>
     <div className="main-column">
-      <header className="topbar"><button className="mobile-menu" onClick={() => setMenuOpen(v => !v)} aria-label="Open menu">{menuOpen ? <X/> : <Menu/>}</button><div className="breadcrumb">MIHAKK <ArrowRight size={13}/> <b>{screen === 'home' ? 'Home' : screen === 'setup' ? active.name : screen === 'exam' ? 'Quiz session' : 'Results'}</b></div><div className="top-actions"><span className="top-status"><i/> Study mode is on</span><button className="avatar" title="Student profile">S</button></div></header>
+      <header className="topbar"><button className="mobile-menu" onClick={() => setMenuOpen(v => !v)} aria-label="Open menu">{menuOpen ? <X/> : <Menu/>}</button><div className="breadcrumb">MIHAKK <ArrowRight size={13}/> <b>{screen === 'home' ? 'Home' : screen === 'setup' ? active.name : screen === 'exam' ? 'Quiz session' : 'Results'}</b></div><div className="top-actions">{installPrompt && <button className="install-app" onClick={installApp}><Download size={14}/> Install app</button>}<span className={`top-status ${isOnline ? '' : 'top-offline'}`}><i/> {isOnline ? 'Study mode is on' : 'Offline mode'}</span><button className="avatar" title="Student profile">S</button></div></header>
       {screen === 'home' && <main className="dashboard" id="home">
         <section className="welcome-row"><div><div className="welcome-kicker"><span className="kicker-line"/> YOUR PERSONAL STUDY SPACE</div><h1>Welcome to <em>MIHAKK.</em></h1><p>Ready to test yourself? Choose a course and jump right in.</p></div><div className="date-stamp"><span>SEMESTER</span><b>01 <i>/</i> 26</b><small>HELUAN INTERNATIONAL TECH</small></div></section>
         <section className="hero-card"><div className="hero-text"><div className="hero-tag"><Sparkles size={13}/> YOUR NEXT CHALLENGE</div><h2>Every answer<br/>brings you closer to <em>your goals.</em></h2><p>Turn your lecture notes into quick challenges, reinforce what you know, and see what to review.</p><button className="hero-button" onClick={() => document.getElementById('subjects')?.scrollIntoView({ behavior: 'smooth' })}>Explore courses <ArrowUpLeft size={16}/></button><div className="hero-sign">01 <span/> MAKE IT COUNT</div></div><div className="hero-visual"><div className="visual-circle circle-one"/><div className="visual-circle circle-two"/><div className="visual-circle circle-three"/><div className="hero-planet"><img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="Helwan International Technological University logo"/></div><div className="orbit-label label-top">HITU <span>✳</span> 2026</div><div className="orbit-label label-bottom">FOCUS MODE / ON</div><div className="visual-cross">✳</div><div className="visual-tiny">M</div></div><div className="hero-side-note">YOUR SPACE<br/><b>TO GET BETTER</b></div></section>

@@ -2,6 +2,8 @@
 
 MIHAKK is a React + TypeScript study and exam practice app for Helwan International Technological University. It turns the existing question bank in `Sub/` into focused, timed practice sessions, with instant feedback and a review screen. No student account or backend is required; session counts are kept locally in the browser.
 
+MIHAKK is installable as a Progressive Web App. After the first online visit, its app shell, icons, and built assets are cached so the dashboard and bundled question bank can reopen offline. On supported browsers, use **Install app** in the header or the browser's install control.
+
 ## Run locally
 
 ```sh
