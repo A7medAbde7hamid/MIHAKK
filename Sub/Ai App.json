@@ -1,0 +1,1315 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "Artificial Intelligence"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Introduction to Artificial Intelligence",
+      "topics": [
+        {
+          "topic_name": "AI Fundamentals",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is Artificial Intelligence (AI)?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "The simulation of human intelligence by machines"
+                },
+                {
+                  "option_id": "B",
+                  "text": "The study of biological neural networks"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A programming language for web development"
+                },
+                {
+                  "option_id": "D",
+                  "text": "The process of storing data in databases"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines Artificial Intelligence as the simulation of human intelligence by machines.",
+              "source": {
+                "lecture": "Introduction to Artificial Intelligence",
+                "topic": "AI Fundamentals",
+                "page": 6,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is NOT a capability required for a computer to pass the Turing Test?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Natural language processing"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Knowledge representation"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Computer vision"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Automated reasoning"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that computer vision is required for the Total Turing Test, but not for the standard Turing Test. The standard test requires NLP, knowledge representation, automated reasoning, and machine learning.",
+              "source": {
+                "lecture": "Introduction to Artificial Intelligence",
+                "topic": "AI Fundamentals",
+                "page": 9,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Who proposed the Turing Test?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "John McCarthy"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Alan Turing"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Marvin Minsky"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Claude Shannon"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that the Turing Test was proposed by Alan Turing in 1950.",
+              "source": {
+                "lecture": "Introduction to Artificial Intelligence",
+                "topic": "AI Fundamentals",
+                "page": 9,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What does the Total Turing Test require in addition to the standard Turing Test?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Computer vision and robotics"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Natural language processing and machine learning"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Knowledge representation and automated reasoning"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Speech recognition and synthesis"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that the Total Turing Test needs more, specifically computer vision and robotics.",
+              "source": {
+                "lecture": "Introduction to Artificial Intelligence",
+                "topic": "AI Fundamentals",
+                "page": 9,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "AI machines require sleep or breaks to function effectively.",
+              "correct_answer": false,
+              "explanation": "The lecture lists 'Machines do not require sleep or break and are able to function without stopping' as an advantage of AI.",
+              "correction": "AI machines do not require sleep or breaks and can function without stopping.",
+              "source": {
+                "lecture": "Introduction to Artificial Intelligence",
+                "topic": "AI Fundamentals",
+                "page": 16,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q006",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "A disadvantage of AI is that it cannot improve with experience.",
+              "correct_answer": true,
+              "explanation": "The lecture lists 'No improvement with experience' as a disadvantage of AI.",
+              "correction": null,
+              "source": {
+                "lecture": "Introduction to Artificial Intelligence",
+                "topic": "AI Fundamentals",
+                "page": 17,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q007",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the Turing Test and the capabilities required for a computer to pass it.",
+              "max_score": 10,
+              "model_answer": "The Turing Test, proposed by Alan Turing in 1950, is an operational definition of intelligence. A computer passes the test if a human interrogator, after posing written questions, cannot tell whether the written responses come from a person or a computer. To pass the test, the computer needs: 1) Natural language processing to communicate successfully in English; 2) Knowledge representation to store what it knows or hears; 3) Automated reasoning to use the stored information to answer questions and draw new conclusions; 4) Machine learning to adapt to new circumstances and detect patterns. The Total Turing Test additionally requires computer vision and robotics.",
+              "grading_rubric": [
+                {
+                  "criterion": "Definition of Turing Test",
+                  "description": "Explains that a computer passes if a human interrogator cannot distinguish its responses from a human's.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Natural language processing",
+                  "description": "Mentions the need to communicate in English.",
+                  "points": 1
+                },
+                {
+                  "criterion": "Knowledge representation",
+                  "description": "Mentions storing what it knows or hears.",
+                  "points": 1
+                },
+                {
+                  "criterion": "Automated reasoning",
+                  "description": "Mentions using stored information to answer questions and draw conclusions.",
+                  "points": 1
+                },
+                {
+                  "criterion": "Machine learning",
+                  "description": "Mentions adapting to new circumstances and detecting patterns.",
+                  "points": 1
+                },
+                {
+                  "criterion": "Total Turing Test",
+                  "description": "Mentions computer vision and robotics as additional requirements.",
+                  "points": 3
+                }
+              ],
+              "grading_notes": "Accept any accurate description of the Turing Test and its required capabilities from the lecture.",
+              "source": {
+                "lecture": "Introduction to Artificial Intelligence",
+                "topic": "AI Fundamentals",
+                "page": 9,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 2,
+      "lecture_title": "Intelligent Agents",
+      "topics": [
+        {
+          "topic_name": "Agent Fundamentals and Environments",
+          "questions": [
+            {
+              "question_id": "L02-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is an agent?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "A program that only stores data"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Anything that can perceive its environment through sensors and act upon it through actuators"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A type of hardware component"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A database management system"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines an agent as anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 3,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What does PEAS stand for?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Perceptual Measure, Environment, Actuators, and Sensors"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Performance Measure, Environment, Actuators, and Sensors"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Performance Measure, Entity, Actuators, and Sensors"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Performance Measure, Environment, Agent Function, and Sensors"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that PEAS stands for Performance measure, Environment, Actuators, Sensors.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 11,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is an example of a partially observable environment?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Crossword puzzle"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Part-picking robot"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Poker"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Image analysis"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture categorizes Poker as a partially observable environment because the agent does not know the cards of other players.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 16,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What type of agent maintains an internal state to track the world?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Simple reflex agent"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Model-based reflex agent"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Goal-based agent"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Utility-based agent"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that model-based reflex agents maintain an internal state to track how the world evolves and how their actions affect the world.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 29,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q005",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What type of agent uses a utility function to measure success?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Simple reflex agent"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Model-based reflex agent"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Goal-based agent"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Utility-based agent"
+                }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture states that utility-based agents use a utility function that maps a state onto a real number describing the associated degree of happiness, goodness, or success.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 32,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q006",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the main characteristic of a simple reflex agent?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "It maintains an internal state"
+                },
+                {
+                  "option_id": "B",
+                  "text": "It uses a utility function"
+                },
+                {
+                  "option_id": "C",
+                  "text": "It acts only on the current percept using condition-action rules"
+                },
+                {
+                  "option_id": "D",
+                  "text": "It can learn from experience"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that simple reflex agents select actions based only on the current percept, ignoring the rest of the percept history, using condition-action rules.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 25,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q007",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "A rational agent is the same as an omniscient agent.",
+              "correct_answer": false,
+              "explanation": "The lecture distinguishes rationality from omniscience. Rationality maximizes expected outcome while perfection maximizes actual outcome; omniscience is impossible in reality.",
+              "correction": "A rational agent is not the same as an omniscient agent because rationality maximizes expected outcome while omniscience maximizes actual outcome, which is impossible in reality.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 9,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q008",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "A learning agent has four components: performance element, critic, learning element, and problem generator.",
+              "correct_answer": true,
+              "explanation": "The lecture describes the learning agent with these four components.",
+              "correction": null,
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 34,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q009",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Compare simple reflex agents, model-based reflex agents, goal-based agents, and utility-based agents in order of increasing generality.",
+              "max_score": 10,
+              "model_answer": "1) Simple reflex agents act only on the current percept based on condition-action rules; they have no memory and are very limited. 2) Model-based reflex agents maintain an internal state that tracks how the world evolves and how their actions affect the world, allowing them to handle partially observable environments. 3) Goal-based agents use goal information to guide their actions, considering the future consequences of their actions to reach a destination. 4) Utility-based agents use a utility function to measure how happy or successful a state is, allowing them to make trade-offs between conflicting goals (e.g., speed vs. safety). All these can be turned into learning agents.",
+              "grading_rubric": [
+                {
+                  "criterion": "Simple reflex agent",
+                  "description": "Explains it acts on current percept using condition-action rules and has no memory.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Model-based reflex agent",
+                  "description": "Explains it maintains an internal state to track the world.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Goal-based agent",
+                  "description": "Explains it uses goal information to guide actions and considers future consequences.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Utility-based agent",
+                  "description": "Explains it uses a utility function to measure success and handle trade-offs.",
+                  "points": 3
+                }
+              ],
+              "grading_notes": "Accept accurate comparisons based on the lecture's descriptions.",
+              "source": {
+                "lecture": "Intelligent Agents",
+                "topic": "Agent Fundamentals and Environments",
+                "page": 24,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 3,
+      "lecture_title": "Problem Solving by Search",
+      "topics": [
+        {
+          "topic_name": "Search Algorithms",
+          "questions": [
+            {
+              "question_id": "L03-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What are the four components of a problem formulation?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Initial state, successor function, goal test, path cost"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Input, output, processing, storage"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Sensors, actuators, environment, agent"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Data, information, knowledge, intelligence"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines a problem by four items: initial state, successor function, goal test, and path cost.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 10,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which search strategy expands the shallowest unexpanded node?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Depth-first search"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Breadth-first search"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Depth-limited search"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Iterative deepening search"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that breadth-first search expands the shallowest unexpanded node.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 28,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which search strategy uses a LIFO queue?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Breadth-first search"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Depth-first search"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Uniform-cost search"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A* search"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that depth-first search is implemented with a LIFO queue, i.e., put successors at front.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 33,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the space complexity of Breadth-First Search?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "O(b)"
+                },
+                {
+                  "option_id": "B",
+                  "text": "O(b^d)"
+                },
+                {
+                  "option_id": "C",
+                  "text": "O(b^{d+1})"
+                },
+                {
+                  "option_id": "D",
+                  "text": "O(bm)"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that the space complexity of BFS is O(b^{d+1}) because it keeps every node in memory.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 32,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q005",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the evaluation function for A* search?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "f(n) = h(n)"
+                },
+                {
+                  "option_id": "B",
+                  "text": "f(n) = g(n)"
+                },
+                {
+                  "option_id": "C",
+                  "text": "f(n) = g(n) + h(n)"
+                },
+                {
+                  "option_id": "D",
+                  "text": "f(n) = g(n) - h(n)"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that A* search uses the evaluation function f(n) = g(n) + h(n), where g(n) is the cost to reach n and h(n) is the estimated cost from n to goal.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 73,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q006",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which search algorithm is complete and optimal if step costs are equal?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Depth-first search"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Breadth-first search"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Greedy best-first search"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Depth-limited search"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that breadth-first search is complete (if b is finite) and optimal (if cost = 1 per step).",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 32,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q007",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Depth-first search is optimal.",
+              "correct_answer": false,
+              "explanation": "The lecture states that the optimality of depth-first search is 'No'.",
+              "correction": "Depth-first search is not optimal.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 45,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q008",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Greedy best-first search is complete and optimal.",
+              "correct_answer": false,
+              "explanation": "The lecture states that greedy best-first search is neither complete (can get stuck in loops) nor optimal.",
+              "correction": "Greedy best-first search is neither complete nor optimal.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 72,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q009",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Compare Breadth-First Search and Depth-First Search in terms of completeness, optimality, time complexity, and space complexity.",
+              "max_score": 10,
+              "model_answer": "Breadth-First Search (BFS): Complete? Yes (if b is finite). Optimal? Yes (if cost = 1 per step). Time? O(b^{d+1}). Space? O(b^{d+1}) (keeps every node in memory). Depth-First Search (DFS): Complete? No (fails in infinite-depth spaces or spaces with loops, can be modified to be complete in finite spaces). Optimal? No. Time? O(b^m) (terrible if maximum depth m is much larger than solution depth d). Space? O(bm), linear space (stores single path with unexpanded siblings).",
+              "grading_rubric": [
+                {
+                  "criterion": "BFS completeness and optimality",
+                  "description": "States BFS is complete (if b finite) and optimal (if step cost = 1).",
+                  "points": 2
+                },
+                {
+                  "criterion": "BFS time and space",
+                  "description": "States BFS time is O(b^{d+1}) and space is O(b^{d+1}).",
+                  "points": 3
+                },
+                {
+                  "criterion": "DFS completeness and optimality",
+                  "description": "States DFS is not complete and not optimal.",
+                  "points": 2
+                },
+                {
+                  "criterion": "DFS time and space",
+                  "description": "States DFS time is O(b^m) and space is O(bm).",
+                  "points": 3
+                }
+              ],
+              "grading_notes": "Accept accurate descriptions from the lecture's summary table.",
+              "source": {
+                "lecture": "Problem Solving by Search",
+                "topic": "Search Algorithms",
+                "page": 54,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 4,
+      "lecture_title": "Rule-Based Expert Systems",
+      "topics": [
+        {
+          "topic_name": "Expert Systems and Inference",
+          "questions": [
+            {
+              "question_id": "L04-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is a rule in AI?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "A sequence of random instructions"
+                },
+                {
+                  "option_id": "B",
+                  "text": "An IF-THEN structure that relates given information to an action"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A type of database query"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A hardware component"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a rule as an IF-THEN structure that relates given information or facts in the IF part to some action in the THEN part.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 4,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the IF part of a rule called?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Consequent"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Antecedent"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Conclusion"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Action"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that the IF part is called the antecedent (premise or condition) and the THEN part is called the consequent (conclusion or action).",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 4,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which component of a rule-based expert system carries out the reasoning?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Knowledge base"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Database"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Inference engine"
+                },
+                {
+                  "option_id": "D",
+                  "text": "User interface"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that the inference engine carries out the reasoning whereby the expert system reaches a solution.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 19,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is forward chaining?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Goal-driven reasoning"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Data-driven reasoning"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Backward reasoning"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Random reasoning"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that forward chaining is the data-driven reasoning. The reasoning starts from the known data and proceeds forward with that data.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 30,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q005",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is backward chaining?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Data-driven reasoning"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Goal-driven reasoning"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Forward reasoning"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Random reasoning"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that backward chaining is the goal-driven reasoning. The inference engine has a goal and attempts to find the evidence to prove it.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 33,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q006",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which method of conflict resolution fires the rule that uses the data most recently entered in the database?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Fire the rule with the highest priority"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Fire the most specific rule"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Fire the rule that uses the most recently entered data"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Fire the rule with the longest antecedent"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that one method for conflict resolution is to fire the rule that uses the data most recently entered in the database, relying on time tags attached to each fact.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 41,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q007",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Rule-based expert systems can learn from experience like human experts.",
+              "correct_answer": false,
+              "explanation": "The lecture lists 'Inability to learn' as a disadvantage of rule-based expert systems. They do not have the ability to learn from experience, unlike human experts.",
+              "correction": "Rule-based expert systems cannot learn from experience like human experts; the knowledge engineer is responsible for revising and maintaining the system.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 47,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q008",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "In forward chaining, the inference engine starts with a goal and finds evidence to prove it.",
+              "correct_answer": false,
+              "explanation": "Forward chaining is data-driven; it starts from known data and proceeds forward. Backward chaining starts with a goal and finds evidence to prove it.",
+              "correction": "In backward chaining, the inference engine starts with a goal and finds evidence to prove it. Forward chaining starts from known data.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 30,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q009",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the difference between forward chaining and backward chaining, and when each should be used.",
+              "max_score": 10,
+              "model_answer": "Forward chaining is data-driven reasoning. The reasoning starts from the known data and proceeds forward with that data. Each time only the topmost rule is executed, adding a new fact to the database. The match-fire cycle stops when no further rules can be fired. It is used when an expert first needs to gather some information and then tries to infer from it whatever can be inferred. Backward chaining is goal-driven reasoning. The expert system has the goal (a hypothetical solution) and the inference engine attempts to find the evidence to prove it. The knowledge base is searched for rules that have the desired solution in their THEN parts, and subgoals are set up to prove the IF parts. It is used when an expert begins with a hypothetical solution and then attempts to find facts to prove it.",
+              "grading_rubric": [
+                {
+                  "criterion": "Forward chaining definition",
+                  "description": "Explains it is data-driven, starts from known data and infers forward.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Backward chaining definition",
+                  "description": "Explains it is goal-driven, starts with a goal and finds evidence to prove it.",
+                  "points": 3
+                },
+                {
+                  "criterion": "When to use forward chaining",
+                  "description": "States it is used when gathering information and inferring from it.",
+                  "points": 2
+                },
+                {
+                  "criterion": "When to use backward chaining",
+                  "description": "States it is used when starting with a hypothetical solution and finding facts to prove it.",
+                  "points": 2
+                }
+              ],
+              "grading_notes": "Accept any accurate explanation based on the lecture's descriptions.",
+              "source": {
+                "lecture": "Rule-Based Expert Systems",
+                "topic": "Expert Systems and Inference",
+                "page": 36,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 5,
+      "lecture_title": "Fuzzy Logic",
+      "topics": [
+        {
+          "topic_name": "Fuzzy Sets and Logic",
+          "questions": [
+            {
+              "question_id": "L05-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the form of fuzzy logic?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Two-valued logic"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Crisp set logic"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Many-valued logic"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Binary set logic"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that fuzzy logic is a form of many-valued logic.",
+              "source": {
+                "lecture": "Fuzzy Logic",
+                "topic": "Fuzzy Sets and Logic",
+                "page": 31,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L05-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the truth value of traditional set theory?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Between 0 and 1"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Either 0 or 1"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Any real number"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Negative values"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that the truth values of traditional set theory are either 0 or 1, while fuzzy set theory is between 0 and 1.",
+              "source": {
+                "lecture": "Fuzzy Logic",
+                "topic": "Fuzzy Sets and Logic",
+                "page": 31,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L05-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What are hedges in fuzzy logic?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Mathematical operators like addition and subtraction"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Linguistic operators like 'very' and 'somewhat'"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Boolean operators like AND and OR"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Logical operators like implication"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that there are other operators, more linguistic in nature, called hedges, that can be applied to fuzzy set theory.",
+              "source": {
+                "lecture": "Fuzzy Logic",
+                "topic": "Fuzzy Sets and Logic",
+                "page": 32,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L05-Q004",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "How is fuzzy logic usually represented?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "IF-THEN-ELSE rules"
+                },
+                {
+                  "option_id": "B",
+                  "text": "IF-THEN rules"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Both IF-THEN-ELSE rules and IF-THEN rules"
+                },
+                {
+                  "option_id": "D",
+                  "text": "None of the mentioned"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that fuzzy logic is usually represented as IF-THEN rules.",
+              "source": {
+                "lecture": "Fuzzy Logic",
+                "topic": "Fuzzy Sets and Logic",
+                "page": 33,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L05-Q005",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Fuzzy logic uses only binary values 0 and 1.",
+              "correct_answer": false,
+              "explanation": "Fuzzy logic uses values between 0 and 1, not just 0 and 1. Traditional set theory uses binary values.",
+              "correction": "Fuzzy logic uses values between 0 and 1, whereas traditional set theory uses binary values 0 and 1.",
+              "source": {
+                "lecture": "Fuzzy Logic",
+                "topic": "Fuzzy Sets and Logic",
+                "page": 31,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L05-Q006",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain fuzzy logic and its operators as presented in the lecture.",
+              "max_score": 10,
+              "model_answer": "Fuzzy logic is a form of many-valued logic where the truth values are between 0 and 1, unlike traditional set theory which uses either 0 or 1. The values of set membership are represented by the degree of truth. Fuzzy set theory defines fuzzy operators such as AND, OR, and NOT. There are also other operators, more linguistic in nature, called hedges, that can be applied to fuzzy set theory. Fuzzy logic is usually represented as IF-THEN rules.",
+              "grading_rubric": [
+                {
+                  "criterion": "Definition of fuzzy logic",
+                  "description": "Explains it is many-valued logic with truth values between 0 and 1.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Fuzzy operators",
+                  "description": "Lists AND, OR, and NOT as fuzzy operators.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Hedges",
+                  "description": "Explains hedges as linguistic operators.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Representation",
+                  "description": "States fuzzy logic is represented as IF-THEN rules.",
+                  "points": 2
+                }
+              ],
+              "grading_notes": "Accept accurate descriptions based on the lecture.",
+              "source": {
+                "lecture": "Fuzzy Logic",
+                "topic": "Fuzzy Sets and Logic",
+                "page": 31,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 37,
+    "mcq_count": 22,
+    "true_false_count": 9,
+    "essay_count": 6,
+    "easy_count": 12,
+    "medium_count": 16,
+    "hard_count": 9,
+    "needs_review_count": 0
+  }
+}

@@ -1,0 +1,1436 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "Artificial Intelligence"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Introduction to Artificial Intelligence",
+      "topics": [
+        {
+          "topic_name": "AI Definition, Necessity, and Intelligence",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "According to John McCarthy, AI is:",
+              "options": [
+                { "option_id": "A", "text": "The science of engineering for making intelligent machines, especially intelligent computer programs" },
+                { "option_id": "B", "text": "The study of biological neural networks only" },
+                { "option_id": "C", "text": "A programming language for building websites" },
+                { "option_id": "D", "text": "The process of storing data in databases" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture quotes John McCarthy defining AI as the science of engineering for making intelligent machines, especially intelligent computer programs.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "AI Definition, Necessity, and Intelligence", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Why do we need to study AI because it can learn from data?",
+              "options": [
+                { "option_id": "A", "text": "AI can only work with small datasets" },
+                { "option_id": "B", "text": "AI can do repetitive tasks with accuracy and without tiredness" },
+                { "option_id": "C", "text": "AI requires constant human supervision" },
+                { "option_id": "D", "text": "AI cannot analyze data deeply" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that for automation, we need to study AI because it can learn from data and can do repetitive tasks with accuracy and without tiredness.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "AI Definition, Necessity, and Intelligence", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Intelligence is defined in the lecture as the ability of a system to:",
+              "options": [
+                { "option_id": "A", "text": "Store data permanently only" },
+                { "option_id": "B", "text": "Calculate, reason, perceive relationships and analogies, learn from experience, store and retrieve information, solve problems, comprehend complex ideas, use natural language, classify, generalize, and adapt" },
+                { "option_id": "C", "text": "Execute programs faster than humans" },
+                { "option_id": "D", "text": "Connect to the internet" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines intelligence as the ability to calculate, reason, perceive relationships and analogies, learn from experience, store and retrieve information, solve problems, comprehend complex ideas, use natural language fluently, classify, generalize, and adapt new situations.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "AI Definition, Necessity, and Intelligence", "page": 8, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "AI can achieve tremendous accuracy with the help of deep neural networks, helping in fields like medicine to diagnose diseases such as cancer.",
+              "correct_answer": true,
+              "explanation": "The lecture states that with deep neural networks, AI can achieve tremendous accuracy and helps in medicine to diagnose diseases such as cancer.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "AI Definition, Necessity, and Intelligence", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain the necessity of learning AI as presented in the lecture, listing at least four reasons.",
+              "max_score": 10,
+              "model_answer": "The lecture gives several reasons for learning AI: 1) AI can learn through data and do repetitive tasks with accuracy and without tiredness. 2) AI can teach itself. 3) AI can respond in real time using neural networks to analyze data deeply and react to conditions. 4) AI achieves accuracy with deep neural networks, helping in medicine to diagnose diseases such as cancer. 5) AI can organize data to get the most out of it, indexing and organizing data to always give the best results. 6) Understanding intelligence: with AI, smart systems can be built, and understanding intelligence helps construct another intelligence system.",
+              "grading_rubric": [
+                { "criterion": "AI learns from data", "description": "Mentions that AI can learn from data and do repetitive tasks accurately without tiredness.", "points": 2 },
+                { "criterion": "AI can teach itself", "description": "Mentions that AI can teach itself.", "points": 1 },
+                { "criterion": "Real-time response", "description": "Mentions AI can respond in real time using neural networks.", "points": 2 },
+                { "criterion": "Accuracy", "description": "Mentions AI achieves tremendous accuracy, with medical diagnosis as an example.", "points": 2 },
+                { "criterion": "Data organization and understanding intelligence", "description": "Mentions organizing data to get the most out of it and understanding intelligence to build smart systems.", "points": 3 }
+              ],
+              "grading_notes": "Accept any four or more reasons that are accurately drawn from the lecture.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "AI Definition, Necessity, and Intelligence", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "The AI Project Cycle",
+          "questions": [
+            {
+              "question_id": "L01-Q006",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following lists the correct sequence of stages in the AI project cycle?",
+              "options": [
+                { "option_id": "A", "text": "Problem Scoping, Data Exploration, Data Acquisition, Modeling, Evaluation" },
+                { "option_id": "B", "text": "Data Acquisition, Problem Scoping, Data Exploration, Evaluation, Modeling" },
+                { "option_id": "C", "text": "Problem Scoping, Data Acquisition, Data Exploration, Modeling, Evaluation" },
+                { "option_id": "D", "text": "Evaluation, Problem Scoping, Modeling, Data Acquisition, Data Exploration" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states the AI project cycle consists of: 1. Problem Scoping, 2. Data Acquisition, 3. Data Exploration, 4. Modeling, 5. Evaluation.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "The AI Project Cycle", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q007",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which stage of the AI project cycle involves collecting data relevant to the problem?",
+              "options": [
+                { "option_id": "A", "text": "Data Acquisition" },
+                { "option_id": "B", "text": "Problem Scoping" },
+                { "option_id": "C", "text": "Data Exploration" },
+                { "option_id": "D", "text": "Evaluation" }
+              ],
+              "correct_answer": "A",
+              "explanation": "Data Acquisition is the stage where data relevant to the problem is collected.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "The AI Project Cycle", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q008",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "During which stage of the AI project cycle is the data analyzed and patterns identified?",
+              "options": [
+                { "option_id": "A", "text": "Data Acquisition" },
+                { "option_id": "B", "text": "Data Exploration" },
+                { "option_id": "C", "text": "Modeling" },
+                { "option_id": "D", "text": "Evaluation" }
+              ],
+              "correct_answer": "B",
+              "explanation": "Data Exploration is the stage where data is analyzed and patterns are identified.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "The AI Project Cycle", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q009",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "In which stage of the AI project cycle is a machine learning model created?",
+              "options": [
+                { "option_id": "A", "text": "Data Exploration" },
+                { "option_id": "B", "text": "Problem Scoping" },
+                { "option_id": "C", "text": "Modeling" },
+                { "option_id": "D", "text": "Evaluation" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The Modeling stage is where a machine learning model is created.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "The AI Project Cycle", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q010",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the purpose of the Evaluation stage in the AI project cycle?",
+              "options": [
+                { "option_id": "A", "text": "To define the problem scope" },
+                { "option_id": "B", "text": "To test and assess the model's performance" },
+                { "option_id": "C", "text": "To acquire data" },
+                { "option_id": "D", "text": "To create visualizations" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The Evaluation stage is used to test and assess the model's performance.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "The AI Project Cycle", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Branches of AI",
+          "questions": [
+            {
+              "question_id": "L01-Q011",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which field of AI involves making machines learn from data, similar to how humans learn from experience?",
+              "options": [
+                { "option_id": "A", "text": "Searching" },
+                { "option_id": "B", "text": "Logic" },
+                { "option_id": "C", "text": "Machine Learning" },
+                { "option_id": "D", "text": "Biological neural networks" }
+              ],
+              "correct_answer": "C",
+              "explanation": "Machine Learning is the field where the basic concept is to make the machine learn from data as humans learn from experience.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Branches of AI", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q012",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In which field of AI is mathematical logic used to execute computer programs?",
+              "options": [
+                { "option_id": "A", "text": "Searching" },
+                { "option_id": "B", "text": "Logic" },
+                { "option_id": "C", "text": "Machine Learning" },
+                { "option_id": "D", "text": "Genetic Algorithm" }
+              ],
+              "correct_answer": "B",
+              "explanation": "Logic is the field in which mathematical logic is used to execute computer programs.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Branches of AI", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q013",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which AI field is commonly applied in games like chess and tic-tac-toe to find the optimal solution?",
+              "options": [
+                { "option_id": "A", "text": "Searching" },
+                { "option_id": "B", "text": "Logic" },
+                { "option_id": "C", "text": "Machine Learning" },
+                { "option_id": "D", "text": "Genetic Algorithm" }
+              ],
+              "correct_answer": "A",
+              "explanation": "Searching is used in games like chess and tic-tac-toe; search algorithms give the optimal solution after searching the whole search space.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Branches of AI", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q014",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which AI field involves solving problems with the assistance of more than one program?",
+              "options": [
+                { "option_id": "A", "text": "Searching" },
+                { "option_id": "B", "text": "Logic" },
+                { "option_id": "C", "text": "Genetic Algorithm" },
+                { "option_id": "D", "text": "Knowledge Representation" }
+              ],
+              "correct_answer": "C",
+              "explanation": "Genetic algorithms help in solving problems with the assistance of more than one program.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Branches of AI", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q015",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the purpose of Knowledge Representation in AI?",
+              "options": [
+                { "option_id": "A", "text": "To simulate human learning" },
+                { "option_id": "B", "text": "To search for optimal solutions in games" },
+                { "option_id": "C", "text": "To execute programs using logic" },
+                { "option_id": "D", "text": "To represent facts in a way that machines can understand" }
+              ],
+              "correct_answer": "D",
+              "explanation": "Knowledge Representation is the field that helps represent facts in a way that is understandable to the machine.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Branches of AI", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q016",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following can be applications of Artificial Neural Networks?",
+              "options": [
+                { "option_id": "A", "text": "Logic execution and knowledge representation" },
+                { "option_id": "B", "text": "Game searching and genetic algorithms" },
+                { "option_id": "C", "text": "Robotics, speech recognition, and speech processing" },
+                { "option_id": "D", "text": "Problem-solving and knowledge acquisition" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that ANN can be used in robotics, speech recognition, speech processing, etc.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Branches of AI", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q017",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Artificial neural networks are inspired by biological neural networks.",
+              "correct_answer": true,
+              "explanation": "The lecture states that ANN is a network of efficient computing systems whose central theme is borrowed from the analogy of biological neural networks.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Branches of AI", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Agent and Environment",
+          "questions": [
+            {
+              "question_id": "L01-Q018",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "An agent is anything that can:",
+              "options": [
+                { "option_id": "A", "text": "Only store data in a database" },
+                { "option_id": "B", "text": "Perceive its environment through sensors and act upon that environment through effectors" },
+                { "option_id": "C", "text": "Only process keyboard input" },
+                { "option_id": "D", "text": "Only display output on a screen" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines an agent as anything that can perceive its environment through sensors and act upon that environment through effectors.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Agent and Environment", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q019",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is an example of a human agent's sensor?",
+              "options": [
+                { "option_id": "A", "text": "Hands" },
+                { "option_id": "B", "text": "Eyes" },
+                { "option_id": "C", "text": "Legs" },
+                { "option_id": "D", "text": "Mouth" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that a human agent has sensory organs such as eyes, ears, nose, tongue, and skin parallel to sensors.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Agent and Environment", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q020",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "How does a software agent typically interact with its environment?",
+              "options": [
+                { "option_id": "A", "text": "Through bit strings as programs and actions" },
+                { "option_id": "B", "text": "Using hands and legs" },
+                { "option_id": "C", "text": "With cameras and actuators" },
+                { "option_id": "D", "text": "Through keyboard and mouse only" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that a software agent has encoded bit strings as its programs and actions.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Agent and Environment", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q021",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is a percept in the context of AI agents?",
+              "options": [
+                { "option_id": "A", "text": "The complete set of inputs at a given time" },
+                { "option_id": "B", "text": "The action taken by the agent" },
+                { "option_id": "C", "text": "The output displayed on screen" },
+                { "option_id": "D", "text": "The memory of the agent" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines a percept as the complete set of inputs at a given time.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Agent and Environment", "page": 15, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q022",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "A robotic agent replaces cameras and infrared range finders for sensors, and various motors and actuators for effectors.",
+              "correct_answer": true,
+              "explanation": "The lecture states exactly this about robotic agents.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Agent and Environment", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Hardware Architecture and Programming Basics",
+          "questions": [
+            {
+              "question_id": "L01-Q023",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the main role of the Central Processing Unit (CPU)?",
+              "options": [
+                { "option_id": "A", "text": "Store data permanently" },
+                { "option_id": "B", "text": "Run the program by deciding 'what to do next'" },
+                { "option_id": "C", "text": "Provide input to the computer" },
+                { "option_id": "D", "text": "Serve as the primary memory" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that the CPU runs the program and is always wondering 'what to do next'. It is not the brains exactly, not smart but very fast.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 30, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q024",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is NOT an input device?",
+              "options": [
+                { "option_id": "A", "text": "Keyboard" },
+                { "option_id": "B", "text": "Mouse" },
+                { "option_id": "C", "text": "Touch Screen" },
+                { "option_id": "D", "text": "Printer" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture lists keyboard, mouse, and touch screen as input devices; printers are output devices.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 30, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q025",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is a key characteristic of Main Memory (RAM)?",
+              "options": [
+                { "option_id": "A", "text": "It is a permanent storage device" },
+                { "option_id": "B", "text": "It retains data even after rebooting" },
+                { "option_id": "C", "text": "It is fast, temporary storage and data is lost on reboot" },
+                { "option_id": "D", "text": "It is slower and only used for backup" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines main memory as fast small temporary storage that is lost on reboot (Random Access Memory, RAM).",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 30, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q026",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is Secondary Memory used for?",
+              "options": [
+                { "option_id": "A", "text": "Temporary storage that clears on reboot" },
+                { "option_id": "B", "text": "Fast data processing and retrieval" },
+                { "option_id": "C", "text": "Permanent storage that lasts until data is deleted" },
+                { "option_id": "D", "text": "To process instructions quickly" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines secondary memory as slower large permanent storage that lasts until deleted.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 30, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q027",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following describes what a 'program' or 'code' is?",
+              "options": [
+                { "option_id": "A", "text": "A sequence of stored instructions" },
+                { "option_id": "B", "text": "A method of storing data only" },
+                { "option_id": "C", "text": "A type of hardware" },
+                { "option_id": "D", "text": "A list of internet-based resources" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines code as a sequence of stored instructions that tells the computer what to do step by step.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 26, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q028",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Python is an open source and cross-platform programming language.",
+              "correct_answer": true,
+              "explanation": "The lecture states Python is open source and cross-platform, first released in 1991.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 34, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q029",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Python is a compiled language, not an interpreted language.",
+              "correct_answer": false,
+              "explanation": "The lecture states Python is directly interpreted into machine instructions, unlike compiled languages.",
+              "correction": "Python is an interpreted language, not a compiled language.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 42, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q030",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain why Python is suitable for AI projects according to the lecture, and list at least three features of Python.",
+              "max_score": 10,
+              "model_answer": "Python is suitable for AI because: 1) It has simple syntax and involves very less coding, making testing easier and allowing focus on programming. 2) It has inbuilt libraries for AI projects such as NumPy, pandas, SciPy, matplotlib, nltk, and SimpleAI. 3) It is open source and widely popular in the community. 4) It can be used for a broad range of programming tasks from small shell scripts to enterprise web applications. Python features include: easy-to-learn (few keywords, simple structure, clearly defined syntax), easy-to-read, easy-to-maintain, broad standard library that is portable and cross-platform, interactive mode, portable, extendable, databases interfaces, GUI programming support, and scalability.",
+              "grading_rubric": [
+                { "criterion": "Simple syntax and less coding", "description": "Mentions simple syntax and less coding as a reason for AI suitability.", "points": 2 },
+                { "criterion": "Inbuilt libraries", "description": "Mentions inbuilt libraries such as NumPy, pandas, SciPy, matplotlib, nltk, SimpleAI.", "points": 2 },
+                { "criterion": "Open source", "description": "Mentions Python is open source.", "points": 1 },
+                { "criterion": "Broad range of programming", "description": "Mentions Python can be used for a broad range of tasks.", "points": 1 },
+                { "criterion": "Python features", "description": "Lists at least three features such as easy-to-learn, easy-to-read, easy-to-maintain, broad standard library, interactive mode, portable, extendable, databases, GUI programming, scalable.", "points": 4 }
+              ],
+              "grading_notes": "Accept any accurate reasons and features from the lecture.",
+              "source": { "lecture": "Introduction to Artificial Intelligence", "topic": "Hardware Architecture and Programming Basics", "page": 38, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 2,
+      "lecture_title": "Machine Learning Fundamentals",
+      "topics": [
+        {
+          "topic_name": "ML vs Traditional Programming",
+          "questions": [
+            {
+              "question_id": "L02-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "In traditional programming, what is used to produce the output?",
+              "options": [
+                { "option_id": "A", "text": "Data and output" },
+                { "option_id": "B", "text": "Program and output" },
+                { "option_id": "C", "text": "Data and program" },
+                { "option_id": "D", "text": "Features and labels" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that in traditional programming, data and program are run on the computer to produce the output.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "ML vs Traditional Programming", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In Machine Learning, what is used to create a program?",
+              "options": [
+                { "option_id": "A", "text": "Data and output" },
+                { "option_id": "B", "text": "Program and output" },
+                { "option_id": "C", "text": "Data and program" },
+                { "option_id": "D", "text": "Features and labels" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that in machine learning, data and output are run on the computer to create a program.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "ML vs Traditional Programming", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q003",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "In traditional programming, the program and data produce the output; in machine learning, data and output produce the program.",
+              "correct_answer": true,
+              "explanation": "This matches the lecture's comparison of traditional programming and machine learning.",
+              "correction": null,
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "ML vs Traditional Programming", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Types of Machine Learning",
+          "questions": [
+            {
+              "question_id": "L02-Q004",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is NOT a type of machine learning listed in the lecture?",
+              "options": [
+                { "option_id": "A", "text": "Supervised learning" },
+                { "option_id": "B", "text": "Unsupervised learning" },
+                { "option_id": "C", "text": "Reinforcement learning" },
+                { "option_id": "D", "text": "Traditional programming" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture lists supervised, unsupervised, and reinforcement learning as ML types. Traditional programming is contrasted with ML.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Types of Machine Learning", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q005",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the main purpose of supervised machine learning?",
+              "options": [
+                { "option_id": "A", "text": "To group data into clusters" },
+                { "option_id": "B", "text": "To find associations in data" },
+                { "option_id": "C", "text": "To predict outputs based on inputs using a model learned from labeled data" },
+                { "option_id": "D", "text": "To perform reinforcement actions" }
+              ],
+              "correct_answer": "C",
+              "explanation": "Supervised ML converts features (inputs) and labels (outputs) into a model, then predicts labels for new features.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Types of Machine Learning", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q006",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a type of learning in machine learning that involves feedback based on actions taken?",
+              "options": [
+                { "option_id": "A", "text": "Supervised learning" },
+                { "option_id": "B", "text": "Unsupervised learning" },
+                { "option_id": "C", "text": "Reinforcement learning" },
+                { "option_id": "D", "text": "Classification" }
+              ],
+              "correct_answer": "C",
+              "explanation": "Reinforcement learning focuses on how agents learn to interact with an environment to maximize cumulative rewards, using rewards and penalties.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Types of Machine Learning", "page": 13, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q007",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In unsupervised machine learning, which of the following techniques is commonly used?",
+              "options": [
+                { "option_id": "A", "text": "Regression" },
+                { "option_id": "B", "text": "Classification" },
+                { "option_id": "C", "text": "Clustering" },
+                { "option_id": "D", "text": "Reinforcement" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists clustering and association as types of unsupervised learning.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Types of Machine Learning", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q008",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Unsupervised learning uses labeled data with correct outputs to find patterns.",
+              "correct_answer": false,
+              "explanation": "Unsupervised learning uses unlabeled data (input only, no labels) and finds hidden patterns, clusters, or relationships.",
+              "correction": "Unsupervised learning uses unlabeled data without correct outputs to find patterns.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Types of Machine Learning", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q009",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Compare supervised, unsupervised, and reinforcement learning as presented in the lecture, including the type of data used, the learning goal, and one application example for each.",
+              "max_score": 10,
+              "model_answer": "Supervised learning uses labeled training data (input + correct output). The model learns from this labeled data and predicts outputs for new, unseen data. Examples include email spam classification (spam or not spam) and regression for salary prediction. Unsupervised learning uses unlabeled data (input only, no correct output). The model finds patterns, structure, clusters, or relationships automatically. Examples include customer segmentation and recommendation systems. Reinforcement learning focuses on how agents learn to interact with an environment to maximize cumulative rewards. The model learns by trial and error using rewards and penalties, without labeled data. Examples include robot navigation, game AI, and skill acquisition.",
+              "grading_rubric": [
+                { "criterion": "Supervised learning", "description": "Explains labeled data, prediction goal, and gives a valid example.", "points": 3 },
+                { "criterion": "Unsupervised learning", "description": "Explains unlabeled data, pattern-finding goal, and gives a valid example.", "points": 3 },
+                { "criterion": "Reinforcement learning", "description": "Explains environment interaction, rewards/penalties, trial and error, and gives a valid example.", "points": 3 },
+                { "criterion": "Comparison", "description": "Clearly distinguishes the three types based on data and learning approach.", "points": 1 }
+              ],
+              "grading_notes": "Accept any examples drawn from the lecture.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Types of Machine Learning", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Supervised Learning: Regression and Classification",
+          "questions": [
+            {
+              "question_id": "L02-Q010",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is NOT a type of supervised machine learning algorithm?",
+              "options": [
+                { "option_id": "A", "text": "Clustering" },
+                { "option_id": "B", "text": "Regression" },
+                { "option_id": "C", "text": "Classification" },
+                { "option_id": "D", "text": "Linear Regression" }
+              ],
+              "correct_answer": "A",
+              "explanation": "Clustering is an unsupervised learning technique, not supervised.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Supervised Learning: Regression and Classification", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q011",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "When should you use a regression algorithm in machine learning?",
+              "options": [
+                { "option_id": "A", "text": "When you want to predict continuous variables" },
+                { "option_id": "B", "text": "When there is no relationship between input and output variables" },
+                { "option_id": "C", "text": "When you want to classify data into groups" },
+                { "option_id": "D", "text": "When the output variable is categorical" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states regression is used for the prediction of continuous variables when there is a relationship between input and output variables.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Supervised Learning: Regression and Classification", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q012",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a popular regression algorithm?",
+              "options": [
+                { "option_id": "A", "text": "Clustering" },
+                { "option_id": "B", "text": "Polynomial Regression" },
+                { "option_id": "C", "text": "Association" },
+                { "option_id": "D", "text": "Reinforcement Learning" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture lists Linear Regression and Polynomial Regression as popular regression algorithms.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Supervised Learning: Regression and Classification", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q013",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In the linear regression equation Y = aX + b, what does Y represent?",
+              "options": [
+                { "option_id": "A", "text": "The independent variable" },
+                { "option_id": "B", "text": "A constant value" },
+                { "option_id": "C", "text": "The predicted output (dependent variable)" },
+                { "option_id": "D", "text": "The input feature" }
+              ],
+              "correct_answer": "C",
+              "explanation": "In Y = aX + b, Y is the dependent variable (predicted output/label), and X is the independent variable (feature/input).",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Supervised Learning: Regression and Classification", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q014",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What term is used to refer to the independent variable in linear regression?",
+              "options": [
+                { "option_id": "A", "text": "Labels" },
+                { "option_id": "B", "text": "Output" },
+                { "option_id": "C", "text": "Target" },
+                { "option_id": "D", "text": "Features" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture states the independent variable is called features (input), while the dependent variable is called labels/target (output).",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Supervised Learning: Regression and Classification", "page": 22, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q015",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Linear regression predicts the output based on input-output pairs from historical data.",
+              "correct_answer": true,
+              "explanation": "The lecture states linear regression predicts output based on historical data (input-output pairs).",
+              "correction": null,
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Supervised Learning: Regression and Classification", "page": 22, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q016",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain how linear regression is used as an AI technique, describing the two main steps from historical data to prediction.",
+              "max_score": 10,
+              "model_answer": "Step 1: AI uses historical data (input and output pairs) to find the parameters a and b of the line equation Y = aX + b. For example, using Python's scikit-learn LinearRegression, the model is fitted on Experience (feature) and Salary (label) to compute a (slope) and b (intercept). Step 2: The parameters a and b are used to write the AI program that predicts any new value for X. For example, with a = 156.64 and b = 542.25, the salary for Experience = 12 is predicted as Salary = a × 12 + b ≈ 2422 (approximately 2400).",
+              "grading_rubric": [
+                { "criterion": "Step 1: Finding parameters", "description": "Explains using historical input-output data to compute parameters a and b of Y = aX + b.", "points": 4 },
+                { "criterion": "Step 2: Prediction", "description": "Explains using the parameters to predict a new output for a given input.", "points": 4 },
+                { "criterion": "Example", "description": "Provides a numerical or conceptual example from the lecture.", "points": 2 }
+              ],
+              "grading_notes": "Accept any correct explanation using the lecture's salary example or another valid example.",
+              "source": { "lecture": "Machine Learning Fundamentals", "topic": "Supervised Learning: Regression and Classification", "page": 23, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 3,
+      "lecture_title": "Linear Regression and Gradient Descent",
+      "topics": [
+        {
+          "topic_name": "Simple Linear Regression and Cost Function",
+          "questions": [
+            {
+              "question_id": "L03-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "In the hypothesis function h(x) = θ₀ + θ₁x, what does θ₀ represent?",
+              "options": [
+                { "option_id": "A", "text": "The slope of the line" },
+                { "option_id": "B", "text": "The y-intercept of the line" },
+                { "option_id": "C", "text": "The cost function" },
+                { "option_id": "D", "text": "The input variable" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that in h(x) = θ₀ + θ₁x, θ₀ is the intercept (value of h(x) when x = 0).",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Simple Linear Regression and Cost Function", "page": 36, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "In the hypothesis function h(x) = θ₀ + θ₁x, what does θ₁ represent?",
+              "options": [
+                { "option_id": "A", "text": "The slope of the line" },
+                { "option_id": "B", "text": "The y-intercept of the line" },
+                { "option_id": "C", "text": "The cost function" },
+                { "option_id": "D", "text": "The input variable" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that the slope of the line is θ₁.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Simple Linear Regression and Cost Function", "page": 36, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the purpose of the cost function J in linear regression?",
+              "options": [
+                { "option_id": "A", "text": "To maximize the difference between the real and predicted values" },
+                { "option_id": "B", "text": "To calculate the slope of the regression line" },
+                { "option_id": "C", "text": "To minimize the error between the real output y and the predicted output ŷ" },
+                { "option_id": "D", "text": "To measure the total number of points on the line" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The cost function J measures the Weighted Mean Square Error (WMSE) and the goal is to minimize the error between real and predicted values.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Simple Linear Regression and Cost Function", "page": 37, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "The difference between a predicted point and the actual observation in linear regression is called:",
+              "options": [
+                { "option_id": "A", "text": "Error rate" },
+                { "option_id": "B", "text": "Deviation" },
+                { "option_id": "C", "text": "Gradient" },
+                { "option_id": "D", "text": "Residue" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture states that for each point, the difference between the predicted point and the actual observation is the residue.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Simple Linear Regression and Cost Function", "page": 30, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q005",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "In linear regression, fitting the data means using a line to approximate the trend of the data by minimizing the sum of squared errors.",
+              "correct_answer": true,
+              "explanation": "The lecture explains that we square individual errors, sum them, and try to minimize those to find the best-fit line.",
+              "correction": null,
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Simple Linear Regression and Cost Function", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q006",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Using the dataset where Class is the input and Number of students is the output, explain how to calculate θ₀ and θ₁ and predict the number of students for Class 6.",
+              "max_score": 10,
+              "model_answer": "The dataset is: Class X = [1, 3, 5, 7, 8], Number of students Y = [10, 13, 14, 17, 19]. Compute Σx = 24, Σy = 73, Σxy = 390, Σx² = 148, n = 5. θ₁ = (nΣxy - ΣxΣy) / (nΣx² - (Σx)²) = (5×390 - 24×73) / (5×148 - 24²) = (1950 - 1752) / (740 - 576) = 198 / 164 ≈ 1.2. θ₀ = (ΣyΣx² - ΣxΣxy) / (nΣx² - (Σx)²) = (73×148 - 24×390) / 164 = (10804 - 9360) / 164 = 1444 / 164 ≈ 8.8. Hypothesis function: h(x) = 8.8 + 1.2x. For Class 6: h(6) = 8.8 + 1.2×6 = 8.8 + 7.2 = 16. So the predicted number of students is 16.",
+              "grading_rubric": [
+                { "criterion": "Summations", "description": "Correctly computes Σx, Σy, Σxy, Σx², and n.", "points": 2 },
+                { "criterion": "θ₁ calculation", "description": "Correctly applies the formula and computes θ₁ ≈ 1.2.", "points": 2 },
+                { "criterion": "θ₀ calculation", "description": "Correctly applies the formula and computes θ₀ ≈ 8.8.", "points": 2 },
+                { "criterion": "Hypothesis function", "description": "States h(x) = 8.8 + 1.2x.", "points": 2 },
+                { "criterion": "Prediction for Class 6", "description": "Computes 8.8 + 1.2×6 = 16.", "points": 2 }
+              ],
+              "grading_notes": "Accept minor rounding differences that lead to the same final prediction.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Simple Linear Regression and Cost Function", "page": 44, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Gradient Descent Algorithm",
+          "questions": [
+            {
+              "question_id": "L03-Q007",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the primary goal of gradient descent in machine learning?",
+              "options": [
+                { "option_id": "A", "text": "To increase the values of parameters" },
+                { "option_id": "B", "text": "To maximize the cost function" },
+                { "option_id": "C", "text": "To minimize the cost function" },
+                { "option_id": "D", "text": "To reduce the number of features" }
+              ],
+              "correct_answer": "C",
+              "explanation": "Gradient descent iteratively updates parameters to minimize the cost function J(θ₀, θ₁).",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Gradient Descent Algorithm", "page": 41, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q008",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What happens when the learning rate α is too high in gradient descent?",
+              "options": [
+                { "option_id": "A", "text": "The cost function J reaches the minimum point smoothly" },
+                { "option_id": "B", "text": "The updates become drastic, possibly leading to divergence" },
+                { "option_id": "C", "text": "The model converges to the optimal solution faster" },
+                { "option_id": "D", "text": "The learning rate does not affect the outcome" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that too large a learning rate causes drastic updates which lead to divergent behaviors.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Gradient Descent Algorithm", "page": 42, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q009",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the effect of a very small learning rate α in linear regression?",
+              "options": [
+                { "option_id": "A", "text": "It causes the model to converge too quickly" },
+                { "option_id": "B", "text": "It leads to overfitting of the model" },
+                { "option_id": "C", "text": "It takes a long time to reach the minimum of J(θ₀, θ₁)" },
+                { "option_id": "D", "text": "It leads to large fluctuations in the cost function" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that a small learning rate requires many updates before reaching the minimum point.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Gradient Descent Algorithm", "page": 42, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q010",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "The 'optimal learning rate' is defined as:",
+              "options": [
+                { "option_id": "A", "text": "A rate that converges slowly but guarantees accuracy" },
+                { "option_id": "B", "text": "A rate that causes drastic updates to reach the minimum quickly" },
+                { "option_id": "C", "text": "A rate that allows reaching the minimum of J(θ) smoothly and efficiently" },
+                { "option_id": "D", "text": "A rate that makes the cost function increase over time" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture describes the optimal learning rate as one that swiftly reaches the minimum point smoothly.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Gradient Descent Algorithm", "page": 42, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q011",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Gradient descent uses iterative steps to find the required parameters.",
+              "correct_answer": true,
+              "explanation": "The lecture states gradient descent uses iterative steps to find the required parameters.",
+              "correction": null,
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Gradient Descent Algorithm", "page": 14, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q012",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "The Normal Equation requires choosing a learning rate α and many iterations.",
+              "correct_answer": false,
+              "explanation": "The Normal Equation does not need to choose α and does not need to iterate; it computes parameters directly.",
+              "correction": "The Normal Equation does not require choosing α or iterating; it computes parameters directly.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Gradient Descent Algorithm", "page": 18, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Multivariate and Polynomial Regression",
+          "questions": [
+            {
+              "question_id": "L03-Q013",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In multivariate linear regression, the hypothesis function is:",
+              "options": [
+                { "option_id": "A", "text": "θ₀ + θ₁x₁" },
+                { "option_id": "B", "text": "θ₀ + θ₁x₁ + θ₂x₂" },
+                { "option_id": "C", "text": "θ₀ + θ₁x₁ + θ₂x₂ + θ₃x₃ + ... + θₙxₙ" },
+                { "option_id": "D", "text": "θₙxₙ" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines the multivariate hypothesis as hθ(x) = θ₀ + θ₁x₁ + θ₂x₂ + θ₃x₃ + ... + θₙxₙ.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Multivariate and Polynomial Regression", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q014",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which method is preferred if the number of features (n) is large?",
+              "options": [
+                { "option_id": "A", "text": "Normal Equation" },
+                { "option_id": "B", "text": "Gradient Descent" },
+                { "option_id": "C", "text": "Both are equally suitable" },
+                { "option_id": "D", "text": "Neither method is suitable for large n" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states gradient descent works well even when n is large (one choice >>10000), while the Normal Equation is slow if n is very large.",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Multivariate and Polynomial Regression", "page": 18, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q015",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Why might the Normal Equation be slower than Gradient Descent?",
+              "options": [
+                { "option_id": "A", "text": "It requires many iterations" },
+                { "option_id": "B", "text": "It must compute the inverse of (XᵀX)" },
+                { "option_id": "C", "text": "It requires choosing a learning rate" },
+                { "option_id": "D", "text": "It requires feature scaling" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states the Normal Equation needs to compute (XᵀX)⁻¹ and is slow if n is very large, approximately O(n³).",
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Multivariate and Polynomial Regression", "page": 18, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q016",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Polynomial regression is suitable when the data isn't linear and its graph looks like a curve.",
+              "correct_answer": true,
+              "explanation": "The lecture states polynomial regression is suitable when the data isn't linear and the graph looks like a curve.",
+              "correction": null,
+              "source": { "lecture": "Linear Regression and Gradient Descent", "topic": "Multivariate and Polynomial Regression", "page": 23, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 4,
+      "lecture_title": "Classification and Logistic Regression",
+      "topics": [
+        {
+          "topic_name": "Classification Fundamentals",
+          "questions": [
+            {
+              "question_id": "L04-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "The algorithm which implements classification on a dataset is known as a:",
+              "options": [
+                { "option_id": "A", "text": "Regressor" },
+                { "option_id": "B", "text": "Clusterer" },
+                { "option_id": "C", "text": "Classifier" },
+                { "option_id": "D", "text": "Dimensional Reducer" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that the algorithm which implements classification on a dataset is known as a classifier.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Classification Fundamentals", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "If a classification problem has only two possible outcomes, it is called a:",
+              "options": [
+                { "option_id": "A", "text": "Multi-class classifier" },
+                { "option_id": "B", "text": "Binary classifier" },
+                { "option_id": "C", "text": "Multi-label classifier" },
+                { "option_id": "D", "text": "Regression model" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a binary classifier as having only two possible outcomes, such as YES or NO, MALE or FEMALE, CAT or DOG.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Classification Fundamentals", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "If a classification problem has more than two outcomes, it is called a:",
+              "options": [
+                { "option_id": "A", "text": "Binary classifier" },
+                { "option_id": "B", "text": "Multi-class classifier" },
+                { "option_id": "C", "text": "Unsupervised classifier" },
+                { "option_id": "D", "text": "Regression model" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a multi-class classifier as having more than two outcomes, such as classifications of types of crops or careers.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Classification Fundamentals", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In multi-label classification, what is the main difference compared to binary or multi-class classification?",
+              "options": [
+                { "option_id": "A", "text": "Each example is assigned exactly one class" },
+                { "option_id": "B", "text": "Each example can be assigned zero or more classes" },
+                { "option_id": "C", "text": "Only continuous target variables are used" },
+                { "option_id": "D", "text": "Only two classes are possible" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that in multi-label classification, we try to predict 0 or more classes for each input example, and there is no mutual exclusion.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Classification Fundamentals", "page": 23, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q005",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is NOT typically used in multi-label classification?",
+              "options": [
+                { "option_id": "A", "text": "Multi-label Decision Trees" },
+                { "option_id": "B", "text": "Multi-label Gradient Boosting" },
+                { "option_id": "C", "text": "One-versus-rest strategy" },
+                { "option_id": "D", "text": "K-Means Clustering" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture lists multi-label Decision Trees, multi-label Gradient Boosting, and multi-label Random Forests. K-Means Clustering is an unsupervised clustering algorithm, not a multi-label classifier.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Classification Fundamentals", "page": 25, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q006",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "In a multi-label classification problem, an image can contain multiple objects and the model can predict more than one label for the same image.",
+              "correct_answer": true,
+              "explanation": "The lecture states that an image can contain multiple objects, and the model can predict a plane, a boat, a truck, and a dog for the same image.",
+              "correction": null,
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Classification Fundamentals", "page": 23, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q007",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the difference between binary, multi-class, and multi-label classification, and describe one strategy for adapting binary classifiers to multi-class problems.",
+              "max_score": 10,
+              "model_answer": "Binary classification has only two possible outcomes (e.g., YES/NO, MALE/FEMALE, spam/not spam). Multi-class classification has more than two outcomes (e.g., classifying crops or careers), where each example belongs to exactly one class. Multi-label classification predicts 0 or more classes for each example, with no mutual exclusion (e.g., an image can contain a plane, boat, truck, and dog; a text document can have multiple topics). To adapt binary classifiers to multi-class problems, we can use one-versus-one or one-versus-rest approaches. One-versus-one trains as many classifiers as there are pairs of labels: for N labels, N×(N-1)/2 classifiers, with the final class predicted by majority vote. One-versus-rest trains N binary classifiers, each distinguishing one label from the rest.",
+              "grading_rubric": [
+                { "criterion": "Binary classification", "description": "Defines binary classification as two possible outcomes and gives an example.", "points": 2 },
+                { "criterion": "Multi-class classification", "description": "Defines multi-class as more than two outcomes with one class per example and gives an example.", "points": 2 },
+                { "criterion": "Multi-label classification", "description": "Defines multi-label as zero or more classes per example with no mutual exclusion and gives an example.", "points": 2 },
+                { "criterion": "One-versus-one or one-versus-rest", "description": "Explains at least one strategy for adapting binary classifiers to multi-class problems.", "points": 4 }
+              ],
+              "grading_notes": "Accept either one-versus-one or one-versus-rest, or both, with correct classifier counts.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Classification Fundamentals", "page": 21, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Logistic Regression",
+          "questions": [
+            {
+              "question_id": "L04-Q008",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following statements about logistic regression is true?",
+              "options": [
+                { "option_id": "A", "text": "It provides exact binary values, either 0 or 1" },
+                { "option_id": "B", "text": "It predicts continuous output values" },
+                { "option_id": "C", "text": "It gives probabilistic values that lie between 0 and 1" },
+                { "option_id": "D", "text": "It is used for clustering tasks" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states logistic regression gives probabilistic values which lie between 0 and 1, not exact values.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Logistic Regression", "page": 29, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q009",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What type of logistic regression is suitable for predicting categories like 'Low,' 'Medium,' and 'High'?",
+              "options": [
+                { "option_id": "A", "text": "Binomial" },
+                { "option_id": "B", "text": "Multinomial" },
+                { "option_id": "C", "text": "Ordinal" },
+                { "option_id": "D", "text": "Continuous" }
+              ],
+              "correct_answer": "C",
+              "explanation": "Ordinal logistic regression is for 3 or more possible ordered types of dependent variables, such as 'low', 'Medium', or 'High'.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Logistic Regression", "page": 29, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q010",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What function is used in logistic regression to map values to a probability between 0 and 1?",
+              "options": [
+                { "option_id": "A", "text": "Linear function" },
+                { "option_id": "B", "text": "Exponential function" },
+                { "option_id": "C", "text": "Sigmoid function" },
+                { "option_id": "D", "text": "Logarithmic function" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states the most suitable function is the sigmoid function (also called S-curve), y = 1 / (1 + e⁻ˣ), whose output is between 0 and 1.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Logistic Regression", "page": 32, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q011",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "The output of the sigmoid function for logistic regression ranges between:",
+              "options": [
+                { "option_id": "A", "text": "-1 and 1" },
+                { "option_id": "B", "text": "0 and 1" },
+                { "option_id": "C", "text": "-∞ and ∞" },
+                { "option_id": "D", "text": "0 and ∞" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states the output of the sigmoid function is between 0 and 1, like a probability.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Logistic Regression", "page": 32, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q012",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In logistic regression, which equation represents the hypothesis function?",
+              "options": [
+                { "option_id": "A", "text": "h(x) = θ₀ + θ₁x" },
+                { "option_id": "B", "text": "h(x) = 1 / (1 + e^(-θᵀX))" },
+                { "option_id": "C", "text": "h(x) = e^(θ₀ + θ₁x)" },
+                { "option_id": "D", "text": "h(x) = θ₀ - θ₁x" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states the hypothesis function of logistic regression is y = p = 1 / (1 + e^(-θᵀX)).",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Logistic Regression", "page": 32, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q013",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "In logistic regression, the sigmoid function maps a real value to the range (0, 1).",
+              "correct_answer": true,
+              "explanation": "The lecture states the sigmoid function y = 1 / (1 + e⁻ˣ) maps a real value to between 0 and 1.",
+              "correction": null,
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Logistic Regression", "page": 32, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q014",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Logistic regression is used for regression tasks with continuous output variables.",
+              "correct_answer": false,
+              "explanation": "Logistic regression is used for classification problems with categorical dependent variables, predicting probabilistic values between 0 and 1.",
+              "correction": "Logistic regression is used for classification problems, not regression with continuous outputs.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Logistic Regression", "page": 29, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Lazy vs Eager Learners and Imbalanced Classification",
+          "questions": [
+            {
+              "question_id": "L04-Q015",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is an example of a lazy learner algorithm?",
+              "options": [
+                { "option_id": "A", "text": "Logistic Regression" },
+                { "option_id": "B", "text": "Support Vector Machine" },
+                { "option_id": "C", "text": "K-Nearest Neighbor" },
+                { "option_id": "D", "text": "Decision Tree" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists K-Nearest Neighbor and Case-based reasoning as examples of lazy learners.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Lazy vs Eager Learners and Imbalanced Classification", "page": 28, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q016",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the main characteristic of lazy learners in machine learning?",
+              "options": [
+                { "option_id": "A", "text": "They build a model immediately during training" },
+                { "option_id": "B", "text": "They make predictions quickly after training" },
+                { "option_id": "C", "text": "They memorize the training data and search for the nearest neighbor during prediction" },
+                { "option_id": "D", "text": "They require more time to train but less time to predict" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states lazy learners do not create a model immediately; they memorize the training data and search for the nearest neighbor during prediction, making them very slow during prediction.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Lazy vs Eager Learners and Imbalanced Classification", "page": 28, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q017",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is NOT an example of an eager learner?",
+              "options": [
+                { "option_id": "A", "text": "Logistic Regression" },
+                { "option_id": "B", "text": "Support Vector Machine" },
+                { "option_id": "C", "text": "Case-based reasoning" },
+                { "option_id": "D", "text": "Artificial Neural Networks" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists Case-based reasoning as a lazy learner, while Logistic Regression, SVM, Decision Trees, and ANN are eager learners.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Lazy vs Eager Learners and Imbalanced Classification", "page": 27, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q018",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following techniques can be used to handle imbalanced classification problems?",
+              "options": [
+                { "option_id": "A", "text": "Sampling techniques" },
+                { "option_id": "B", "text": "Cost-sensitive algorithms" },
+                { "option_id": "C", "text": "Dimensionality reduction" },
+                { "option_id": "D", "text": "Both A and B" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture states the most commonly used approaches include sampling techniques or harnessing the power of cost-sensitive algorithms.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Lazy vs Eager Learners and Imbalanced Classification", "page": 26, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q019",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Fraudulent transaction detection and rare disease diagnosis are examples of imbalanced classification problems.",
+              "correct_answer": true,
+              "explanation": "The lecture lists fraudulent transaction detections in financial industries, rare disease diagnosis, and customer churn analysis as imbalanced classification scenarios.",
+              "correction": null,
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Lazy vs Eager Learners and Imbalanced Classification", "page": 26, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q020",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Compare eager learners and lazy learners in machine learning, giving at least two examples of each and explaining when each type is advantageous.",
+              "max_score": 10,
+              "model_answer": "Eager learners are machine learning algorithms that first build a model from the training dataset before making any prediction on future datasets. They spend more time during training to achieve better generalization, but require less time to make predictions. Examples include Logistic Regression, Support Vector Machine, Decision Trees, and Artificial Neural Networks. Lazy learners (instance-based learners) do not create any model immediately from the training data; they memorize the training data and search for the nearest neighbor from the whole training data each time a prediction is needed, making them very slow during prediction. Examples include K-Nearest Neighbor and Case-based reasoning. Eager learners are advantageous when fast prediction is needed after training, while lazy learners can be advantageous when the training data changes frequently or when quick training is desired at the expense of slow prediction.",
+              "grading_rubric": [
+                { "criterion": "Eager learner definition", "description": "Defines eager learners as building a model from training data before prediction.", "points": 2 },
+                { "criterion": "Eager learner examples", "description": "Gives at least two examples such as Logistic Regression, SVM, Decision Trees, or ANN.", "points": 1 },
+                { "criterion": "Lazy learner definition", "description": "Defines lazy learners as memorizing data and searching during prediction without building a model immediately.", "points": 2 },
+                { "criterion": "Lazy learner examples", "description": "Gives at least two examples such as K-Nearest Neighbor and Case-based reasoning.", "points": 1 },
+                { "criterion": "Advantage comparison", "description": "Explains trade-offs in training and prediction time.", "points": 4 }
+              ],
+              "grading_notes": "Accept accurate comparisons of training and prediction times for each type.",
+              "source": { "lecture": "Classification and Logistic Regression", "topic": "Lazy vs Eager Learners and Imbalanced Classification", "page": 27, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 60,
+    "mcq_count": 36,
+    "true_false_count": 15,
+    "essay_count": 9,
+    "easy_count": 24,
+    "medium_count": 25,
+    "hard_count": 11,
+    "needs_review_count": 0
+  }
+}

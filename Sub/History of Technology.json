@@ -1,0 +1,633 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "History of Technology"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Engineering and Technology: Concepts and Evolution",
+      "topics": [
+        {
+          "topic_name": "Engineering in Ancient and Medieval Times",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following was a manifestation of engineering in ancient times?",
+              "options": [
+                { "option_id": "A", "text": "Building the pyramids, temples, and obelisks in ancient Egypt" },
+                { "option_id": "B", "text": "Development of the internet" },
+                { "option_id": "C", "text": "Design of electric vehicles" },
+                { "option_id": "D", "text": "Development of 5G networks" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that ancient engineering included building the pyramids, temples, and obelisks in ancient Egypt.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Engineering in Ancient and Medieval Times", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which field of engineering in ancient times involved the construction of canals, channels, and reservoirs?",
+              "options": [
+                { "option_id": "A", "text": "Astronomical engineering" },
+                { "option_id": "B", "text": "Water management and irrigation engineering" },
+                { "option_id": "C", "text": "Military engineering" },
+                { "option_id": "D", "text": "Mechanical engineering" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that water management and irrigation engineering in ancient times included creating canals, channels, and reservoirs, and building dams to regulate the Nile.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Engineering in Ancient and Medieval Times", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following was a contribution of Islamic civilization to engineering in the medieval period?",
+              "options": [
+                { "option_id": "A", "text": "Development of water wheels and norias for raising water" },
+                { "option_id": "B", "text": "Invention of the steam engine" },
+                { "option_id": "C", "text": "Development of the internet" },
+                { "option_id": "D", "text": "Invention of the airplane" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that medieval Islamic civilization developed water wheels and norias (water-raising machines) for raising water.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Engineering in Ancient and Medieval Times", "page": 2, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Al-Jazari, Al-Khwarizmi, Ibn al-Haytham, and Al-Biruni were among the prominent scholars of the Islamic civilization who contributed to engineering and science.",
+              "correct_answer": true,
+              "explanation": "The lecture lists Al-Jazari, Al-Khwarizmi, Ibn al-Haytham, and Al-Biruni as prominent scholars of the Islamic civilization.",
+              "correction": null,
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Engineering in Ancient and Medieval Times", "page": 2, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "In ancient times, the need for construction, irrigation, agriculture, transportation, and defense led to the emergence and development of engineering.",
+              "correct_answer": true,
+              "explanation": "The lecture summarizes that in ancient times, the need for construction, irrigation, agriculture, transportation, and defense led to the emergence and development of engineering.",
+              "correction": null,
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Engineering in Ancient and Medieval Times", "page": 2, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q006",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Describe the main manifestations of engineering in ancient times and in the medieval period.",
+              "max_score": 10,
+              "model_answer": "In ancient times, engineering manifestations included: 1) Architecture and construction (pyramids, temples, obelisks, cities, castles, palaces using stone and brick); 2) Water management and irrigation (canals, channels, reservoirs, water-lifting devices, dams for the Nile); 3) Civil engineering (roads, bridges, city planning, public facilities, ports); 4) Mechanical engineering (wheels, pulleys, levers, simple machines for lifting and moving loads); 5) Astronomical engineering (astronomical calculations for time and seasons, structures aligned with the sun and stars); 6) Military engineering (fortresses, walls, war and defense machines). In the medieval period, engineering manifestations included: 1) Architecture and structures (mosques, churches, palaces, castles, Islamic architecture with arches, domes, minarets); 2) Water engineering (canals, irrigation systems, water wheels and norias, water distribution within cities); 3) Mechanical engineering (water mills, windmills, gears, mechanical machines); 4) Civil engineering (bridges, roads, sanitation systems, castles, fortifications, walls); 5) Marine engineering (shipbuilding, navigation, astronomical instruments for direction and location); 6) Development of science and engineering in Islamic civilization (contributions to mathematics, astronomy, mechanics, engineering, medicine; water machines, clocks, mechanical devices; scholars such as Al-Jazari, Al-Khwarizmi, Ibn al-Haytham, and Al-Biruni).",
+              "grading_rubric": [
+                { "criterion": "Ancient architecture and construction", "description": "Mentions pyramids, temples, cities, castles, and use of stone and brick.", "points": 1 },
+                { "criterion": "Ancient water management", "description": "Mentions canals, channels, reservoirs, and dams.", "points": 1 },
+                { "criterion": "Ancient civil engineering", "description": "Mentions roads, bridges, city planning, and ports.", "points": 1 },
+                { "criterion": "Ancient mechanical and military engineering", "description": "Mentions wheels, pulleys, levers, fortresses, and war machines.", "points": 1 },
+                { "criterion": "Medieval architecture", "description": "Mentions mosques, churches, Islamic architecture with arches, domes, and minarets.", "points": 1 },
+                { "criterion": "Medieval water engineering", "description": "Mentions canals, irrigation, water wheels, norias, and water distribution.", "points": 1 },
+                { "criterion": "Medieval mechanical engineering", "description": "Mentions water mills, windmills, gears, and mechanical machines.", "points": 1 },
+                { "criterion": "Medieval civil and marine engineering", "description": "Mentions bridges, roads, sanitation, castles, shipbuilding, and navigation.", "points": 1 },
+                { "criterion": "Islamic civilization contributions", "description": "Mentions contributions to mathematics, astronomy, mechanics, and scholars like Al-Jazari and Al-Khwarizmi.", "points": 2 }
+              ],
+              "grading_notes": "Accept any accurate description of the manifestations from the lecture, covering both ancient and medieval periods.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Engineering in Ancient and Medieval Times", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Definition and Characteristics of Modern Engineering",
+          "questions": [
+            {
+              "question_id": "L01-Q007",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Engineering is defined as:",
+              "options": [
+                { "option_id": "A", "text": "The science and art and profession of applying science, mathematics, and technical knowledge to design, develop, analyze, implement, operate, and improve systems, structures, machines, products, and processes to solve problems and meet human needs" },
+                { "option_id": "B", "text": "The study of natural phenomena only" },
+                { "option_id": "C", "text": "The use of computers for programming only" },
+                { "option_id": "D", "text": "The construction of buildings only" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines engineering as the science, art, and profession of applying science, mathematics, and technical knowledge to design, develop, analyze, implement, operate, and improve systems, structures, machines, products, and processes, with consideration for safety, efficiency, economy, environment, and sustainability.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Characteristics of Modern Engineering", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q008",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is NOT a characteristic of modern engineering?",
+              "options": [
+                { "option_id": "A", "text": "Reliance on science and mathematics" },
+                { "option_id": "B", "text": "Use of technology and computers" },
+                { "option_id": "C", "text": "Ignoring safety and environmental concerns" },
+                { "option_id": "D", "text": "Problem solving" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists safety and environmental sustainability as key characteristics of modern engineering. Ignoring them is not a characteristic.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Characteristics of Modern Engineering", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q009",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What does the term 'sustainable engineering' refer to?",
+              "options": [
+                { "option_id": "A", "text": "Engineering that focuses only on cost reduction" },
+                { "option_id": "B", "text": "Engineering that reduces negative environmental impact through energy efficiency, renewable energy, pollution reduction, recycling, and sustainable design" },
+                { "option_id": "C", "text": "Engineering that only builds tall buildings" },
+                { "option_id": "D", "text": "Engineering that uses only manual labor" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that modern engineering cares about reducing negative environmental impact, including reducing energy consumption, using renewable energy, reducing pollution, recycling materials, reducing waste, and designing more sustainable products. This led to the emergence of sustainable engineering.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Characteristics of Modern Engineering", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q010",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Modern engineering is limited to building buildings and roads or designing machines.",
+              "correct_answer": false,
+              "explanation": "The lecture states that modern engineering is no longer limited to building buildings, roads, or designing machines; it has become a broad field entering almost all aspects of life.",
+              "correction": "Modern engineering is a broad field that enters almost all aspects of life, not limited to buildings, roads, or machines.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Characteristics of Modern Engineering", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q011",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Modern engineering seeks a balance between performance, safety, quality, and cost effectiveness.",
+              "correct_answer": true,
+              "explanation": "The lecture states that a good engineering solution must achieve performance, safety, quality, and cost effectiveness.",
+              "correction": null,
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Characteristics of Modern Engineering", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q012",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the main characteristics of modern engineering and the steps a modern engineer follows to solve a problem.",
+              "max_score": 10,
+              "model_answer": "The main characteristics of modern engineering include: 1) Reliance on science and mathematics (mathematics, physics, chemistry, computer science, materials science, statistics). 2) Use of technology and computers (CAD, CAM, CAE, simulation, AI, machine learning, digital twin, data analysis). 3) Problem solving (using knowledge to reach practical solutions). 4) Achieving a balance between performance, safety, quality, and cost effectiveness. 5) Attention to safety (ensuring systems are safe to use). 6) Attention to the environment and sustainability (reducing energy consumption, using renewable energy, reducing pollution, recycling, reducing waste, designing sustainable products). The steps a modern engineer follows are: 1) Identify the problem or need. 2) Analyze the problem using mathematics, physics, science, and computers, and study alternatives. 3) Design by converting the idea into an engineering design using design, simulation, and modeling programs. 4) Implementation by converting the design into a real product, system, or facility. 5) Testing and evaluation to ensure the design works correctly and safely and to measure performance against specifications. 6) Improvement and development to reduce cost, increase efficiency, improve quality and safety, and reduce energy and material consumption.",
+              "grading_rubric": [
+                { "criterion": "Reliance on science and mathematics", "description": "Lists mathematics, physics, chemistry, computer science, materials science, statistics.", "points": 2 },
+                { "criterion": "Use of technology and computers", "description": "Lists CAD, CAM, simulation, AI, and data analysis.", "points": 1 },
+                { "criterion": "Problem solving and balance", "description": "Explains problem solving and the balance between performance, safety, quality, and cost.", "points": 2 },
+                { "criterion": "Safety and sustainability", "description": "Explains attention to safety and environmental sustainability.", "points": 1 },
+                { "criterion": "Steps of problem solving", "description": "Lists identify, analyze, design, implement, test, and improve.", "points": 4 }
+              ],
+              "grading_notes": "Accept any accurate explanation of the characteristics and steps from the lecture.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Characteristics of Modern Engineering", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "The Engineer: Role, Qualities, and Fields",
+          "questions": [
+            {
+              "question_id": "L01-Q013",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the main difference between a scientist and an engineer?",
+              "options": [
+                { "option_id": "A", "text": "The scientist discovers and explains natural laws and phenomena, while the engineer applies scientific knowledge to design and develop useful things for humans" },
+                { "option_id": "B", "text": "The scientist designs machines, while the engineer discovers laws" },
+                { "option_id": "C", "text": "There is no difference between them" },
+                { "option_id": "D", "text": "The engineer only works in laboratories" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that the scientist is primarily concerned with discovering and understanding natural laws and phenomena, while the engineer uses existing scientific knowledge to design and develop something useful for humans.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "The Engineer: Role, Qualities, and Fields", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q014",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a quality that a modern engineer should possess?",
+              "options": [
+                { "option_id": "A", "text": "Scientific knowledge, analytical thinking, problem solving, creativity, and communication skills" },
+                { "option_id": "B", "text": "Only knowledge of mathematics" },
+                { "option_id": "C", "text": "Only practical skills without theoretical knowledge" },
+                { "option_id": "D", "text": "Only computer programming skills" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture lists scientific knowledge, analytical thinking, problem solving, creativity and innovation, use of computers and technology, communication, teamwork, and professional ethics as qualities of a modern engineer.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "The Engineer: Role, Qualities, and Fields", "page": 8, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q015",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which engineering field deals with the design of buildings and structures?",
+              "options": [
+                { "option_id": "A", "text": "Mechanical engineering" },
+                { "option_id": "B", "text": "Architectural engineering" },
+                { "option_id": "C", "text": "Electrical engineering" },
+                { "option_id": "D", "text": "Chemical engineering" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture's table lists architectural engineering as the field for designing buildings and structures.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "The Engineer: Role, Qualities, and Fields", "page": 9, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q016",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Modern engineering projects are often carried out by a single engineer.",
+              "correct_answer": false,
+              "explanation": "The lecture states that modern engineering projects are often not carried out by one person but by an integrated team.",
+              "correction": "Modern engineering projects are often carried out by an integrated team, not by a single engineer.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "The Engineer: Role, Qualities, and Fields", "page": 9, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q017",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Professional ethics is not important for engineers because their decisions do not affect human life or the environment.",
+              "correct_answer": false,
+              "explanation": "The lecture states that the engineer is responsible for decisions that may affect human life, the safety of structures, the environment, and the economy, so they must have honesty and professional responsibility.",
+              "correction": "Professional ethics is very important because engineers' decisions can affect human life, safety, the environment, and the economy.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "The Engineer: Role, Qualities, and Fields", "page": 9, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q018",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Describe the qualities that a modern engineer should possess and explain why each is important.",
+              "max_score": 10,
+              "model_answer": "A modern engineer should possess: 1) Scientific knowledge (mathematics, physics, chemistry, engineering sciences) to understand and analyze problems. 2) Analytical thinking to break down problems into parts. 3) Problem-solving ability to reach practical and innovative solutions. 4) Creativity and innovation to develop new solutions rather than repeating traditional ones. 5) Use of computers and technology (programming, CAD, simulation, AI, data analysis) to design and analyze efficiently. 6) Communication skills to communicate with engineers, technicians, managers, clients, and researchers. 7) Teamwork because modern engineering projects are usually carried out by integrated teams. 8) Professional ethics because engineers are responsible for decisions that may affect human life, the safety of structures, the environment, and the economy, so they must have honesty and professional responsibility.",
+              "grading_rubric": [
+                { "criterion": "Scientific knowledge", "description": "Mentions mathematics, physics, chemistry, and engineering sciences.", "points": 1 },
+                { "criterion": "Analytical thinking", "description": "Mentions breaking problems into parts.", "points": 1 },
+                { "criterion": "Problem solving", "description": "Mentions reaching practical and innovative solutions.", "points": 1 },
+                { "criterion": "Creativity and innovation", "description": "Mentions developing new solutions.", "points": 1 },
+                { "criterion": "Computer and technology skills", "description": "Mentions programming, CAD, simulation, AI, data analysis.", "points": 2 },
+                { "criterion": "Communication and teamwork", "description": "Mentions communication with various stakeholders and working in teams.", "points": 2 },
+                { "criterion": "Professional ethics", "description": "Mentions responsibility for decisions affecting human life, safety, environment, and economy.", "points": 2 }
+              ],
+              "grading_notes": "Accept any accurate description of the qualities and their importance from the lecture.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "The Engineer: Role, Qualities, and Fields", "page": 8, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Definition and Goals of Technology",
+          "questions": [
+            {
+              "question_id": "L01-Q019",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Technology is defined as:",
+              "options": [
+                { "option_id": "A", "text": "Only computers and mobile phones" },
+                { "option_id": "B", "text": "The use of scientific and practical knowledge, skills, tools, machines, and systems to develop solutions that help humans solve problems, meet needs, and accomplish tasks more efficiently, quickly, and accurately" },
+                { "option_id": "C", "text": "The study of natural phenomena only" },
+                { "option_id": "D", "text": "The construction of buildings only" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines technology as the use of scientific and practical knowledge, skills, tools, machines, and systems to develop solutions that help humans solve problems, meet needs, and accomplish tasks more efficiently, quickly, and accurately.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Goals of Technology", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q020",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "The word 'Technology' comes from Greek roots. What do 'Techne' and 'Logos' mean?",
+              "options": [
+                { "option_id": "A", "text": "Techne means art, skill, craft, or the way of mastering work; Logos means science, knowledge, or study" },
+                { "option_id": "B", "text": "Techne means machine; Logos means computer" },
+                { "option_id": "C", "text": "Techne means electricity; Logos means network" },
+                { "option_id": "D", "text": "Techne means building; Logos means design" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that Techne means art, skill, craft, or the way of mastering work, and Logos means science, knowledge, or study.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Goals of Technology", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q021",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a goal of technology?",
+              "options": [
+                { "option_id": "A", "text": "Saving time, increasing speed, increasing accuracy, and increasing productivity" },
+                { "option_id": "B", "text": "Increasing pollution and waste" },
+                { "option_id": "C", "text": "Reducing safety" },
+                { "option_id": "D", "text": "Making life more difficult" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture lists saving time, increasing speed, increasing accuracy, increasing productivity, reducing cost, improving product quality, improving safety, and facilitating human life as goals of technology.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Goals of Technology", "page": 14, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q022",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Technology only refers to computers and mobile phones.",
+              "correct_answer": false,
+              "explanation": "The lecture states that technology is not just computers or mobile phones; it is a much broader concept that includes tools, machines, software, processes, systems, and ways of working developed by humans to serve specific goals.",
+              "correction": "Technology is a broad concept that includes tools, machines, software, processes, systems, and ways of working, not just computers and mobile phones.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Goals of Technology", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q023",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Technology is a modern concept that began with computers and the internet.",
+              "correct_answer": false,
+              "explanation": "The lecture states that it is wrong to believe that technology began with computers and the internet; humans have used technology for thousands of years (stone tools, the wheel, boats, irrigation systems, writing, metals, construction tools, mills).",
+              "correction": "Technology is not a modern concept; humans have used technology for thousands of years, and modern technology relies heavily on science, engineering, computing, electronics, and automation.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Goals of Technology", "page": 20, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q024",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain the meaning of technology, its linguistic origins, and its main goals.",
+              "max_score": 10,
+              "model_answer": "Technology is the use of scientific and practical knowledge, skills, tools, machines, and systems to develop solutions that help humans solve problems, meet needs, and accomplish tasks more efficiently, quickly, and accurately. The word 'Technology' comes from Greek roots: Techne means art, skill, craft, or the way of mastering work, and Logos means science, knowledge, or study. Therefore, technology is associated with knowledge and skill related to applying, making, and using things in a practical way. Technology is not just devices; it includes knowledge, skills, methods, tools, machines, software, processes, systems, and ways of working. The main goals of technology are: 1) Saving time. 2) Increasing speed. 3) Increasing accuracy. 4) Increasing productivity. 5) Reducing cost. 6) Improving product quality. 7) Improving safety. 8) Facilitating human life.",
+              "grading_rubric": [
+                { "criterion": "Definition of technology", "description": "Explains technology as the use of knowledge, skills, tools, machines, and systems to solve problems.", "points": 3 },
+                { "criterion": "Linguistic origins", "description": "Explains Techne (art, skill, craft) and Logos (science, knowledge, study).", "points": 2 },
+                { "criterion": "Technology is not just devices", "description": "Explains it includes tools, knowledge, skills, processes, and systems.", "points": 2 },
+                { "criterion": "Goals of technology", "description": "Lists at least four goals such as saving time, increasing speed, accuracy, productivity, reducing cost, improving quality, improving safety, facilitating life.", "points": 3 }
+              ],
+              "grading_notes": "Accept any accurate explanation based on the lecture.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Definition and Goals of Technology", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Relationship Between Science, Engineering, and Technology",
+          "questions": [
+            {
+              "question_id": "L01-Q025",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the correct relationship between science, engineering, and technology?",
+              "options": [
+                { "option_id": "A", "text": "Science discovers → Engineering designs → Technology applies → Society benefits" },
+                { "option_id": "B", "text": "Technology discovers → Science designs → Engineering applies → Society benefits" },
+                { "option_id": "C", "text": "Engineering discovers → Technology designs → Science applies → Society benefits" },
+                { "option_id": "D", "text": "Science applies → Engineering discovers → Technology designs → Society benefits" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture summarizes the relationship as: Science discovers → Engineering designs → Technology applies → Society benefits.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Relationship Between Science, Engineering, and Technology", "page": 24, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q026",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following correctly describes the role of engineering in the science-engineering-technology relationship?",
+              "options": [
+                { "option_id": "A", "text": "Engineering uses scientific knowledge to design a solution for a specific problem" },
+                { "option_id": "B", "text": "Engineering only discovers natural laws" },
+                { "option_id": "C", "text": "Engineering only manufactures products" },
+                { "option_id": "D", "text": "Engineering only studies the environment" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that engineering uses scientific knowledge to design a solution for a specific problem, such as designing an electronic circuit or antenna.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Relationship Between Science, Engineering, and Technology", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q027",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Technology converts designs and knowledge into a practical product, system, or method that can be used.",
+              "correct_answer": true,
+              "explanation": "The lecture states that technology converts design and knowledge into a product, system, or practical method that is usable.",
+              "correction": null,
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Relationship Between Science, Engineering, and Technology", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q028",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the relationship between science, engineering, and technology using a concrete example such as the development of a mobile phone.",
+              "max_score": 10,
+              "model_answer": "The relationship can be summarized as: Science discovers → Engineering designs → Technology applies → Society benefits. Using a mobile phone as an example: Science studies electricity, electromagnetic waves, semiconductors, and physics. Engineering uses this science to design electronic circuits, the processor, the antenna, the communication system, and the battery. Technology assembles this knowledge and these designs into smartphone technology. Finally, society uses the phone for communication, internet, photography, education, and work. Thus, science discovers the underlying principles, engineering designs practical solutions, technology applies them into usable products and systems, and society benefits from the final application.",
+              "grading_rubric": [
+                { "criterion": "Science discovers", "description": "Explains that science studies electricity, electromagnetic waves, semiconductors, and physics.", "points": 2 },
+                { "criterion": "Engineering designs", "description": "Explains that engineering designs circuits, processor, antenna, communication system, and battery.", "points": 2 },
+                { "criterion": "Technology applies", "description": "Explains that technology assembles knowledge and designs into smartphone technology.", "points": 2 },
+                { "criterion": "Society benefits", "description": "Explains that society uses the phone for communication, internet, photography, education, and work.", "points": 2 },
+                { "criterion": "Overall relationship", "description": "States the relationship Science → Engineering → Technology → Application.", "points": 2 }
+              ],
+              "grading_notes": "Accept any valid example that correctly applies the relationship from the lecture.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Relationship Between Science, Engineering, and Technology", "page": 24, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Types of Technology and Modern Trends",
+          "questions": [
+            {
+              "question_id": "L01-Q029",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which type of technology includes computers, software, databases, networks, and information systems?",
+              "options": [
+                { "option_id": "A", "text": "Information Technology (IT)" },
+                { "option_id": "B", "text": "Communication Technology" },
+                { "option_id": "C", "text": "Medical Technology" },
+                { "option_id": "D", "text": "Industrial Technology" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that Information Technology (IT) includes computers, software, databases, networks, and information systems.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Types of Technology and Modern Trends", "page": 18, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q030",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a modern technology trend?",
+              "options": [
+                { "option_id": "A", "text": "Artificial Intelligence (AI), Internet of Things (IoT), Cloud Computing, Big Data" },
+                { "option_id": "B", "text": "Stone tools and the wheel" },
+                { "option_id": "C", "text": "Manual farming only" },
+                { "option_id": "D", "text": "Using only paper letters for communication" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture lists Artificial Intelligence, Internet of Things, Robotics, Cloud Computing, Big Data, 5G/6G, Cybersecurity, Virtual Reality, Augmented Reality, 3D Printing, and Renewable Energy as modern technology trends.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Types of Technology and Modern Trends", "page": 22, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q031",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Biotechnology uses biological knowledge in medicine, agriculture, food industries, and pharmaceuticals.",
+              "correct_answer": true,
+              "explanation": "The lecture states that biotechnology uses biological knowledge in medicine, agriculture, food industries, and pharmaceuticals.",
+              "correction": null,
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Types of Technology and Modern Trends", "page": 19, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q032",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "List and describe at least five types of technology.",
+              "max_score": 10,
+              "model_answer": "1) Information Technology (IT): includes computers, software, databases, networks, and information systems. 2) Communication Technology: includes mobile communications, fiber optics, satellite communications, wireless networks, and 5G/6G. 3) Medical Technology: includes medical imaging, medical devices, diagnostic systems, and surgical robots. 4) Industrial Technology: includes automation, robotics, CNC, and industrial control. 5) Biotechnology: uses biological knowledge in medicine, agriculture, food industries, and pharmaceuticals. 6) Energy Technology: includes solar energy, wind energy, nuclear energy, battery technology, and smart grids. 7) Artificial Intelligence Technology: includes machine learning, deep learning, computer vision, natural language processing, and generative AI.",
+              "grading_rubric": [
+                { "criterion": "Information Technology", "description": "Mentions computers, software, databases, networks, and information systems.", "points": 2 },
+                { "criterion": "Communication Technology", "description": "Mentions mobile communications, fiber optics, satellite, wireless, and 5G/6G.", "points": 2 },
+                { "criterion": "Medical Technology", "description": "Mentions medical imaging, devices, diagnostic systems, and surgical robots.", "points": 2 },
+                { "criterion": "Industrial Technology", "description": "Mentions automation, robotics, CNC, and industrial control.", "points": 2 },
+                { "criterion": "Biotechnology or Energy or AI Technology", "description": "Mentions one additional type with examples.", "points": 2 }
+              ],
+              "grading_notes": "Accept any five types of technology accurately described from the lecture.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Types of Technology and Modern Trends", "page": 18, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Technology and Society",
+          "questions": [
+            {
+              "question_id": "L01-Q033",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is a positive impact of technology on society?",
+              "options": [
+                { "option_id": "A", "text": "Improving living standards, developing education, and improving healthcare" },
+                { "option_id": "B", "text": "Increasing pollution" },
+                { "option_id": "C", "text": "Creating electronic waste" },
+                { "option_id": "D", "text": "Increasing energy consumption" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture lists improving living standards, developing education, improving healthcare, increasing production, improving communications, saving time and effort, creating new job opportunities, and improving transportation as positive impacts of technology.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Technology and Society", "page": 22, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q034",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a challenge associated with technology?",
+              "options": [
+                { "option_id": "A", "text": "Increased dependence on devices, cybersecurity risks, privacy violations, and electronic waste" },
+                { "option_id": "B", "text": "Improved healthcare" },
+                { "option_id": "C", "text": "Increased production" },
+                { "option_id": "D", "text": "Better communication" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture lists increased dependence on devices, cybersecurity risks, privacy violations, job changes due to automation and AI, electronic waste, and energy consumption as challenges of technology.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Technology and Society", "page": 23, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q035",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Engineers and technology developers must consider ethical, social, and environmental responsibility.",
+              "correct_answer": true,
+              "explanation": "The lecture states that the engineer and technology developer must consider ethical, social, and environmental responsibility.",
+              "correction": null,
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Technology and Society", "page": 23, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q036",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Discuss the positive and negative impacts of technology on society, and explain the responsibility of engineers and technology developers.",
+              "max_score": 10,
+              "model_answer": "Positive impacts of technology include improving living standards, developing education, improving healthcare, increasing production, improving communications, saving time and effort, creating new job opportunities, and improving transportation. Negative impacts and challenges include increased dependence on devices, cybersecurity risks, privacy violations, some jobs changing due to automation and AI, electronic waste, and energy consumption. Therefore, engineers and technology developers must consider ethical, social, and environmental responsibility when designing and applying technology.",
+              "grading_rubric": [
+                { "criterion": "Positive impacts", "description": "Lists at least four positive impacts such as improving living standards, education, healthcare, production, communications, saving time, new jobs, and transportation.", "points": 4 },
+                { "criterion": "Challenges", "description": "Lists at least four challenges such as dependence on devices, cybersecurity risks, privacy violations, job changes, electronic waste, and energy consumption.", "points": 4 },
+                { "criterion": "Responsibility", "description": "Explains that engineers and developers must consider ethical, social, and environmental responsibility.", "points": 2 }
+              ],
+              "grading_notes": "Accept any accurate discussion based on the lecture.",
+              "source": { "lecture": "Engineering and Technology: Concepts and Evolution", "topic": "Technology and Society", "page": 22, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 36,
+    "mcq_count": 18,
+    "true_false_count": 12,
+    "essay_count": 6,
+    "easy_count": 11,
+    "medium_count": 17,
+    "hard_count": 8,
+    "needs_review_count": 0
+  }
+}

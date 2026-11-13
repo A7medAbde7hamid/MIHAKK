@@ -1,0 +1,473 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "Expert Systems"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Introduction to AI and Expert Systems",
+      "topics": [
+        {
+          "topic_name": "AI and Expert System Fundamentals",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is Artificial Intelligence (AI)?",
+              "options": [
+                { "option_id": "A", "text": "A branch of computer science that aims to develop systems capable of performing tasks that typically require human intelligence" },
+                { "option_id": "B", "text": "A programming language used for web development" },
+                { "option_id": "C", "text": "A type of database management system" },
+                { "option_id": "D", "text": "A hardware component for data storage" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines AI as a branch of computer science concerned with developing systems that can perform tasks that normally require human intelligence, such as reasoning, learning, decision making, problem solving, natural language processing, and computer vision.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "AI and Expert System Fundamentals", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is an Expert System?",
+              "options": [
+                { "option_id": "A", "text": "A computer program that uses specialized knowledge and inference rules to simulate human expert decision-making in a specific domain" },
+                { "option_id": "B", "text": "A general-purpose programming language" },
+                { "option_id": "C", "text": "A type of computer hardware" },
+                { "option_id": "D", "text": "A network protocol" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines an expert system as a computer-based system that uses specialized knowledge in a particular domain, together with logical rules and inference mechanisms, to provide solutions or recommendations.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "AI and Expert System Fundamentals", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is NOT a main objective of expert systems?",
+              "options": [
+                { "option_id": "A", "text": "Supporting decision-making" },
+                { "option_id": "B", "text": "Diagnosing problems and faults" },
+                { "option_id": "C", "text": "Replacing all human experts completely" },
+                { "option_id": "D", "text": "Preserving expert knowledge for reuse" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists supporting decision-making, diagnosing problems, providing expertise, reducing time to solution, and preserving knowledge as objectives. Expert systems do not aim to completely replace human experts.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "AI and Expert System Fundamentals", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "An expert system is a specialized application of Artificial Intelligence.",
+              "correct_answer": true,
+              "explanation": "The lecture states that expert systems are one of the applications of Artificial Intelligence.",
+              "correction": null,
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "AI and Expert System Fundamentals", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Every expert system must learn autonomously from data.",
+              "correct_answer": false,
+              "explanation": "Traditional expert systems generally rely on knowledge and rules provided by experts; autonomous learning is not required. The lecture notes that traditional expert systems depend on knowledge and rules specified by experts.",
+              "correction": "Traditional expert systems generally rely on knowledge and rules provided by experts; autonomous learning is not a requirement.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "AI and Expert System Fundamentals", "page": 18, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q006",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Compare expert systems with conventional programs, explaining at least four differences.",
+              "max_score": 10,
+              "model_answer": "1) Traditional programs rely on algorithms, while expert systems rely on knowledge and rules. 2) In traditional programs, logic and data are often intertwined; in expert systems, knowledge is separated from inference. 3) Modifying a traditional program may require changing the program code, whereas expert systems allow rules to be modified. 4) Traditional programs are suitable for algorithmically defined problems; expert systems are suitable for problems that depend on expertise. 5) Traditional programs often only provide a result; expert systems can also explain the reasoning behind the result.",
+              "grading_rubric": [
+                { "criterion": "Algorithm vs knowledge-based", "description": "States traditional programs use algorithms, expert systems use knowledge and rules.", "points": 2 },
+                { "criterion": "Logic/data separation", "description": "Explains that expert systems separate knowledge from inference.", "points": 2 },
+                { "criterion": "Modifiability", "description": "Explains that expert system rules can be modified more easily than program code.", "points": 2 },
+                { "criterion": "Problem suitability", "description": "Distinguishes algorithmic problems from expertise-based problems.", "points": 2 },
+                { "criterion": "Explanation capability", "description": "Notes that expert systems can explain their reasoning.", "points": 2 }
+              ],
+              "grading_notes": "Accept any four differences accurately drawn from the lecture's comparison.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "AI and Expert System Fundamentals", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Components of an Expert System",
+          "questions": [
+            {
+              "question_id": "L01-Q007",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which component of an expert system contains specialized facts and rules?",
+              "options": [
+                { "option_id": "A", "text": "Inference Engine" },
+                { "option_id": "B", "text": "Knowledge Base" },
+                { "option_id": "C", "text": "User Interface" },
+                { "option_id": "D", "text": "Explanation Facility" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines the knowledge base as the component that contains the facts, rules, and specialized knowledge required to solve problems in a particular domain.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "Components of an Expert System", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q008",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which component of an expert system is responsible for applying rules to facts to derive conclusions?",
+              "options": [
+                { "option_id": "A", "text": "Knowledge Base" },
+                { "option_id": "B", "text": "Inference Engine" },
+                { "option_id": "C", "text": "User Interface" },
+                { "option_id": "D", "text": "Working Memory" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that the inference engine is responsible for applying rules to available facts to derive conclusions and make recommendations.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "Components of an Expert System", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q009",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the role of the Explanation Facility in an expert system?",
+              "options": [
+                { "option_id": "A", "text": "Stores specialized facts and rules" },
+                { "option_id": "B", "text": "Applies rules to derive conclusions" },
+                { "option_id": "C", "text": "Explains the reasoning behind conclusions and identifies rules used" },
+                { "option_id": "D", "text": "Allows users to enter data" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that the explanation facility explains the reasoning behind conclusions and identifies the rules used.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "Components of an Expert System", "page": 9, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q010",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "The Inference Engine and the User Interface are the same component.",
+              "correct_answer": false,
+              "explanation": "The inference engine applies rules and derives conclusions, while the user interface enables interaction with the user.",
+              "correction": "The Inference Engine applies rules and derives conclusions, whereas the User Interface allows users to enter information and view results.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "Components of an Expert System", "page": 8, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q011",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain the main components of an expert system and the function of each component.",
+              "max_score": 10,
+              "model_answer": "A traditional expert system consists of several main components: 1) Knowledge Base: Stores specialized facts and rules. 2) Inference Engine: Applies rules and derives conclusions. 3) Working Memory: Stores facts and information related to the current problem. 4) User Interface: Allows users to enter information and view results. 5) Explanation Facility: Explains the reasoning behind conclusions and identifies the rules used. 6) Knowledge Acquisition Component: Supports the collection, addition, and updating of knowledge.",
+              "grading_rubric": [
+                { "criterion": "Knowledge Base", "description": "Explains it stores specialized facts and rules.", "points": 2 },
+                { "criterion": "Inference Engine", "description": "Explains it applies rules and derives conclusions.", "points": 2 },
+                { "criterion": "Working Memory", "description": "Explains it stores facts about the current problem.", "points": 1 },
+                { "criterion": "User Interface", "description": "Explains it allows user interaction.", "points": 1 },
+                { "criterion": "Explanation Facility", "description": "Explains it clarifies the reasoning behind conclusions.", "points": 2 },
+                { "criterion": "Knowledge Acquisition", "description": "Explains it supports collecting and updating knowledge.", "points": 2 }
+              ],
+              "grading_notes": "Accept accurate descriptions of each component based on the lecture.",
+              "source": { "lecture": "Introduction to AI and Expert Systems", "topic": "Components of an Expert System", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 2,
+      "lecture_title": "Knowledge Representation and Rule-Based Systems",
+      "topics": [
+        {
+          "topic_name": "Knowledge Representation",
+          "questions": [
+            {
+              "question_id": "L02-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is Declarative Knowledge?",
+              "options": [
+                { "option_id": "A", "text": "Knowledge about how to perform a task" },
+                { "option_id": "B", "text": "Factual statements such as 'Birds have wings' or 'Cairo is in Egypt'" },
+                { "option_id": "C", "text": "Knowledge represented as IF-THEN rules" },
+                { "option_id": "D", "text": "Procedural steps for problem solving" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines declarative knowledge as factual statements like 'Birds have wings', 'Ahmed is an engineer', and 'Cairo is in Egypt'.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Knowledge Representation", "page": 2, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is Procedural Knowledge?",
+              "options": [
+                { "option_id": "A", "text": "Factual statements about the world" },
+                { "option_id": "B", "text": "Knowledge about how to perform something, often represented as IF-THEN rules" },
+                { "option_id": "C", "text": "Declarative facts stored in a database" },
+                { "option_id": "D", "text": "Knowledge about relationships between concepts" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines procedural knowledge as knowledge about how something is performed, such as 'IF temperature > 100 THEN turn cooling system ON'.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Knowledge Representation", "page": 2, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a method of Knowledge Representation?",
+              "options": [
+                { "option_id": "A", "text": "Production Rules" },
+                { "option_id": "B", "text": "Semantic Networks" },
+                { "option_id": "C", "text": "Frames" },
+                { "option_id": "D", "text": "All of the above" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture lists Production Rules, Semantic Networks, Frames, and Logic as methods of knowledge representation.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Knowledge Representation", "page": 14, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q004",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Facts are pieces of information that the system considers to be true.",
+              "correct_answer": true,
+              "explanation": "The lecture defines a fact as information that the system considers true, such as 'Patient(Fahmy)' or 'HasFever(Fahmy)'.",
+              "correction": null,
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Knowledge Representation", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q005",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain Knowledge Representation and its main methods.",
+              "max_score": 10,
+              "model_answer": "Knowledge Representation is the process of organizing information and expertise into a form that a computer can store, process, and use for reasoning. The main methods include: Production Rules (representing knowledge using IF-THEN rules), Semantic Networks (representing relationships between concepts), Frames (organizing knowledge into structured entities with attributes and values), and Logic (expressing facts and relationships using logical statements). The appropriate method depends on the nature of the problem and the design of the expert system.",
+              "grading_rubric": [
+                { "criterion": "Definition of Knowledge Representation", "description": "Explains it as organizing information for computer storage and reasoning.", "points": 2 },
+                { "criterion": "Production Rules", "description": "Explains IF-THEN representation.", "points": 2 },
+                { "criterion": "Semantic Networks", "description": "Explains representing relationships between concepts.", "points": 2 },
+                { "criterion": "Frames", "description": "Explains structured entities with attributes and values.", "points": 2 },
+                { "criterion": "Logic", "description": "Explains logical statements for facts and relationships.", "points": 2 }
+              ],
+              "grading_notes": "Accept accurate descriptions of each method from the lecture.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Knowledge Representation", "page": 14, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Production Rules and Inference",
+          "questions": [
+            {
+              "question_id": "L02-Q006",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the structure of a Production Rule?",
+              "options": [
+                { "option_id": "A", "text": "INPUT-PROCESS-OUTPUT" },
+                { "option_id": "B", "text": "IF condition THEN conclusion/action" },
+                { "option_id": "C", "text": "BEGIN-END" },
+                { "option_id": "D", "text": "FOR-WHILE" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that production rules are commonly written using the structure: IF condition THEN conclusion/action.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q007",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What does the Inference Engine do?",
+              "options": [
+                { "option_id": "A", "text": "Stores specialized facts and rules" },
+                { "option_id": "B", "text": "Searches for rules that can be applied based on current facts to derive conclusions" },
+                { "option_id": "C", "text": "Provides a user interface" },
+                { "option_id": "D", "text": "Explains the reasoning behind conclusions" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that the inference engine searches for rules that can be applied based on current facts and derives conclusions.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q008",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is Forward Chaining?",
+              "options": [
+                { "option_id": "A", "text": "Goal-driven reasoning that starts with a hypothesis" },
+                { "option_id": "B", "text": "Data-driven reasoning that starts with available facts and derives conclusions" },
+                { "option_id": "C", "text": "A method for storing facts in a database" },
+                { "option_id": "D", "text": "A type of user interface" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that forward chaining is data-driven reasoning that starts from known facts and proceeds forward to derive conclusions.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q009",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is Backward Chaining?",
+              "options": [
+                { "option_id": "A", "text": "Data-driven reasoning that starts with facts" },
+                { "option_id": "B", "text": "Goal-driven reasoning that starts with a goal or hypothesis and searches for evidence to support it" },
+                { "option_id": "C", "text": "A method for sorting data" },
+                { "option_id": "D", "text": "A type of production rule" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that backward chaining is goal-driven reasoning that starts with a goal or hypothesis and determines whether it can be supported.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q010",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Who is responsible for transforming expert knowledge into rules that a computer can use?",
+              "options": [
+                { "option_id": "A", "text": "Knowledge Engineer" },
+                { "option_id": "B", "text": "End User" },
+                { "option_id": "C", "text": "Computer Operator" },
+                { "option_id": "D", "text": "Network Manager" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that the knowledge engineer is responsible for acquiring knowledge from domain experts and transforming it into facts and rules that an expert system can use.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q011",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a disadvantage of expert systems?",
+              "options": [
+                { "option_id": "A", "text": "The ability to store knowledge" },
+                { "option_id": "B", "text": "The speed of applying rules" },
+                { "option_id": "C", "text": "The difficulty of acquiring and updating knowledge" },
+                { "option_id": "D", "text": "The ability to explain conclusions" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists difficulty in acquiring knowledge from experts, potentially high development and maintenance costs, and the need for regular knowledge-base updates as disadvantages.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 15, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q012",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Forward chaining starts with a goal or hypothesis to determine whether it can be supported.",
+              "correct_answer": false,
+              "explanation": "Forward chaining starts with available facts and derives conclusions. Backward chaining starts with a goal or hypothesis.",
+              "correction": "Forward chaining starts with available facts, while backward chaining starts with a goal or hypothesis.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q013",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Production rules use an IF-THEN structure to represent knowledge.",
+              "correct_answer": true,
+              "explanation": "The lecture states that production rules are commonly written using the structure: IF condition THEN conclusion/action.",
+              "correction": null,
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q014",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Compare Forward Chaining and Backward Chaining, explaining the starting point, reasoning direction, objective, and application of each.",
+              "max_score": 10,
+              "model_answer": "Forward Chaining: Starting point is available facts; reasoning direction is from facts to conclusions; objective is to discover conclusions that follow from known facts; application is diagnosing a problem from observed symptoms. Backward Chaining: Starting point is a goal or hypothesis to be verified; reasoning direction is from a goal to the evidence needed; objective is to determine whether a specific hypothesis is supported; application is testing whether a particular fault is the cause. Example of forward chaining: Fact: motor temperature is high. Rule: IF temperature is high THEN check cooling system. Conclusion: system recommends checking the cooling system. Example of backward chaining: Goal: determine whether the cooling system is faulty. The system examines facts and evidence related to this goal and determines whether the conditions required to support the conclusion are satisfied.",
+              "grading_rubric": [
+                { "criterion": "Forward chaining starting point and direction", "description": "Explains it starts with available facts and reasons from facts to conclusions.", "points": 2 },
+                { "criterion": "Forward chaining objective and application", "description": "Explains discovering conclusions from facts and diagnosing from symptoms.", "points": 2 },
+                { "criterion": "Backward chaining starting point and direction", "description": "Explains it starts with a goal and reasons from goal to evidence.", "points": 2 },
+                { "criterion": "Backward chaining objective and application", "description": "Explains verifying a hypothesis and testing a specific fault.", "points": 2 },
+                { "criterion": "Examples", "description": "Provides valid examples for both forward and backward chaining.", "points": 2 }
+              ],
+              "grading_notes": "Accept accurate comparisons and examples from the lecture.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 17, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q015",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Design an expert system for diagnosing air conditioner faults. Write three production rules and explain how the inference engine would use them.",
+              "max_score": 10,
+              "model_answer": "Rule 1: IF the air conditioner does not operate AND the power supply is disconnected THEN the problem is a power supply interruption. Rule 2: IF the air conditioner operates AND cooling is weak THEN check the refrigerant level. Rule 3: IF the air conditioner does not operate AND the power supply is connected THEN check the electrical fuse. The inference engine matches facts entered by the user (e.g., whether the unit operates, whether power is connected, whether cooling is weak) with the conditions of the rules, identifies the applicable rule, and derives the appropriate conclusion. For example, if the user enters that the unit does not operate and the power supply is disconnected, the inference engine fires Rule 1 and concludes that the problem is a power supply interruption.",
+              "grading_rubric": [
+                { "criterion": "Rule 1", "description": "Provides a valid IF-THEN rule for power supply interruption.", "points": 2 },
+                { "criterion": "Rule 2", "description": "Provides a valid IF-THEN rule for weak cooling.", "points": 2 },
+                { "criterion": "Rule 3", "description": "Provides a valid IF-THEN rule for electrical fuse check.", "points": 2 },
+                { "criterion": "Inference engine explanation", "description": "Explains how the inference engine matches facts with rule conditions and derives conclusions.", "points": 2 },
+                { "criterion": "Example application", "description": "Provides a concrete example of applying a rule to reach a conclusion.", "points": 2 }
+              ],
+              "grading_notes": "Accept any valid rules and explanation that correctly demonstrate the use of production rules and inference.",
+              "source": { "lecture": "Knowledge Representation and Rule-Based Systems", "topic": "Production Rules and Inference", "page": 20, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 20,
+    "mcq_count": 11,
+    "true_false_count": 5,
+    "essay_count": 4,
+    "easy_count": 8,
+    "medium_count": 7,
+    "hard_count": 5,
+    "needs_review_count": 0
+  }
+}

@@ -1,0 +1,684 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "Introduction to Technology"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Introduction to Computers and Number Systems",
+      "topics": [
+        {
+          "topic_name": "Computer System Components and Data vs Information",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A computer is an electronic device that operates under the control of instructions stored in its own memory and can:",
+              "options": [
+                { "option_id": "A", "text": "Only accept data" },
+                { "option_id": "B", "text": "Accept data, process it according to specified rules, produce results, and store the results for future use" },
+                { "option_id": "C", "text": "Only produce results" },
+                { "option_id": "D", "text": "Only store data" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a computer as an electronic device operating under the control of instructions stored in its own memory that can accept data, process the data according to specified rules, produce results, and store the results for future use.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which CPU component performs arithmetic operations and comparisons?",
+              "options": [
+                { "option_id": "A", "text": "Control Unit" },
+                { "option_id": "B", "text": "ALU" },
+                { "option_id": "C", "text": "System bus" },
+                { "option_id": "D", "text": "Cache" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture diagram shows the Arithmetic-Logic Unit (ALU) performs arithmetic operations and comparisons.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which component interprets instructions and directs processing?",
+              "options": [
+                { "option_id": "A", "text": "ALU" },
+                { "option_id": "B", "text": "Control Unit" },
+                { "option_id": "C", "text": "Primary storage" },
+                { "option_id": "D", "text": "Modem" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that the Control Unit interprets instructions and directs processing.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which is an input device?",
+              "options": [
+                { "option_id": "A", "text": "Printer" },
+                { "option_id": "B", "text": "Monitor" },
+                { "option_id": "C", "text": "Optical scanner" },
+                { "option_id": "D", "text": "Speaker" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists optical scanner as an input device. Printers, monitors, and speakers are output devices.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A collection of unprocessed items such as text, numbers, images, audio, and video is called:",
+              "options": [
+                { "option_id": "A", "text": "Information" },
+                { "option_id": "B", "text": "Data" },
+                { "option_id": "C", "text": "Program" },
+                { "option_id": "D", "text": "Instruction" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines data as a collection of unprocessed items, which can include text, numbers, images, audio, and video.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q006",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "'Given the same input and processes, a computer will produce the same results' describes:",
+              "options": [
+                { "option_id": "A", "text": "Speed" },
+                { "option_id": "B", "text": "Reliability" },
+                { "option_id": "C", "text": "Consistency" },
+                { "option_id": "D", "text": "Accuracy" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture lists consistency as an advantage: given the same input and processes, a computer will produce the same results.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 9, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q007",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Information conveys meaning and is useful to people.",
+              "correct_answer": true,
+              "explanation": "The lecture states that information conveys meaning and is useful to people, distinguishing it from unprocessed data.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q008",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "A printer is an input device.",
+              "correct_answer": false,
+              "explanation": "The lecture classifies printers as output devices, not input devices.",
+              "correction": "A printer is an output device.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q009",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain the difference between data and information, and describe how computers process data into information.",
+              "max_score": 10,
+              "model_answer": "Data is a collection of unprocessed items, which can include text, numbers, images, audio, and video. Information conveys meaning and is useful to people. Computers process data into information by performing operations such as computing totals, organizing data, and calculating results. For example, in a cash register, the computer processes data items (item prices, quantities) to compute each item's total price, sum all item total prices to determine the order total, and calculate change due. The result is information in the form of a receipt that is useful to the customer and cashier.",
+              "grading_rubric": [
+                { "criterion": "Definition of data", "description": "Defines data as unprocessed items such as text, numbers, images, audio, and video.", "points": 3 },
+                { "criterion": "Definition of information", "description": "Defines information as processed data that conveys meaning and is useful.", "points": 3 },
+                { "criterion": "Processing explanation", "description": "Explains how computers process data into information with an example.", "points": 4 }
+              ],
+              "grading_notes": "Accept any valid example of data processing from the lecture or a reasonable application.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer System Components and Data vs Information", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Categories of Users and Types of Computers",
+          "questions": [
+            {
+              "question_id": "L01-Q010",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Engineers, scientists, architects, desktop publishers, and graphic artists are examples of:",
+              "options": [
+                { "option_id": "A", "text": "Home users" },
+                { "option_id": "B", "text": "Power users" },
+                { "option_id": "C", "text": "Mobile users" },
+                { "option_id": "D", "text": "Enterprise users" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture lists engineers, scientists, architects, desktop publishers, and graphic artists as examples of power users.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Categories of Users and Types of Computers", "page": 15, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q011",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A server is a computer that:",
+              "options": [
+                { "option_id": "A", "text": "Only plays multimedia" },
+                { "option_id": "B", "text": "Controls access to hardware/software/resources on a network and provides centralized storage" },
+                { "option_id": "C", "text": "Is always a smartphone" },
+                { "option_id": "D", "text": "Is only used for games" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a server as a computer that controls access to the hardware, software, and other resources on a network and provides a centralized storage area for programs, data, and information.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Categories of Users and Types of Computers", "page": 19, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q012",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "A mainframe is:",
+              "options": [
+                { "option_id": "A", "text": "A small handheld computer" },
+                { "option_id": "B", "text": "A large, expensive, powerful computer that can handle hundreds/thousands of connected users" },
+                { "option_id": "C", "text": "The slowest computer" },
+                { "option_id": "D", "text": "Only an input device" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a mainframe as a large, expensive, powerful computer that can handle hundreds or thousands of connected users simultaneously.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Categories of Users and Types of Computers", "page": 20, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q013",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "A supercomputer is:",
+              "options": [
+                { "option_id": "A", "text": "The fastest, most powerful, most expensive computer, used for complex mathematical calculations" },
+                { "option_id": "B", "text": "A small office computer" },
+                { "option_id": "C", "text": "A type of printer" },
+                { "option_id": "D", "text": "A storage media" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines a supercomputer as the fastest, most powerful computer—and the most expensive—used for applications requiring complex, sophisticated mathematical calculations.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Categories of Users and Types of Computers", "page": 21, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q014",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "A computer can be embedded in other systems such as airplanes, space shuttles, and cars.",
+              "correct_answer": true,
+              "explanation": "The lecture lists airplanes, space shuttles, cars, robotics, and other systems as examples of computers embedded in other systems.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Categories of Users and Types of Computers", "page": 24, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Computer Memory and Storage",
+          "questions": [
+            {
+              "question_id": "L01-Q015",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which memory is read-only?",
+              "options": [
+                { "option_id": "A", "text": "RAM" },
+                { "option_id": "B", "text": "ROM" },
+                { "option_id": "C", "text": "Cache" },
+                { "option_id": "D", "text": "Register" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture lists Read Only Memory (ROM) as a type of computer memory, distinguishing it from RAM.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer Memory and Storage", "page": 27, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q016",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A byte consists of:",
+              "options": [
+                { "option_id": "A", "text": "2 bits" },
+                { "option_id": "B", "text": "4 bits" },
+                { "option_id": "C", "text": "8 bits" },
+                { "option_id": "D", "text": "16 bits" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines a byte as 8 bits.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer Memory and Storage", "page": 28, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q017",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A bit is:",
+              "options": [
+                { "option_id": "A", "text": "0 or 1" },
+                { "option_id": "B", "text": "8 bits" },
+                { "option_id": "C", "text": "16 bits" },
+                { "option_id": "D", "text": "A word" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines a bit as a digit that is 0 or 1, used in binary systems.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer Memory and Storage", "page": 28, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q018",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "A DVD drive accepts a DVD. In this example, the DVD is the:",
+              "options": [
+                { "option_id": "A", "text": "Storage device" },
+                { "option_id": "B", "text": "Storage media" },
+                { "option_id": "C", "text": "Input device" },
+                { "option_id": "D", "text": "Output device" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that a DVD drive (storage device) accepts a DVD (storage media).",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer Memory and Storage", "page": 25, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q019",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Primary storage (memory) stores data and program instructions during processing.",
+              "correct_answer": true,
+              "explanation": "The lecture diagram shows primary storage (memory) stores data and program instructions during processing.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Computer Memory and Storage", "page": 4, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Number Systems and Conversions",
+          "questions": [
+            {
+              "question_id": "L01-Q020",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "The value of radix in the binary number system is:",
+              "options": [
+                { "option_id": "A", "text": "2" },
+                { "option_id": "B", "text": "8" },
+                { "option_id": "C", "text": "10" },
+                { "option_id": "D", "text": "1" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that binary has a radix or base of 2, with digits 0 and 1.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 33, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q021",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What could be the maximum value of a single digit in an octal number system?",
+              "options": [
+                { "option_id": "A", "text": "8" },
+                { "option_id": "B", "text": "7" },
+                { "option_id": "C", "text": "6" },
+                { "option_id": "D", "text": "5" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that octal uses digits 0, 1, 2, 3, 4, 5, 6, 7, so the maximum single digit is 7.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 33, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q022",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What does the symbol D represent in a hexadecimal number system?",
+              "options": [
+                { "option_id": "A", "text": "8" },
+                { "option_id": "B", "text": "16" },
+                { "option_id": "C", "text": "13" },
+                { "option_id": "D", "text": "14" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that in hexadecimal, A=10, B=11, C=12, D=13, E=14, F=15.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 33, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q023",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "The binary equivalent of the decimal number 10 is:",
+              "options": [
+                { "option_id": "A", "text": "0010" },
+                { "option_id": "B", "text": "10" },
+                { "option_id": "C", "text": "1010" },
+                { "option_id": "D", "text": "010" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture conversion table shows decimal 10 = binary 1010.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 34, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q024",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "The binary number 1110 in hexadecimal format is:",
+              "options": [
+                { "option_id": "A", "text": "6" },
+                { "option_id": "B", "text": "E" },
+                { "option_id": "C", "text": "14" },
+                { "option_id": "D", "text": "15" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture conversion table shows decimal 14 = binary 1110 = hexadecimal E.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 34, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q025",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "(41)₁₀ = (?)₂",
+              "options": [
+                { "option_id": "A", "text": "101001" },
+                { "option_id": "B", "text": "100101" },
+                { "option_id": "C", "text": "110001" },
+                { "option_id": "D", "text": "101101" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture shows the conversion of (41)₁₀ to binary as (101001)₂ using repeated division by 2.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 43, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q026",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "(0.6875)₁₀ = (?)₂",
+              "options": [
+                { "option_id": "A", "text": "0.1011" },
+                { "option_id": "B", "text": "0.1101" },
+                { "option_id": "C", "text": "0.1110" },
+                { "option_id": "D", "text": "0.1001" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture shows the conversion of (0.6875)₁₀ to binary as (0.1011)₂ using repeated multiplication by 2.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 42, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q027",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "(153)₁₀ = (?)₈",
+              "options": [
+                { "option_id": "A", "text": "231" },
+                { "option_id": "B", "text": "213" },
+                { "option_id": "C", "text": "132" },
+                { "option_id": "D", "text": "321" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture shows the conversion of (153)₁₀ to octal as (231)₈ using repeated division by 8.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 44, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q028",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "To convert binary to octal, group binary digits into groups of:",
+              "options": [
+                { "option_id": "A", "text": "2" },
+                { "option_id": "B", "text": "3" },
+                { "option_id": "C", "text": "4" },
+                { "option_id": "D", "text": "8" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that to convert binary to octal, group binary digits into groups of three.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 46, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q029",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "To convert binary to hexadecimal, group binary digits into groups of:",
+              "options": [
+                { "option_id": "A", "text": "2" },
+                { "option_id": "B", "text": "3" },
+                { "option_id": "C", "text": "4" },
+                { "option_id": "D", "text": "8" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that to convert binary to hexadecimal, group binary digits into groups of four.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 46, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q030",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "In a number system, each position of a digit represents a specific power of the base.",
+              "correct_answer": true,
+              "explanation": "The lecture states that each position of a digit represents a specific power of the base.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 35, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q031",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "ABC is a valid hexadecimal number.",
+              "correct_answer": true,
+              "explanation": "Hexadecimal uses digits 0-9 and letters A-F, so ABC is valid.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 33, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q032",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "ABG is a valid hexadecimal number.",
+              "correct_answer": false,
+              "explanation": "Hexadecimal uses digits 0-9 and letters A-F. The letter G is not valid in hexadecimal.",
+              "correction": "ABG is not a valid hexadecimal number because G is not a valid hexadecimal digit (valid letters are A-F).",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 33, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q033",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the process of converting a decimal integer to binary, and convert (41)₁₀ to binary showing each step.",
+              "max_score": 10,
+              "model_answer": "To convert a decimal integer to binary, perform a sequence of divisions by 2 and record the remainders. For (41)₁₀: 41 ÷ 2 = 20 remainder 1; 20 ÷ 2 = 10 remainder 0; 10 ÷ 2 = 5 remainder 0; 5 ÷ 2 = 2 remainder 1; 2 ÷ 2 = 1 remainder 0; 1 ÷ 2 = 0 remainder 1. Reading the remainders from bottom to top gives (101001)₂.",
+              "grading_rubric": [
+                { "criterion": "Method explanation", "description": "Explains division by 2 and recording remainders.", "points": 3 },
+                { "criterion": "Step-by-step division", "description": "Shows each division step with quotient and remainder.", "points": 4 },
+                { "criterion": "Correct final answer", "description": "States (41)₁₀ = (101001)₂.", "points": 3 }
+              ],
+              "grading_notes": "Accept any correct demonstration of the division method.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Number Systems and Conversions", "page": 43, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Binary Operations and Boolean Algebra",
+          "questions": [
+            {
+              "question_id": "L01-Q034",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "In binary addition, 1 + 1 gives:",
+              "options": [
+                { "option_id": "A", "text": "Sum 0, carry 0" },
+                { "option_id": "B", "text": "Sum 1, carry 0" },
+                { "option_id": "C", "text": "Sum 0, carry 1" },
+                { "option_id": "D", "text": "Sum 1, carry 1" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that 1 + 1 = 10, which is a sum of 0 with a carry of 1.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Binary Operations and Boolean Algebra", "page": 47, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q035",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "(101)₂ + (1010)₂ = (?)₂",
+              "options": [
+                { "option_id": "A", "text": "1111" },
+                { "option_id": "B", "text": "1101" },
+                { "option_id": "C", "text": "1010" },
+                { "option_id": "D", "text": "1001" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture shows (101)₂ (5 in decimal) + (1010)₂ (10 in decimal) = (1111)₂ (15 in decimal).",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Binary Operations and Boolean Algebra", "page": 49, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q036",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "(110)₂ + (111)₂ = (?)₂",
+              "options": [
+                { "option_id": "A", "text": "1100" },
+                { "option_id": "B", "text": "1101" },
+                { "option_id": "C", "text": "1110" },
+                { "option_id": "D", "text": "1111" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture shows (110)₂ (6 in decimal) + (111)₂ (7 in decimal) = (1101)₂ (13 in decimal).",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Binary Operations and Boolean Algebra", "page": 49, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q037",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "The AND operator performs logical multiplication and is denoted by:",
+              "options": [
+                { "option_id": "A", "text": "Dot (·)" },
+                { "option_id": "B", "text": "Plus (+)" },
+                { "option_id": "C", "text": "Bar (-)" },
+                { "option_id": "D", "text": "⊕" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The question bank states that the AND operator performs logical multiplication and is denoted by a dot (·).",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Binary Operations and Boolean Algebra", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q038",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "The OR operator performs logical addition and is denoted by:",
+              "options": [
+                { "option_id": "A", "text": "Dot (·)" },
+                { "option_id": "B", "text": "Plus (+)" },
+                { "option_id": "C", "text": "Bar (-)" },
+                { "option_id": "D", "text": "⊕" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The question bank states that the OR operator performs logical addition and is denoted by a plus sign (+).",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Binary Operations and Boolean Algebra", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q039",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "The NOT operator operates on a single variable and performs logical negation.",
+              "correct_answer": true,
+              "explanation": "The question bank states that the NOT operator operates on a single variable and performs logical negation.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Binary Operations and Boolean Algebra", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q040",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "An AND gate gives a high output (1) when at least one input is high.",
+              "correct_answer": false,
+              "explanation": "An AND gate gives a high output only when all inputs are high. An OR gate gives a high output when at least one input is high.",
+              "correction": "An AND gate gives a high output only when all inputs are high.",
+              "source": { "lecture": "Introduction to Computers and Number Systems", "topic": "Binary Operations and Boolean Algebra", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 40,
+    "mcq_count": 28,
+    "true_false_count": 9,
+    "essay_count": 3,
+    "easy_count": 18,
+    "medium_count": 17,
+    "hard_count": 5,
+    "needs_review_count": 0
+  }
+}

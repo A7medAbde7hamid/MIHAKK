@@ -1,0 +1,569 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "Java Programming"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Introduction to Computer Programming",
+      "topics": [
+        {
+          "topic_name": "Programs, Algorithms, and Flowchart Symbols",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Computer programs are also known as:",
+              "options": [
+                { "option_id": "A", "text": "Hardware" },
+                { "option_id": "B", "text": "Software" },
+                { "option_id": "C", "text": "Input devices" },
+                { "option_id": "D", "text": "Operating systems" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that computer programs, known as software, are instructions to the computer.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Programs, Algorithms, and Flowchart Symbols", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "An algorithm is defined as:",
+              "options": [
+                { "option_id": "A", "text": "A set of instructions written in machine language" },
+                { "option_id": "B", "text": "An ordered set of unambiguous steps that describes a process" },
+                { "option_id": "C", "text": "A flowchart symbol for decision making" },
+                { "option_id": "D", "text": "A high-level programming language" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines an algorithm as an ordered set of unambiguous steps that describes a process.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Programs, Algorithms, and Flowchart Symbols", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which flowchart symbol is used to represent the beginning or the end of a task?",
+              "options": [
+                { "option_id": "A", "text": "Flowline" },
+                { "option_id": "B", "text": "Terminal" },
+                { "option_id": "C", "text": "Processing" },
+                { "option_id": "D", "text": "Decision" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The Terminal symbol is used to represent the beginning (Start) or the end (End) of a task.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Programs, Algorithms, and Flowchart Symbols", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which flowchart symbol is used for arithmetic and data-manipulation operations?",
+              "options": [
+                { "option_id": "A", "text": "Input/Output" },
+                { "option_id": "B", "text": "Decision" },
+                { "option_id": "C", "text": "Processing" },
+                { "option_id": "D", "text": "Flowline" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The Processing symbol is used for arithmetic and data-manipulation operations.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Programs, Algorithms, and Flowchart Symbols", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which flowchart symbol is used for any logic or comparison operations?",
+              "options": [
+                { "option_id": "A", "text": "Flowline" },
+                { "option_id": "B", "text": "Terminal" },
+                { "option_id": "C", "text": "Input/Output" },
+                { "option_id": "D", "text": "Decision" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The Decision symbol is used for any logic or comparison operations.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Programs, Algorithms, and Flowchart Symbols", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Control Structures: Sequence, Decision, and Looping",
+          "questions": [
+            {
+              "question_id": "L01-Q006",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which statement structure follows instructions from one line to the next without skipping over any lines?",
+              "options": [
+                { "option_id": "A", "text": "Sequence" },
+                { "option_id": "B", "text": "Decision" },
+                { "option_id": "C", "text": "Looping" },
+                { "option_id": "D", "text": "Branching" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines sequence as following instructions from one line to the next without skipping over any lines.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Control Structures: Sequence, Decision, and Looping", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q007",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In a decision structure, if the answer to a question is \"Yes\" then one group of instructions is executed; if the answer is \"No,\" then:",
+              "options": [
+                { "option_id": "A", "text": "The program stops" },
+                { "option_id": "B", "text": "Another group of instructions is executed" },
+                { "option_id": "C", "text": "The same group is executed again" },
+                { "option_id": "D", "text": "The program loops indefinitely" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that if the answer is \"No,\" then another group is executed.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Control Structures: Sequence, Decision, and Looping", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q008",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A series of instructions that are executed over and over is called:",
+              "options": [
+                { "option_id": "A", "text": "Sequence" },
+                { "option_id": "B", "text": "Decision" },
+                { "option_id": "C", "text": "Looping" },
+                { "option_id": "D", "text": "Terminal" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines looping as a series of instructions executed over and over.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Control Structures: Sequence, Decision, and Looping", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q009",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "The algorithm for finding the average of six numbers uses a decision structure.",
+              "correct_answer": false,
+              "explanation": "The example algorithm for average uses a sequence structure: input sum, compute average, output average. There is no decision.",
+              "correction": "The algorithm for finding the average of six numbers uses a sequence structure, not a decision structure.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Control Structures: Sequence, Decision, and Looping", "page": 2, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q010",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Design an algorithm that reads a student's total score and displays \"Pass\" if the score is 50 or more, otherwise \"Fail\". Write the algorithm using pseudocode and draw the corresponding flowchart.",
+              "max_score": 10,
+              "model_answer": "Start\nUse variable: score\nInput score\nIF score >= 50\n    print(\"Pass\")\nELSE\n    print(\"Fail\")\nStop\nFlowchart: Terminal Start; Input/Output symbol for input score; Decision symbol for score >= 50; two branches: true leads to Input/Output print(\"Pass\"), false leads to Input/Output print(\"Fail\"); both branches lead to Terminal Stop.",
+              "grading_rubric": [
+                { "criterion": "Start and variable", "description": "Includes Start, variable score, and input score.", "points": 2 },
+                { "criterion": "Decision condition", "description": "Correctly uses IF score >= 50 with true/false branches.", "points": 3 },
+                { "criterion": "Output messages", "description": "Prints \"Pass\" for true and \"Fail\" for false.", "points": 2 },
+                { "criterion": "Flowchart symbols", "description": "Uses terminal, input/output, decision symbols correctly and connects them with flowlines.", "points": 3 }
+              ],
+              "grading_notes": "Accept equivalent pseudocode and flowchart that correctly represent the decision structure.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Control Structures: Sequence, Decision, and Looping", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Java Compilation and Execution",
+          "questions": [
+            {
+              "question_id": "L01-Q011",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A program written in a high-level programming language is called:",
+              "options": [
+                { "option_id": "A", "text": "Machine code" },
+                { "option_id": "B", "text": "Source program or source code" },
+                { "option_id": "C", "text": "Bytecode" },
+                { "option_id": "D", "text": "Object code" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that a program written in a high-level language is called a source program or source code.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Compilation and Execution", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q012",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which tool reads one statement from the source code, translates it to machine code, and executes it right away?",
+              "options": [
+                { "option_id": "A", "text": "Compiler" },
+                { "option_id": "B", "text": "Interpreter" },
+                { "option_id": "C", "text": "Editor" },
+                { "option_id": "D", "text": "Linker" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines an interpreter as reading one statement, translating it to machine code, and executing it right away.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Compilation and Execution", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q013",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which tool translates the entire source code into a machine-code file, which is then executed?",
+              "options": [
+                { "option_id": "A", "text": "Interpreter" },
+                { "option_id": "B", "text": "Compiler" },
+                { "option_id": "C", "text": "Debugger" },
+                { "option_id": "D", "text": "Profiler" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a compiler as translating the entire source code into a machine-code file, which is then executed.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Compilation and Execution", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q014",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the file extension for a Java bytecode file?",
+              "options": [
+                { "option_id": "A", "text": ".exe" },
+                { "option_id": "B", "text": ".class" },
+                { "option_id": "C", "text": ".java" },
+                { "option_id": "D", "text": ".code" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture shows Java Bytecodes (.class) as an intermediate step.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Compilation and Execution", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q015",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Java source code file has a .class extension.",
+              "correct_answer": false,
+              "explanation": "The lecture lists Source Codes (.java) and Java Bytecodes (.class).",
+              "correction": "Java source code file has a .java extension; bytecode has .class.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Compilation and Execution", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q016",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Java is an example of an Object-Oriented programming language.",
+              "correct_answer": true,
+              "explanation": "The lecture states that Java is Object-Oriented (OO).",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Compilation and Execution", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q017",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Explain the difference between an interpreter and a compiler as presented in the lecture, and list the three steps that Java programs normally go through.",
+              "max_score": 10,
+              "model_answer": "An interpreter reads one statement from the source code, translates it to machine code, and executes it right away. A compiler translates the entire source code into a machine-code file, which is then executed. Java programs normally go through three steps: 1) Source Codes (.java) – write source code using an editor or IDE; 2) Java Bytecodes (.class) – use Java compiler to compile/build; 3) Run/Execute – use Java Runtime to run the bytecode.",
+              "grading_rubric": [
+                { "criterion": "Interpreter definition", "description": "States that interpreter translates and executes one statement at a time.", "points": 3 },
+                { "criterion": "Compiler definition", "description": "States that compiler translates entire source code into machine-code file before execution.", "points": 3 },
+                { "criterion": "Java steps", "description": "Lists Source Codes (.java), Java Bytecodes (.class), and Run/Execute.", "points": 4 }
+              ],
+              "grading_notes": "Accept equivalent wording that reflects the lecture's definitions and steps.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Compilation and Execution", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols",
+          "questions": [
+            {
+              "question_id": "L01-Q018",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is a single-line comment in Java?",
+              "options": [
+                { "option_id": "A", "text": "/* comment */" },
+                { "option_id": "B", "text": "// comment" },
+                { "option_id": "C", "text": "<!-- comment -->" },
+                { "option_id": "D", "text": "# comment" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture shows single-line comment as //.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q019",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Reserved words in Java are:",
+              "options": [
+                { "option_id": "A", "text": "Words that have a specific meaning to the compiler and cannot be used for other purposes" },
+                { "option_id": "B", "text": "Words that can be used as class names" },
+                { "option_id": "C", "text": "Words that must start with a digit" },
+                { "option_id": "D", "text": "Words that contain spaces" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines reserved words/keywords as words that have a specific meaning to the compiler and cannot be used for other purposes.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q020",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is a valid class name in Java?",
+              "options": [
+                { "option_id": "A", "text": "123student" },
+                { "option_id": "B", "text": "Student Class" },
+                { "option_id": "C", "text": "Student_Class" },
+                { "option_id": "D", "text": "class" }
+              ],
+              "correct_answer": "C",
+              "explanation": "Valid class names consist of letters, digits, underscores, and dollar signs; cannot start with a digit, be a reserved word, or contain spaces. Student_Class is valid.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q021",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is an invalid class name?",
+              "options": [
+                { "option_id": "A", "text": "Student" },
+                { "option_id": "B", "text": "Student1" },
+                { "option_id": "C", "text": "Student_Class" },
+                { "option_id": "D", "text": "1StudentClass" }
+              ],
+              "correct_answer": "D",
+              "explanation": "A class name cannot start with a digit; 1StudentClass starts with 1, so it is invalid.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q022",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "In order to run a Java class, the class must contain a method named:",
+              "options": [
+                { "option_id": "A", "text": "main" },
+                { "option_id": "B", "text": "void" },
+                { "option_id": "C", "text": "print" },
+                { "option_id": "D", "text": "class" }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that in order to run a class, the class must contain a method named main.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q023",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which print method prints and stays in the same line?",
+              "options": [
+                { "option_id": "A", "text": "println()" },
+                { "option_id": "B", "text": "print()" },
+                { "option_id": "C", "text": "printf()" },
+                { "option_id": "D", "text": "display()" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that print() prints and stays in the same line.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q024",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Every statement in Java ends with a semicolon (;).",
+              "correct_answer": true,
+              "explanation": "The lecture states that every statement in Java ends with a semicolon.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q025",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "A pair of braces {} in a Java program forms a block that groups components of a program.",
+              "correct_answer": true,
+              "explanation": "The lecture states that a pair of braces forms a block that groups components of a program.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q026",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the rules for naming a Java class. Provide two valid and two invalid class name examples and state why each is valid or invalid.",
+              "max_score": 10,
+              "model_answer": "A class name is a sequence of characters that consists of letters, digits, underscores (_), and dollar signs ($). A class name cannot: start with a digit, be a reserved word, or contain spaces. Valid examples: Student (letters only), Student_Class (letters and underscore). Invalid examples: 123student (starts with a digit), Student Class (contains a space). Other valid examples include Student1, $StudentClass, _StudentClass1. Other invalid examples include class, public, void (reserved words), 1StudentClass (starts with digit).",
+              "grading_rubric": [
+                { "criterion": "Allowed characters", "description": "States letters, digits, underscores, and dollar signs are allowed.", "points": 2 },
+                { "criterion": "Restrictions", "description": "Lists cannot start with digit, cannot be reserved word, cannot contain spaces.", "points": 3 },
+                { "criterion": "Valid examples", "description": "Provides two valid class names and explains why they are valid.", "points": 2 },
+                { "criterion": "Invalid examples", "description": "Provides two invalid class names and explains why they are invalid.", "points": 3 }
+              ],
+              "grading_notes": "Accept any valid and invalid examples that follow the lecture's rules.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q027",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Describe the special symbols in Java and their meanings as presented in the lecture: {}, (), [], //, \"\", ;.",
+              "max_score": 10,
+              "model_answer": "The special symbols are: {} opening and closing braces – denote a block to enclose statements; () opening and closing parentheses – used with methods; [] opening and closing brackets – denotes an array; // double slashes – precedes a comment line; \"\" opening and closing quotation marks – enclosing a string; ; semicolon – marks the end of a statement.",
+              "grading_rubric": [
+                { "criterion": "Braces {}", "description": "States they denote a block to enclose statements.", "points": 2 },
+                { "criterion": "Parentheses ()", "description": "States they are used with methods.", "points": 1 },
+                { "criterion": "Brackets []", "description": "States they denote an array.", "points": 1 },
+                { "criterion": "Double slashes //", "description": "States they precede a comment line.", "points": 1 },
+                { "criterion": "Quotation marks \"\"", "description": "States they enclose a string.", "points": 1 },
+                { "criterion": "Semicolon ;", "description": "States it marks the end of a statement.", "points": 1 },
+                { "criterion": "Completeness", "description": "Covers all six symbols accurately.", "points": 3 }
+              ],
+              "grading_notes": "Award partial credit for each correct symbol meaning.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Syntax: Comments, Reserved Words, Class Names, Main Method, Statements, and Symbols", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Java Output and Code Analysis",
+          "questions": [
+            {
+              "question_id": "L01-Q028",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the exact output of the following code?\nSystem.out.print(\"Java is a \");\nSystem.out.print(\"programming language\");",
+              "options": [
+                { "option_id": "A", "text": "Java is a programming language" },
+                { "option_id": "B", "text": "Java is a\nprogramming language" },
+                { "option_id": "C", "text": "Java is a \nprogramming language" },
+                { "option_id": "D", "text": "Java is a programming language\n" }
+              ],
+              "correct_answer": "A",
+              "explanation": "Both use print(), so the text stays on the same line: \"Java is a programming language\".",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Output and Code Analysis", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q029",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the exact output of the following code?\nSystem.out.println(\"Java is a \");\nSystem.out.print(\"programming language\");",
+              "options": [
+                { "option_id": "A", "text": "Java is a programming language" },
+                { "option_id": "B", "text": "Java is a\nprogramming language" },
+                { "option_id": "C", "text": "Java is a \nprogramming language" },
+                { "option_id": "D", "text": "Java is a programming language\n" }
+              ],
+              "correct_answer": "B",
+              "explanation": "println() prints and goes to the next line, so \"Java is a\" is followed by a newline, then print() outputs \"programming language\" on the next line.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Output and Code Analysis", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q030",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "The following Java code will print the two words \"Have\" and \"Fun\" each on a separate line:\nSystem.out.println(\"Have \");\nSystem.out.println(\"Fun\");",
+              "correct_answer": true,
+              "explanation": "Both statements use println(), which prints and moves to the next line, so each word appears on its own line.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Output and Code Analysis", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q031",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "The following Java code will print the two words \"Have\" and \"Fun\" each on a separate line:\nSystem.out.print(\"Have \");\nSystem.out.println(\"Fun\");",
+              "correct_answer": false,
+              "explanation": "print() stays on the same line, so the output will be \"Have Fun\" on one line (with a space after Have), then a newline after Fun.",
+              "correction": "The code prints \"Have Fun\" on the same line, not each on a separate line.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Output and Code Analysis", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q032",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "The following code contains compilation errors. Identify at least five errors and provide the corrected code. Then state the exact output after correction.",
+              "max_score": 10,
+              "model_answer": "Original code:\n/ Try to find the errors\nPublic class Test1 {\n    public static main(String[] a) {\n        System.out.println('Welcome');\n        System.out.println(\"to\");\n        System.out.println(\"TM105\");\n        System.out.print(\"Nice \")\n        System.out.println(Program);\n    }\n}\nErrors and corrections:\n1. Comment should start with // not /\n2. Public should be public (lowercase).\n3. Missing void return type: public static void main.\n4. Argument name should be args (or any name) but type String[] is correct; missing []? Actually String[] a is fine, but conventionally args. Not an error.\n5. Character literal 'Welcome' should be string \"Welcome\".\n6. Missing semicolon after System.out.print(\"Nice \").\n7. Program should be in quotes: \"Program\".\nCorrected code:\n// Try to find the errors\npublic class Test1 {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome\");\n        System.out.println(\"to\");\n        System.out.println(\"TM105\");\n        System.out.print(\"Nice \");\n        System.out.println(\"Program\");\n    }\n}\nOutput:\nWelcome\nto\nTM105\nNice Program",
+              "grading_rubric": [
+                { "criterion": "Comment error", "description": "Corrects single slash comment to //.", "points": 1 },
+                { "criterion": "Class keyword case", "description": "Corrects Public to public.", "points": 1 },
+                { "criterion": "Main method signature", "description": "Adds void and corrects args.", "points": 2 },
+                { "criterion": "String quotes", "description": "Changes 'Welcome' to \"Welcome\".", "points": 1 },
+                { "criterion": "Missing semicolon", "description": "Adds semicolon after print statement.", "points": 1 },
+                { "criterion": "Program string", "description": "Adds quotes around Program.", "points": 1 },
+                { "criterion": "Corrected code", "description": "Provides fully corrected code.", "points": 2 },
+                { "criterion": "Exact output", "description": "States output correctly.", "points": 1 }
+              ],
+              "grading_notes": "Accept any five distinct compilation errors that match the lecture's content (syntax). The exact output must match the corrected code.",
+              "source": { "lecture": "Introduction to Computer Programming", "topic": "Java Output and Code Analysis", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 32,
+    "mcq_count": 20,
+    "true_false_count": 7,
+    "essay_count": 5,
+    "easy_count": 13,
+    "medium_count": 14,
+    "hard_count": 5,
+    "needs_review_count": 0
+  }
+}

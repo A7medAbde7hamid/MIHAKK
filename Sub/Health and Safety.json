@@ -1,0 +1,1381 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "Health and Safety"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Introduction to Workplace Health and Safety",
+      "topics": [
+        {
+          "topic_name": "Definitions and Importance of Workplace Health and Safety",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Workplace Health and Safety (WHS) is primarily about:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Increasing company profits"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Preventing injuries, illnesses, and accidents"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Improving customer satisfaction"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Reducing working hours"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that workplace health and safety is designed to protect workers and at its core is about preventing injury, illness, and accidents.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Definitions and Importance of Workplace Health and Safety",
+                "page": 4,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "The 2013 Rana Plaza factory collapse in Bangladesh highlighted:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Overproduction issues"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Neglect of workplace safety standards"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Global trade competition"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Lack of worker training"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture uses Rana Plaza as an example of poor safety standards that killed over 1,100 workers.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Definitions and Importance of Workplace Health and Safety",
+                "page": 5,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "According to the ILO, how many people die annually from work-related accidents and diseases?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "About 100,000"
+                },
+                {
+                  "option_id": "B",
+                  "text": "About 1 million"
+                },
+                {
+                  "option_id": "C",
+                  "text": "About 2.78 million"
+                },
+                {
+                  "option_id": "D",
+                  "text": "About 10 million"
+                }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that the International Labour Organization reports more than 2.78 million deaths each year due to work-related accidents and diseases.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Definitions and Importance of Workplace Health and Safety",
+                "page": 6,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "OSHA is an agency in:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "United Kingdom"
+                },
+                {
+                  "option_id": "B",
+                  "text": "United States"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Egypt"
+                },
+                {
+                  "option_id": "D",
+                  "text": "European Union"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture identifies OSHA as the Occupational Safety and Health Administration in the USA.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Definitions and Importance of Workplace Health and Safety",
+                "page": 7,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "ISO 45001:2018 is an international standard specifying requirements for:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "An Occupational Health and Safety Management System"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Electrical installation design"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Fire extinguisher maintenance"
+                },
+                {
+                  "option_id": "D",
+                  "text": "PPE color coding"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines ISO 45001:2018 as an international standard for an Occupational Health and Safety Management System.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Definitions and Importance of Workplace Health and Safety",
+                "page": 9,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Hazards, Risks, Incidents, and Accidents",
+          "questions": [
+            {
+              "question_id": "L01-Q006",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A hazard is best defined as:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "A source or situation with the potential to cause harm"
+                },
+                {
+                  "option_id": "B",
+                  "text": "The cost of an accident"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A safety inspection report"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A workplace rule"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines a hazard as something with the potential to cause injury, ill health, damage, or loss.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Hazards, Risks, Incidents, and Accidents",
+                "page": 13,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q007",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In occupational safety, risk refers to:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "The number of employees in a workplace"
+                },
+                {
+                  "option_id": "B",
+                  "text": "The combination of the likelihood of harm and its severity"
+                },
+                {
+                  "option_id": "C",
+                  "text": "The cost of safety equipment"
+                },
+                {
+                  "option_id": "D",
+                  "text": "The number of safety signs"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "Risk is the possibility that a hazard will cause harm, considering how serious that harm could be.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Hazards, Risks, Incidents, and Accidents",
+                "page": 17,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q008",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "A student trips over a computer cable but does not fall or become injured. This is best classified as:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "An accident"
+                },
+                {
+                  "option_id": "B",
+                  "text": "An incident or near miss"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A chronic illness"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Hazard elimination"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "An incident does not necessarily result in injury; this example is a near miss because it had the potential to cause injury.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Hazards, Risks, Incidents, and Accidents",
+                "page": 18,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q009",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "An accident is generally defined as:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "A planned workplace activity"
+                },
+                {
+                  "option_id": "B",
+                  "text": "An unplanned event that results in injury, damage, or loss"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A routine safety inspection"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A training session"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines an accident as an unplanned event arising out of or during work that results in injury, illness, or other harmful consequences.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Hazards, Risks, Incidents, and Accidents",
+                "page": 19,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q014",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "An incident always results in injury.",
+              "correct_answer": false,
+              "explanation": "The lecture states that an incident does not necessarily result in injury; a near miss is an incident with potential to cause harm.",
+              "correction": "An incident does not always result in injury; it may be a near miss.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Hazards, Risks, Incidents, and Accidents",
+                "page": 18,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q018",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the relationship among hazard, risk, incident including near miss, and accident as presented in the lecture. Use an example to illustrate the sequence.",
+              "max_score": 10,
+              "model_answer": "A hazard is a source or situation with the potential to cause harm. Risk is the possibility that a hazard will cause harm, together with the seriousness of that harm. An incident is an undesired or unsafe event related to work that may cause or has the potential to cause injury, illness, damage, or loss; an incident does not necessarily result in injury and may be a near miss. An accident is an unplanned event arising out of or during work that results in injury, illness, or other harmful consequences. The lecture summarizes the relationship as Hazard → Risk → Incident → Accident. For example, a cable across a walkway is a hazard; the risk is that a student may trip and fall; if the student trips but is not injured, this is an incident or near miss; if the student falls and is injured, it is an accident. Reporting near misses allows the hazard to be corrected before injury occurs.",
+              "grading_rubric": [
+                {
+                  "criterion": "Hazard definition",
+                  "description": "Defines hazard as a source or situation with potential to cause harm.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Risk definition",
+                  "description": "Defines risk as likelihood of harm and its severity.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Incident and near miss",
+                  "description": "Explains that an incident may or may not cause injury and that a near miss is an incident with potential harm.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Accident definition",
+                  "description": "Defines accident as an unplanned event resulting in injury, illness, or harmful consequences.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Relationship and example",
+                  "description": "States the sequence Hazard → Risk → Incident → Accident and applies it to a valid example.",
+                  "points": 2
+                }
+              ],
+              "grading_notes": "Award full credit for a correct sequence and a relevant example even if the example differs from the cable example, provided it is supported by the lecture concepts.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Hazards, Risks, Incidents, and Accidents",
+                "page": 20,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Common Hazards and Computer Laboratory Examples",
+          "questions": [
+            {
+              "question_id": "L01-Q010",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A damaged electrical cable in a computer laboratory is an example of which hazard type?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Electrical hazard"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Ergonomic hazard"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Psychological hazard"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Noise hazard"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture lists damaged power cable as an example of an electrical hazard.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Common Hazards and Computer Laboratory Examples",
+                "page": 14,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Roles, Responsibilities, and Safety Culture",
+          "questions": [
+            {
+              "question_id": "L01-Q011",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "A safety culture means:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "A collection of computer software"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Shared attitudes, values, behaviors, and practices concerning safety"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A type of emergency alarm"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A method of calculating salary"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture explains safety culture as integrating safety into decisions, leadership example, speaking up about risks, and continuous training and awareness.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Roles, Responsibilities, and Safety Culture",
+                "page": 28,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q015",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Employees are expected to report unsafe conditions.",
+              "correct_answer": true,
+              "explanation": "The lecture lists reporting unsafe conditions as an employee responsibility.",
+              "correction": null,
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Roles, Responsibilities, and Safety Culture",
+                "page": 27,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q019",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Describe the main roles and responsibilities of employers, employees, and supervisors or safety officers in workplace health and safety.",
+              "max_score": 10,
+              "model_answer": "Health and safety is a shared responsibility. Employers must identify hazards and assess risks, provide training and personal protective equipment, and maintain equipment and safe systems of work. Employees must follow safety procedures and use PPE correctly, report unsafe conditions, and participate in safety training. Supervisors and safety officers must monitor compliance, conduct risk assessments and inspections, and update policies as new risks emerge.",
+              "grading_rubric": [
+                {
+                  "criterion": "Employer responsibilities",
+                  "description": "Includes identifying hazards, assessing risks, providing training and PPE, and maintaining equipment and safe systems.",
+                  "points": 4
+                },
+                {
+                  "criterion": "Employee responsibilities",
+                  "description": "Includes following procedures, using PPE correctly, reporting unsafe conditions, and participating in training.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Supervisor and safety officer responsibilities",
+                  "description": "Includes monitoring compliance, conducting risk assessments and inspections, and updating policies.",
+                  "points": 3
+                }
+              ],
+              "grading_notes": "Accept equivalent wording that reflects shared responsibility and the role-specific duties listed in the lecture.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Roles, Responsibilities, and Safety Culture",
+                "page": 27,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Safety Signs, Symbols, Colors, and Warning Labels",
+          "questions": [
+            {
+              "question_id": "L01-Q012",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which color is commonly associated with mandatory safety instructions?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Green"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Blue"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Yellow"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Red"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that mandatory signs tell people what they must do and typically use blue.",
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Safety Signs, Symbols, Colors, and Warning Labels",
+                "page": 33,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q016",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Warning signs are typically triangular and yellow.",
+              "correct_answer": true,
+              "explanation": "The lecture states that warning signs warn about potential hazards and usually use a yellow triangular shape.",
+              "correction": null,
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Safety Signs, Symbols, Colors, and Warning Labels",
+                "page": 32,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q017",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Fire equipment signs are typically red.",
+              "correct_answer": true,
+              "explanation": "The lecture states that fire equipment signs identify fire-fighting equipment and facilities and typically use red.",
+              "correction": null,
+              "source": {
+                "lecture": "Introduction to Workplace Health and Safety",
+                "topic": "Safety Signs, Symbols, Colors, and Warning Labels",
+                "page": 35,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 2,
+      "lecture_title": "Hazard Identification, Risk Assessment and Management",
+      "topics": [
+        {
+          "topic_name": "Hazard Identification and Risk Assessment Process",
+          "questions": [
+            {
+              "question_id": "L02-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the first step in a typical risk assessment process?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Selecting personal protective equipment"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Identifying hazards"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Investigating an accident"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Purchasing new equipment"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that before an organization can control a hazard, it must first recognize that the hazard exists.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Hazard Identification and Risk Assessment Process",
+                "page": 52,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which sequence represents the basic safety process described in the lecture?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Identify Hazard → Assess Risk → Control Risk → Monitor → Review → Improve"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Assess Risk → Identify Hazard → Control Risk → PPE → Review"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Control Risk → Identify Hazard → Assess Risk → Monitor"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Monitor → Review → Identify Hazard → Control Risk"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture presents the basic safety process as Identify Hazard → Assess Risk → Control Risk → Monitor → Review → Improve.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Hazard Identification and Risk Assessment Process",
+                "page": 52,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q008",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Hazard and risk mean exactly the same thing in occupational safety.",
+              "correct_answer": false,
+              "explanation": "The lecture distinguishes hazard as the source of potential harm from risk as the likelihood and severity of harm.",
+              "correction": "Hazard is the source of potential harm, while risk is the likelihood and severity of harm.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Hazard Identification and Risk Assessment Process",
+                "page": 67,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Types of Hazards in Technology Workplaces",
+          "questions": [
+            {
+              "question_id": "L02-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "An exposed electrical wire is an example of which hazard type?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Electrical hazard"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Ergonomic hazard"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Psychological hazard"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Information-security hazard"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture explicitly gives an exposed electrical wire as an example of an electrical hazard.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Types of Hazards in Technology Workplaces",
+                "page": 54,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "A cable across a walkway is an example of which hazard type?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Chemical hazard"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Physical hazard"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Biological hazard"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Psychological hazard"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture identifies a cable across a walkway as a physical hazard because it can cause trips and falls.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Types of Hazards in Technology Workplaces",
+                "page": 54,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q005",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Excessive workload may be classified as which type of hazard?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Psychological hazard"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Electrical hazard"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Chemical hazard"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Noise hazard"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that excessive workload may be a psychological hazard.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Types of Hazards in Technology Workplaces",
+                "page": 54,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q009",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Chemical hazards cannot occur in Cybersecurity, AI, or Data Science programs.",
+              "correct_answer": false,
+              "explanation": "The lecture states that although these programs generally involve fewer chemicals, chemical hazards may still occur from cleaning chemicals, batteries, battery electrolytes, printer toner, laboratory chemicals, and solvents.",
+              "correction": "Chemical hazards can still occur in Cybersecurity, AI, or Data Science programs from sources such as cleaning chemicals, batteries, printer toner, and solvents.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Types of Hazards in Technology Workplaces",
+                "page": 59,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Risk Rating and Risk Register",
+          "questions": [
+            {
+              "question_id": "L02-Q006",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "In a simple risk assessment matrix, risk is often calculated as:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Risk = Likelihood × Severity"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Risk = Cost × Time"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Risk = Training ÷ Employees"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Risk = Equipment - Maintenance"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that Risk Rating = Likelihood × Severity.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Risk Rating and Risk Register",
+                "page": 70,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q007",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "A risk register is:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "A documented list of identified risks and the actions required to control them"
+                },
+                {
+                  "option_id": "B",
+                  "text": "A list of employee salaries"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A software installation record"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A fire extinguisher maintenance log only"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture defines a risk register as a documented list of identified risks and the actions required to control them, reviewed regularly.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Risk Rating and Risk Register",
+                "page": 73,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q010",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "A risk rating of 6-10 is generally interpreted as medium risk, requiring controls.",
+              "correct_answer": true,
+              "explanation": "The lecture interprets 6-10 as medium risk, where controls are needed.",
+              "correction": null,
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Risk Rating and Risk Register",
+                "page": 70,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L02-Q011",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Describe the hazard identification and risk assessment process and explain how a risk rating is calculated and interpreted. Include the likelihood and severity scales and one example.",
+              "max_score": 10,
+              "model_answer": "The basic safety process is Identify Hazard → Assess Risk → Control Risk → Monitor → Review → Improve. A hazard is a source of potential harm, while risk is the likelihood and severity of harm. Risk rating is calculated as Likelihood × Severity. Likelihood is rated 1-5 from rare to almost certain. Severity is rated 1-5 from insignificant to catastrophic. The rating is interpreted as 1-5 low risk and monitor, 6-10 medium and controls needed, 11-15 high and urgent action, and 16-25 very high and stop work until controlled. For example, an overloaded electrical extension board may have likelihood 3 and severity 5, giving a risk score of 15, which is high and requires urgent action.",
+              "grading_rubric": [
+                {
+                  "criterion": "Safety process",
+                  "description": "Lists the steps Identify Hazard, Assess Risk, Control Risk, Monitor, Review, and Improve.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Likelihood and severity scales",
+                  "description": "Explains the 1-5 likelihood scale and the 1-5 severity scale.",
+                  "points": 3
+                },
+                {
+                  "criterion": "Calculation and interpretation",
+                  "description": "States Risk = Likelihood × Severity and correctly interprets the score ranges.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Example",
+                  "description": "Provides a valid example with likelihood, severity, calculated score, and interpretation.",
+                  "points": 2
+                }
+              ],
+              "grading_notes": "Accept any example supported by the lecture, such as the overloaded extension board or working at height without guardrails, provided the calculation and interpretation are correct.",
+              "source": {
+                "lecture": "Hazard Identification, Risk Assessment and Management",
+                "topic": "Risk Rating and Risk Register",
+                "page": 70,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 3,
+      "lecture_title": "Hierarchy of Controls",
+      "topics": [
+        {
+          "topic_name": "Hierarchy of Controls Overview",
+          "questions": [
+            {
+              "question_id": "L03-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which level provides the highest level of protection in the hierarchy of controls?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Elimination or substitution"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Engineering controls"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Administrative controls"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Personal protective equipment"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The hierarchy of controls ranks elimination and substitution at the top as the most effective controls.",
+              "source": {
+                "lecture": "Hierarchy of Controls",
+                "topic": "Hierarchy of Controls Overview",
+                "page": 79,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q006",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the hierarchy of controls from most effective to least effective, and give one workplace example for each level.",
+              "max_score": 10,
+              "model_answer": "The hierarchy of controls ranks hazard controls from most effective to least effective: elimination and substitution, engineering controls, administrative and work practice controls, and personal protective equipment. Elimination completely removes the hazard, such as removing unnecessary electrical cables from a laboratory floor. Substitution replaces a hazardous material, process, or equipment with a less hazardous alternative, such as replacing a corrosive cleaning agent with a milder solution or a noisy machine with a quieter one. Engineering controls make physical changes to the workplace or equipment to reduce or isolate hazards, such as cable trays, ventilation, machine guards, or server-room cooling systems. Administrative controls change work practices, policies, or procedures, such as training, job rotation, rest breaks, access control, alarms, signs, and warnings. PPE is wearable equipment that acts as a barrier between the worker and the hazard, such as hard hats, safety goggles, gloves, and respirators; it is the least effective level because it depends heavily on human behavior and proper use.",
+              "grading_rubric": [
+                {
+                  "criterion": "Order of hierarchy",
+                  "description": "States the order from elimination/substitution to engineering, administrative, and PPE.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Elimination and substitution examples",
+                  "description": "Gives a valid example of elimination and a valid example of substitution.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Engineering controls",
+                  "description": "Defines engineering controls and gives a valid workplace example.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Administrative controls",
+                  "description": "Defines administrative controls and gives a valid workplace example.",
+                  "points": 2
+                },
+                {
+                  "criterion": "PPE",
+                  "description": "Defines PPE as the lowest level and gives a valid example.",
+                  "points": 2
+                }
+              ],
+              "grading_notes": "Accept any examples supported by the lecture. The key requirement is correct ranking and correct association of examples with levels.",
+              "source": {
+                "lecture": "Hierarchy of Controls",
+                "topic": "Hierarchy of Controls Overview",
+                "page": 79,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Elimination and Substitution",
+          "questions": [
+            {
+              "question_id": "L03-Q004",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Substitution completely eliminates a hazard.",
+              "correct_answer": false,
+              "explanation": "Substitution replaces a hazardous material, process, or equipment with a less hazardous alternative; it reduces risk significantly but does not eliminate the hazard completely.",
+              "correction": "Substitution replaces a hazard with a less hazardous alternative but does not completely eliminate it.",
+              "source": {
+                "lecture": "Hierarchy of Controls",
+                "topic": "Elimination and Substitution",
+                "page": 82,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L03-Q005",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Elimination means completely removing the hazard and is generally the preferred control.",
+              "correct_answer": true,
+              "explanation": "The lecture states that elimination completely removes the hazard and is generally preferred because the hazard no longer exists.",
+              "correction": null,
+              "source": {
+                "lecture": "Hierarchy of Controls",
+                "topic": "Elimination and Substitution",
+                "page": 80,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Engineering and Administrative Controls",
+          "questions": [
+            {
+              "question_id": "L03-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Engineering controls are best described as:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Wearable equipment that depends on worker behavior"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Physical modifications to the workplace, equipment, or process that reduce or isolate hazards, often at the source"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Changes only to work schedules and training"
+                },
+                {
+                  "option_id": "D",
+                  "text": "A method of calculating risk ratings"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "Engineering controls involve physical modifications and typically do not rely on worker behavior to be effective.",
+              "source": {
+                "lecture": "Hierarchy of Controls",
+                "topic": "Engineering and Administrative Controls",
+                "page": 83,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Personal Protective Equipment in the Hierarchy",
+          "questions": [
+            {
+              "question_id": "L03-Q003",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "In the hierarchy of controls, personal protective equipment (PPE) is considered:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "The highest level of protection"
+                },
+                {
+                  "option_id": "B",
+                  "text": "More effective than elimination"
+                },
+                {
+                  "option_id": "C",
+                  "text": "A type of engineering control"
+                },
+                {
+                  "option_id": "D",
+                  "text": "The lowest level and least effective control"
+                }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture states that PPE is the lowest level of the hierarchy and is considered least effective because it depends heavily on human behavior and proper usage.",
+              "source": {
+                "lecture": "Hierarchy of Controls",
+                "topic": "Personal Protective Equipment in the Hierarchy",
+                "page": 89,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lecture_number": 4,
+      "lecture_title": "Personal Protective Equipment (PPE)",
+      "topics": [
+        {
+          "topic_name": "Head Protection",
+          "questions": [
+            {
+              "question_id": "L04-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Type I hard hats are designed to protect from:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Blows to the top of the head"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Blows to the top and sides of the head"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Electrical hazards only"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Face and eye hazards only"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that Type I hard hats protect from impacts to the top of the head, such as from falling objects.",
+              "source": {
+                "lecture": "Personal Protective Equipment (PPE)",
+                "topic": "Head Protection",
+                "page": 99,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Class E hard hats provide electrical protection up to:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "2,200 volts"
+                },
+                {
+                  "option_id": "B",
+                  "text": "20,000 volts"
+                },
+                {
+                  "option_id": "C",
+                  "text": "No electrical protection"
+                },
+                {
+                  "option_id": "D",
+                  "text": "220 volts"
+                }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that Class E hard hats are rated for up to 20,000 volts and are used in high-voltage environments.",
+              "source": {
+                "lecture": "Personal Protective Equipment (PPE)",
+                "topic": "Head Protection",
+                "page": 101,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Eye and Face Protection",
+          "questions": [
+            {
+              "question_id": "L04-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Safety goggles differ from safety glasses mainly because safety goggles:",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "Form a protective seal around the eyes and surrounding facial area"
+                },
+                {
+                  "option_id": "B",
+                  "text": "Protect only against moderate impact"
+                },
+                {
+                  "option_id": "C",
+                  "text": "Are identical to safety glasses"
+                },
+                {
+                  "option_id": "D",
+                  "text": "Are used only for face protection, not eye protection"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that safety goggles form a protective seal around the eyes and surrounding facial area, protecting against chemical splashes, fine dust, and airborne particles.",
+              "source": {
+                "lecture": "Personal Protective Equipment (PPE)",
+                "topic": "Eye and Face Protection",
+                "page": 106,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Hearing Protection",
+          "questions": [
+            {
+              "question_id": "L04-Q004",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "According to the lecture, hearing protection protects workers in environments exceeding which noise level?",
+              "options": [
+                {
+                  "option_id": "A",
+                  "text": "85 dB"
+                },
+                {
+                  "option_id": "B",
+                  "text": "50 dB"
+                },
+                {
+                  "option_id": "C",
+                  "text": "65 dB"
+                },
+                {
+                  "option_id": "D",
+                  "text": "140 dB"
+                }
+              ],
+              "correct_answer": "A",
+              "explanation": "The lecture states that hearing protection protects workers in environments exceeding 85 dB noise levels per OSHA.",
+              "source": {
+                "lecture": "Personal Protective Equipment (PPE)",
+                "topic": "Hearing Protection",
+                "page": 116,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "PPE Limitations and When Necessary",
+          "questions": [
+            {
+              "question_id": "L04-Q005",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "PPE is considered the most effective control in the hierarchy because it relies on human behavior.",
+              "correct_answer": false,
+              "explanation": "The lecture states that PPE is the least effective control because it depends heavily on human behavior and proper usage.",
+              "correction": "PPE is considered the least effective control because it depends heavily on human behavior and proper usage.",
+              "source": {
+                "lecture": "Personal Protective Equipment (PPE)",
+                "topic": "PPE Limitations and When Necessary",
+                "page": 89,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L04-Q006",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Discuss the limitations of PPE and the situations in which PPE is necessary according to the lecture.",
+              "max_score": 10,
+              "model_answer": "PPE limitations include the need for correct selection to match the specific hazard and task, proper fit, consistent and correct use at all times during exposure, regular maintenance and inspection, and training so workers know how to use and care for PPE and understand its limitations. PPE serves as the final line of defense in the hierarchy of controls. PPE is necessary as interim protection while higher-level controls are being developed or installed, when other controls cannot fully reduce exposure, and when PPE is the only feasible option due to the nature of the hazard.",
+              "grading_rubric": [
+                {
+                  "criterion": "Correct selection and fit",
+                  "description": "Explains that PPE must match the hazard and task and must fit properly.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Consistent and correct use",
+                  "description": "Explains that PPE must be worn properly at all times during exposure.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Maintenance, inspection, and training",
+                  "description": "Explains the need for cleaning, checking, replacement, and training on use and limitations.",
+                  "points": 2
+                },
+                {
+                  "criterion": "Final line of defense",
+                  "description": "States that PPE is the final line of defense in the hierarchy of controls.",
+                  "points": 2
+                },
+                {
+                  "criterion": "When PPE is necessary",
+                  "description": "Lists interim protection, when other controls cannot fully reduce exposure, and when PPE is the only feasible option.",
+                  "points": 2
+                }
+              ],
+              "grading_notes": "Accept any answer that accurately reflects the lecture's limitations and situations of necessity.",
+              "source": {
+                "lecture": "Personal Protective Equipment (PPE)",
+                "topic": "PPE Limitations and When Necessary",
+                "page": 93,
+                "slide": null
+              },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 42,
+    "mcq_count": 26,
+    "true_false_count": 11,
+    "essay_count": 5,
+    "easy_count": 19,
+    "medium_count": 20,
+    "hard_count": 3,
+    "needs_review_count": 0
+  }
+}

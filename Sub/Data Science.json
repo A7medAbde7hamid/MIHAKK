@@ -1,0 +1,630 @@
+{
+  "schema_version": "1.0",
+  "subject": {
+    "name": "Data Science"
+  },
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "lecture_title": "Introduction to Data Science",
+      "topics": [
+        {
+          "topic_name": "Definition and Applications of Data Science",
+          "questions": [
+            {
+              "question_id": "L01-Q001",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Data Science is the domain of study that deals with vast volumes of data using modern tools and techniques to:",
+              "options": [
+                { "option_id": "A", "text": "Only store data in databases" },
+                { "option_id": "B", "text": "Find unseen patterns, derive meaningful information, and make business decisions" },
+                { "option_id": "C", "text": "Replace artificial intelligence entirely" },
+                { "option_id": "D", "text": "Only create visualizations" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines Data Science as the domain of study that deals with vast volumes of data using modern tools and techniques to find unseen patterns, derive meaningful information, and make business decisions.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Definition and Applications of Data Science", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q002",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which type of analysis answers the question 'What do the current data tell us?'",
+              "options": [
+                { "option_id": "A", "text": "Predictive analysis" },
+                { "option_id": "B", "text": "Descriptive analysis" },
+                { "option_id": "C", "text": "Prescriptive analysis" },
+                { "option_id": "D", "text": "Exploratory analysis" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that descriptive analysis answers 'What do the current data tell us?'",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Definition and Applications of Data Science", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q003",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which type of analysis answers the question 'What do we expect from the current data?'",
+              "options": [
+                { "option_id": "A", "text": "Descriptive analysis" },
+                { "option_id": "B", "text": "Predictive analysis" },
+                { "option_id": "C", "text": "Prescriptive analysis" },
+                { "option_id": "D", "text": "Diagnostic analysis" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that predictive analysis answers 'What do we expect from the current data?'",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Definition and Applications of Data Science", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q004",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which type of analysis answers the question 'What are the recommendations for what will happen?'",
+              "options": [
+                { "option_id": "A", "text": "Descriptive analysis" },
+                { "option_id": "B", "text": "Predictive analysis" },
+                { "option_id": "C", "text": "Prescriptive analysis" },
+                { "option_id": "D", "text": "Exploratory analysis" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that prescriptive analysis answers 'What are the recommendations for what will happen?'",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Definition and Applications of Data Science", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q005",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Data Science application areas include healthcare, bioinformatics, smart cities, and sustainability.",
+              "correct_answer": true,
+              "explanation": "The lecture lists commercial and industrial applications, healthcare, bioinformatics, digital economy, smart homes/cities/transportation, education, and energy/sustainability/climate as application areas.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Data Science", "topic": "Definition and Applications of Data Science", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Data, Information, and Knowledge",
+          "questions": [
+            {
+              "question_id": "L01-Q006",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "The representation of facts or ideas in a suitable format for storage, processing, or transmission is called:",
+              "options": [
+                { "option_id": "A", "text": "Information" },
+                { "option_id": "B", "text": "Knowledge" },
+                { "option_id": "C", "text": "Data" },
+                { "option_id": "D", "text": "Intelligence" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines data as the representation of facts or ideas in a suitable format for storage, processing, or transmission.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data, Information, and Knowledge", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q007",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What distinguishes information from data?",
+              "options": [
+                { "option_id": "A", "text": "Information is unprocessed data" },
+                { "option_id": "B", "text": "Information is a set of processed, organized, and structured data that provides context and enables decision making" },
+                { "option_id": "C", "text": "Information is always numeric" },
+                { "option_id": "D", "text": "Information cannot be transferred" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines information as a set of processed, organized, and structured data that provides context and enables decision making processes.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data, Information, and Knowledge", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q008",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "According to the comparison table, which of the following is true about data?",
+              "options": [
+                { "option_id": "A", "text": "Data has a logical structure" },
+                { "option_id": "B", "text": "Data is presented through reports and graphs" },
+                { "option_id": "C", "text": "Data is unstructured and presented as numbers, figures, or statistics" },
+                { "option_id": "D", "text": "Data is derived from data processing" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture's comparison table states that data is unstructured and presented in the form of numbers, figures, or statistics.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data, Information, and Knowledge", "page": 8, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q009",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Information answers 'how' and 'why' questions, while knowledge answers 'who', 'when', 'what', and 'where' questions.",
+              "correct_answer": false,
+              "explanation": "The lecture's comparison table states that information answers who, when, what, and where, while knowledge answers how and why.",
+              "correction": "Information answers 'who', 'when', 'what', and 'where' questions, while knowledge answers 'how' and 'why' questions.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data, Information, and Knowledge", "page": 9, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q010",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the Data-Information-Knowledge pyramid and the differences between data, information, and knowledge.",
+              "max_score": 10,
+              "model_answer": "The Data-Information-Knowledge pyramid shows a hierarchy from raw data at the bottom to knowledge at the top. Data is the representation of facts or ideas in a suitable format for storage, processing, or transmission (e.g., numbers, figures, statistics). It is unstructured, has no dependencies, and is derived from user or system inputs. Information is processed, organized, and structured data that provides context and enables decision making. It has a logical structure, is presented through reports and graphs, depends on data, and is derived from data processing. Knowledge is our understanding of the world—an appropriate collection of information that makes it useful. It answers how and why questions, provides the ability to predict and make decisions, and requires learning of the subject. Information becomes knowledge when critical thinking, evaluation, structure, or organization is applied.",
+              "grading_rubric": [
+                { "criterion": "Pyramid structure", "description": "Describes the hierarchy from data to information to knowledge.", "points": 2 },
+                { "criterion": "Data definition", "description": "Defines data as unprocessed facts in a suitable format.", "points": 2 },
+                { "criterion": "Information definition", "description": "Defines information as processed, organized data providing context.", "points": 3 },
+                { "criterion": "Knowledge definition", "description": "Defines knowledge as understanding and useful collection of information.", "points": 3 }
+              ],
+              "grading_notes": "Accept any accurate explanation of the pyramid and the three concepts based on the lecture.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data, Information, and Knowledge", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Data Science vs Business Intelligence and AI",
+          "questions": [
+            {
+              "question_id": "L01-Q011",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following best describes the scope of Data Science compared to Business Intelligence?",
+              "options": [
+                { "option_id": "A", "text": "Data Science analyzes past data, while BI makes future forecasts" },
+                { "option_id": "B", "text": "Data Science uses data to make future forecasts, while BI analyzes past data to understand current trends" },
+                { "option_id": "C", "text": "Both have exactly the same scope" },
+                { "option_id": "D", "text": "Data Science only works with structured data" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture's comparison table states that Data Science uses data to make future forecasts for business development, while BI analyzes past data to understand current business trends.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science vs Business Intelligence and AI", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q012",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which field focuses on building systems capable of performing tasks that usually require human intelligence, such as learning and reasoning?",
+              "options": [
+                { "option_id": "A", "text": "Data Science" },
+                { "option_id": "B", "text": "Business Intelligence" },
+                { "option_id": "C", "text": "Artificial Intelligence" },
+                { "option_id": "D", "text": "Data Warehousing" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines Artificial Intelligence as a computer science field that focuses on building systems capable of performing tasks that usually require human intelligence, such as learning, reasoning, problem-solving, language, and perception.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science vs Business Intelligence and AI", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q013",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Business Intelligence is generally more complex than Data Science.",
+              "correct_answer": false,
+              "explanation": "The lecture's comparison table states that Data Science has more complexity compared to Business Intelligence, which is much simpler.",
+              "correction": "Data Science is generally more complex than Business Intelligence.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science vs Business Intelligence and AI", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q014",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Compare Data Science and Business Intelligence in terms of scope, tools, data types, complexity, and flexibility.",
+              "max_score": 10,
+              "model_answer": "Data Science uses data to make future forecasts for business development, while Business Intelligence analyzes past data to understand current business trends. Data Science includes complex algorithmic models, data processing, and big data tools, whereas BI tools are limited to analyzing management information and overseeing business strategies. Data Science works with structured data but mainly deals with unstructured and semi-structured data, while BI works with structured data typically stored in data warehouses. Data Science has more complexity compared to BI, which is much simpler. Data Science is much more flexible as data sources can be added as required, while BI is less flexible as data sources must be pre-designed.",
+              "grading_rubric": [
+                { "criterion": "Scope", "description": "Explains Data Science forecasts the future while BI analyzes past data for current trends.", "points": 2 },
+                { "criterion": "Tools", "description": "Explains Data Science uses complex models and big data tools, BI uses limited management tools.", "points": 2 },
+                { "criterion": "Data types", "description": "Explains Data Science handles unstructured/semi-structured data, BI handles structured data.", "points": 2 },
+                { "criterion": "Complexity", "description": "States Data Science is more complex than BI.", "points": 2 },
+                { "criterion": "Flexibility", "description": "States Data Science is more flexible in adding data sources.", "points": 2 }
+              ],
+              "grading_notes": "Accept accurate comparisons from the lecture's table.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science vs Business Intelligence and AI", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Data Science Life Cycle",
+          "questions": [
+            {
+              "question_id": "L01-Q015",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "What is the first stage of the Data Science Life Cycle?",
+              "options": [
+                { "option_id": "A", "text": "Data Collection" },
+                { "option_id": "B", "text": "Problem Definition and Formulation" },
+                { "option_id": "C", "text": "Data Cleaning" },
+                { "option_id": "D", "text": "Exploratory Data Analysis" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture's Data Science Life Cycle diagram shows Problem definition and formulation as stage 1.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science Life Cycle", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q016",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What is the process of reviewing and correcting data to ensure it is in a standardized format called?",
+              "options": [
+                { "option_id": "A", "text": "Data Collection" },
+                { "option_id": "B", "text": "Data Cleaning" },
+                { "option_id": "C", "text": "Data Visualization" },
+                { "option_id": "D", "text": "Exploratory Data Analysis" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines data cleaning as the multistage process of reviewing and correcting data to ensure it is in a standardized format, including handling missing values, smoothing noisy data, and resolving inconsistencies and duplicates.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science Life Cycle", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q017",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which stage of the Data Science Life Cycle involves summarizing the main characteristics of datasets, often using visual methods?",
+              "options": [
+                { "option_id": "A", "text": "Data Preparation" },
+                { "option_id": "B", "text": "Exploratory Data Analysis" },
+                { "option_id": "C", "text": "Data Visualization" },
+                { "option_id": "D", "text": "Data Collection" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines exploratory data analysis as the approach to analyzing datasets to summarize their main characteristics, often using visual methods.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science Life Cycle", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q018",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Data Visualization is the final stage of the Data Science Life Cycle.",
+              "correct_answer": true,
+              "explanation": "The lecture's Data Science Life Cycle diagram shows Data visualization as stage 5, the final stage.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science Life Cycle", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q019",
+              "type": "essay",
+              "difficulty": "medium",
+              "question_text": "Describe the five stages of the Data Science Life Cycle and the purpose of each stage.",
+              "max_score": 10,
+              "model_answer": "The five stages are: 1) Problem Definition and Formulation: Understanding the objectives and requirements of a business or scientific problem and converting this knowledge into a data analysis problem. 2) Data Collection: The process of gathering and measuring data, including data acquisition, data labeling, and data improvement. 3) Data Preparation and Cleaning: The multistage process of reviewing and correcting data to ensure it is in a standardized format, including handling missing values, smoothing noisy data, and resolving inconsistencies and duplicates. 4) Exploratory Data Analysis: The approach to analyzing datasets to summarize their main characteristics, often using visual methods. 5) Data Visualization: A graphical representation of information that highlights patterns and trends in data and aids the reader in gaining quick insights.",
+              "grading_rubric": [
+                { "criterion": "Problem Definition", "description": "Explains understanding objectives and converting to a data analysis problem.", "points": 2 },
+                { "criterion": "Data Collection", "description": "Explains gathering and measuring data.", "points": 2 },
+                { "criterion": "Data Cleaning", "description": "Explains reviewing and correcting data, handling missing values and inconsistencies.", "points": 2 },
+                { "criterion": "Exploratory Data Analysis", "description": "Explains summarizing main characteristics using visual methods.", "points": 2 },
+                { "criterion": "Data Visualization", "description": "Explains graphical representation highlighting patterns and trends.", "points": 2 }
+              ],
+              "grading_notes": "Accept accurate descriptions of each stage from the lecture.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Science Life Cycle", "page": 1, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Types of Data Analysis",
+          "questions": [
+            {
+              "question_id": "L01-Q020",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which type of analysis is used to organize data into categories?",
+              "options": [
+                { "option_id": "A", "text": "Regression analysis" },
+                { "option_id": "B", "text": "Classification analysis" },
+                { "option_id": "C", "text": "Clustering analysis" },
+                { "option_id": "D", "text": "Anomaly detection analysis" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that classification analysis is used to organize data into categories.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Types of Data Analysis", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q021",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which type of analysis is used to find oddities or rarities in data?",
+              "options": [
+                { "option_id": "A", "text": "Regression analysis" },
+                { "option_id": "B", "text": "Classification analysis" },
+                { "option_id": "C", "text": "Clustering analysis" },
+                { "option_id": "D", "text": "Anomaly detection analysis" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture states that anomaly detection analysis is used to find oddities or rarities in the data.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Types of Data Analysis", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q022",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Clustering analysis organizes data into groupings.",
+              "correct_answer": true,
+              "explanation": "The lecture states that clustering analysis organizes the data into groupings.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Data Science", "topic": "Types of Data Analysis", "page": 3, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Big Data and its Characteristics",
+          "questions": [
+            {
+              "question_id": "L01-Q023",
+              "type": "mcq",
+              "difficulty": "easy",
+              "question_text": "Which of the following is NOT one of the characteristics of Big Data?",
+              "options": [
+                { "option_id": "A", "text": "Volume" },
+                { "option_id": "B", "text": "Variety" },
+                { "option_id": "C", "text": "Velocity" },
+                { "option_id": "D", "text": "Simplicity" }
+              ],
+              "correct_answer": "D",
+              "explanation": "The lecture lists Volume, Variety, Velocity, Veracity, and Value as the characteristics of Big Data. Simplicity is not one of them.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data and its Characteristics", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q024",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which characteristic of Big Data refers to how accurate or truthful a dataset may be?",
+              "options": [
+                { "option_id": "A", "text": "Volume" },
+                { "option_id": "B", "text": "Velocity" },
+                { "option_id": "C", "text": "Veracity" },
+                { "option_id": "D", "text": "Value" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture states that data veracity has to do with how accurate or truthful a dataset may be, including the trustworthiness of the data source, type, and processing.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data and its Characteristics", "page": 6, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q025",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which characteristic of Big Data refers to the rate at which data is captured and stored?",
+              "options": [
+                { "option_id": "A", "text": "Volume" },
+                { "option_id": "B", "text": "Velocity" },
+                { "option_id": "C", "text": "Variety" },
+                { "option_id": "D", "text": "Veracity" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that velocity is the rate at which data is captured and stored, especially from IoT and mobile devices working in real-time.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data and its Characteristics", "page": 7, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q026",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Value in Big Data refers to the sheer amount of data collected.",
+              "correct_answer": false,
+              "explanation": "Volume refers to the amount of data. Value refers to how useful the data is in decision making.",
+              "correction": "Volume refers to the amount of data, while Value refers to how useful the data is in decision making.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data and its Characteristics", "page": 8, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q027",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the five characteristics of Big Data: Volume, Variety, Velocity, Veracity, and Value.",
+              "max_score": 10,
+              "model_answer": "Volume: Because large volumes of low-density, unstructured data must be handled, the amount of data is a critical aspect. This can be tens of terabytes or hundreds of petabytes. Variety: Refers to the many different types of data available, including structured, unstructured, and semi-structured data types (such as text, audio, and video) that require additional preprocessing to derive meaning. Velocity: The rate at which data is captured and stored. Most internet-connected smart devices and mobile devices work in real-time or near real-time, requiring instant data collection, transmission, and storage. Veracity: Has to do with how accurate or truthful a dataset may be—not just the quality of the data itself but how trustworthy the data source, type, and processing is. Value: Just because we collected lots of data does not mean it is of any value; value refers to how useful the data is in decision making. We need to extract the value of the big data using proper analytics.",
+              "grading_rubric": [
+                { "criterion": "Volume", "description": "Explains the large amount of data (terabytes to petabytes).", "points": 2 },
+                { "criterion": "Variety", "description": "Explains different data types including structured, unstructured, and semi-structured.", "points": 2 },
+                { "criterion": "Velocity", "description": "Explains the rate of data capture and storage in real-time.", "points": 2 },
+                { "criterion": "Veracity", "description": "Explains data accuracy and trustworthiness of source and processing.", "points": 2 },
+                { "criterion": "Value", "description": "Explains usefulness of data for decision making.", "points": 2 }
+              ],
+              "grading_notes": "Accept accurate descriptions of each characteristic from the lecture.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data and its Characteristics", "page": 5, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Big Data Technologies and Data Mining",
+          "questions": [
+            {
+              "question_id": "L01-Q028",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which Big Data technology stores current and historical data from core operational transaction systems and makes it available to decision makers?",
+              "options": [
+                { "option_id": "A", "text": "Data Lake" },
+                { "option_id": "B", "text": "Data Warehouse" },
+                { "option_id": "C", "text": "In-Memory Computing" },
+                { "option_id": "D", "text": "Data Mining" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a data warehouse as the database that stores current and historical data originating from many core operational transaction systems and makes data available to a company's decision makers.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data Technologies and Data Mining", "page": 10, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q029",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which Big Data technology stores huge amounts of raw and unprocessed data, often in the cloud, using a flat URL structure?",
+              "options": [
+                { "option_id": "A", "text": "Data Warehouse" },
+                { "option_id": "B", "text": "Data Lake" },
+                { "option_id": "C", "text": "In-Memory Computing" },
+                { "option_id": "D", "text": "Data Mining" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture defines a data lake as a repository, usually in the cloud, to store huge amounts of raw and unprocessed data, using a flat URL structure to support structured and unstructured data.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data Technologies and Data Mining", "page": 11, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q030",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which Big Data technology relies primarily on the computer's main memory (RAM) for data storage to eliminate bottlenecks?",
+              "options": [
+                { "option_id": "A", "text": "Data Warehouse" },
+                { "option_id": "B", "text": "Data Lake" },
+                { "option_id": "C", "text": "In-Memory Computing" },
+                { "option_id": "D", "text": "Data Mining" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture defines in-memory computing as relying primarily on the computer's main memory (RAM) for data storage, eliminating bottlenecks from disk-based databases and shortening query response times.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data Technologies and Data Mining", "page": 12, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q031",
+              "type": "true_false",
+              "difficulty": "medium",
+              "question_text": "Data Mining is the analysis of large pools of data to find patterns and rules that can be used to guide decision making and predict future behavior.",
+              "correct_answer": true,
+              "explanation": "The lecture defines data mining as the analysis of large pools of data to find patterns and rules that can be used to guide decision making and predict future behavior.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data Technologies and Data Mining", "page": 13, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q032",
+              "type": "essay",
+              "difficulty": "hard",
+              "question_text": "Explain the steps of Knowledge Discovery in data mining, as presented in the lecture.",
+              "max_score": 10,
+              "model_answer": "The steps of Knowledge Discovery are: 1) Data cleaning: Clean corrupt data, irregularities, false data types, etc. 2) Data integration: Merge data from multiple sources into a single dataset. 3) Data selection: Select the part of the dataset most representative of your goals, since data mining is time-consuming. 4) Data transformation: Prepare and format raw datasets so that data mining processes have inputs in the required format. 5) Data mining: The actual process of analyzing the data and extracting desired results through patterns. 6) Pattern evaluation: Decode the patterns generated by data mining and decide which are beneficial for each specific goal. 7) Knowledge representation: Visualize the generated results with clear and concise reports, graphs, and plots.",
+              "grading_rubric": [
+                { "criterion": "Data cleaning", "description": "Explains cleaning corrupt data and irregularities.", "points": 1 },
+                { "criterion": "Data integration", "description": "Explains merging data from multiple sources.", "points": 1 },
+                { "criterion": "Data selection", "description": "Explains selecting the most representative dataset.", "points": 1 },
+                { "criterion": "Data transformation", "description": "Explains preparing and formatting raw datasets.", "points": 1 },
+                { "criterion": "Data mining", "description": "Explains the actual analysis and extraction of results.", "points": 2 },
+                { "criterion": "Pattern evaluation", "description": "Explains decoding patterns and deciding which are beneficial.", "points": 2 },
+                { "criterion": "Knowledge representation", "description": "Explains visualizing results with reports, graphs, and plots.", "points": 2 }
+              ],
+              "grading_notes": "Accept accurate descriptions of each step from the lecture.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Big Data Technologies and Data Mining", "page": 14, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        },
+        {
+          "topic_name": "Data Governance and Cloud Storage",
+          "questions": [
+            {
+              "question_id": "L01-Q033",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "What does Data Governance ensure that data is?",
+              "options": [
+                { "option_id": "A", "text": "Only stored in the cloud" },
+                { "option_id": "B", "text": "Secure, trustworthy, documented, managed, and audited" },
+                { "option_id": "C", "text": "Only accessible to managers" },
+                { "option_id": "D", "text": "Always structured" }
+              ],
+              "correct_answer": "B",
+              "explanation": "The lecture states that data governance ensures that data is secure, trustworthy, documented, managed, and audited.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Governance and Cloud Storage", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q034",
+              "type": "mcq",
+              "difficulty": "medium",
+              "question_text": "Which of the following is a disadvantage of storing Big Data in the cloud?",
+              "options": [
+                { "option_id": "A", "text": "Readily-available infrastructure for scaling" },
+                { "option_id": "B", "text": "Elimination of expensive on-premises hardware" },
+                { "option_id": "C", "text": "Less direct control over data security" },
+                { "option_id": "D", "text": "Pay-as-you-go cost efficiency" }
+              ],
+              "correct_answer": "C",
+              "explanation": "The lecture's table lists 'Less direct control over data security' as a disadvantage of Big Data cloud storage.",
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Governance and Cloud Storage", "page": 15, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            },
+            {
+              "question_id": "L01-Q035",
+              "type": "true_false",
+              "difficulty": "easy",
+              "question_text": "Data governance includes internal policies and procedures controlling the management of data.",
+              "correct_answer": true,
+              "explanation": "The lecture states that data governance includes internal policies and procedures controlling the management of data.",
+              "correction": null,
+              "source": { "lecture": "Introduction to Data Science", "topic": "Data Governance and Cloud Storage", "page": 16, "slide": null },
+              "approval_status": "pending",
+              "review_notes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation_summary": {
+    "total_questions": 35,
+    "mcq_count": 22,
+    "true_false_count": 7,
+    "essay_count": 6,
+    "easy_count": 12,
+    "medium_count": 15,
+    "hard_count": 8,
+    "needs_review_count": 0
+  }
+}
