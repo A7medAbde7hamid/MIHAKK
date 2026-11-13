@@ -1,49 +1,18 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#102d50" />
-  <meta name="description" content="MIHAKK — اختبر فهمك لمواد كلية حاسبات وذكاء اصطناعي جامعة حلوان التكنولوجية الدولية." />
-  <title>MIHAKK — اختبر فهمك</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="grain" aria-hidden="true"></div>
-  <header class="topbar">
-    <a class="brand" href="#home" aria-label="MIHAKK home"><span class="brand-mark">M<span>✳</span></span><span class="brand-name">MIHAKK<small>STUDY / TEST / GROW</small></span></a>
-    <div class="top-right"><span class="live-dot"></span><span>مساحة المذاكرة مفتوحة</span><button id="langToggle" class="lang-btn" type="button">EN <span>↗</span></button></div>
-  </header>
-  <main id="app">
-    <section id="homeView" class="home-view">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow"><span>01</span><i></i> HELWAN INTERNATIONAL TECHNOLOGICAL UNIVERSITY</div>
-          <h1>المذاكرة<br />بقت <em>لعبة.</em></h1>
-          <p class="hero-desc">اختار مادتك. ركّز. واكتشف مستواك الحقيقي.<br />اختبارات من محتوى محاضراتك، على مزاجك.</p>
-          <a href="#subjects" class="start-link"><span>ابدأ التحدي</span><b>↓</b></a>
-        </div>
-        <div class="hero-art" aria-label="MIHAKK orbital study illustration">
-          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
-          <div class="orbit-core"><img src="logo.jpg" alt="شعار جامعة حلوان التكنولوجية الدولية"/><span class="core-tag">HITU · 2026</span></div>
-          <span class="float-note note-a">FOCUS<br/><b>ON</b></span><span class="float-note note-b">إجابة<br/><b>صح؟</b></span>
-          <span class="art-index">FIG. 01 / YOUR NEXT WIN</span><span class="spark spark-a">✳</span><span class="spark spark-b">✳</span>
-        </div>
-      </div>
-      <div class="ticker"><div class="ticker-track"><span>اختبر نفسك</span><b>✳</b><span>اتعلم أسرع</span><b>✳</b><span>خطوة أقرب</span><b>✳</b><span>اختبر نفسك</span><b>✳</b><span>اتعلم أسرع</span><b>✳</b><span>خطوة أقرب</span><b>✳</b></div></div>
-      <section id="subjects" class="subjects-section">
-        <div class="section-head"><div><div class="eyebrow"><span>02</span><i></i> PICK YOUR PLAYGROUND</div><h2>اختار <em>المادة.</em></h2></div><p>كل مادة عالم لوحدها.<br />إنت هتبدأ منين؟</p></div>
-        <div id="subjectGrid" class="subject-grid"><div class="loading">بنجهز قاعة الامتحان<span>✳</span></div></div>
-      </section>
-      <footer><span>MIHAKK © 2026</span><span>صُنع للمذاكرة اللي بتفرق <b>✳</b></span><a href="https://www.hitu.edu.eg/" target="_blank" rel="noreferrer">HITU ↗</a></footer>
-    </section>
-    <section id="setupView" class="setup-view hidden"></section>
-    <section id="examView" class="exam-view hidden"></section>
-    <section id="resultView" class="result-view hidden"></section>
-  </main>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#102d50" />
+    <meta name="description" content="MIHAKK — تحديات ذكية تساعدك تذاكر موادك في جامعة حلوان التكنولوجية الدولية." />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>MIHAKK — مساحة مذاكرتك</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
